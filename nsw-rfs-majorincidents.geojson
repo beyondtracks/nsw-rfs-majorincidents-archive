@@ -53531,7 +53531,7 @@
         "title": "Thompson Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360454",
-        "pub-date": "2019-12-05T23:28:00+11:00",
+        "pub-date": "2019-12-06T02:25:00+11:00",
         "location": "150.907700,-33.165667",
         "council-area": "Hawkesbury",
         "status": "Being controlled",
@@ -53540,7 +53540,7 @@
         "size": "580 ha",
         "major-fire update as at 6 dec 2019 12": "56PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=4895' target='_blank'> More information</a>",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-06T10:28:00+11:00",
+        "updated": "2019-12-06T13:25:00+11:00",
         "alert-level": "Watch and Act"
       },
       "geometry": {
@@ -63984,6 +63984,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Princes Hwy, Fairy Meadow",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/362293",
+        "pub-date": "2019-12-06T02:28:00+11:00",
+        "location": "121 Princes Hwy, Fairy Meadow, NSW 2519",
+        "council-area": "Wollongong",
+        "status": "Out of control",
+        "type": "Grass Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Fire and Rescue NSW",
+        "updated": "2019-12-06T13:28:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89074700000003,
+          -34.40216499999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Ridge Rd, Oakdale",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/362210",
         "pub-date": "2019-12-05T22:12:00+11:00",
@@ -66180,10 +66204,64 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.00061900000003,
-          -34.71634499999993
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.00061900000003,
+              -34.71634499999993
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    150.00326415400002,
+                    -34.71613786199998
+                  ],
+                  [
+                    150.004751316,
+                    -34.71584042899997
+                  ],
+                  [
+                    150.00903434600002,
+                    -34.71286610299995
+                  ],
+                  [
+                    150.01034305000007,
+                    -34.710189208999964
+                  ],
+                  [
+                    150.01313891600012,
+                    -34.706084637999936
+                  ],
+                  [
+                    150.0098076710001,
+                    -34.70917793899997
+                  ],
+                  [
+                    150.00891537300004,
+                    -34.71048664199998
+                  ],
+                  [
+                    150.00659539800006,
+                    -34.71292558899995
+                  ],
+                  [
+                    150.0040374780001,
+                    -34.71494813099997
+                  ],
+                  [
+                    150.00326415400002,
+                    -34.71613786199998
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -66216,22 +66294,80 @@
       "properties": {
         "title": "Jarrah Rd",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/362261",
-        "pub-date": "2019-12-06T01:32:00+11:00",
+        "pub-date": "2019-12-06T02:18:00+11:00",
         "location": "Jarrah Rd, Girvan, NSW 2425",
         "council-area": "Mid-Coast",
         "status": "Out of control",
         "type": "Bush Fire",
         "fire": true,
-        "size": "0 ha",
+        "size": "2 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-06T12:32:00+11:00",
+        "updated": "2019-12-06T13:18:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.103890891288,
-          -32.4492692989365
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.1039128100001,
+              -32.449265940999965
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    152.1021664760001,
+                    -32.44971799199993
+                  ],
+                  [
+                    152.1035917700001,
+                    -32.45013603999996
+                  ],
+                  [
+                    152.1049511220001,
+                    -32.45027390699994
+                  ],
+                  [
+                    152.10546009900008,
+                    -32.450230906999934
+                  ],
+                  [
+                    152.1056984610001,
+                    -32.44975477899993
+                  ],
+                  [
+                    152.10543095800006,
+                    -32.44900701199998
+                  ],
+                  [
+                    152.10470751000003,
+                    -32.448500740999975
+                  ],
+                  [
+                    152.103430644,
+                    -32.44836346099993
+                  ],
+                  [
+                    152.10259021900004,
+                    -32.44856724899995
+                  ],
+                  [
+                    152.10218576700004,
+                    -32.449158728999976
+                  ],
+                  [
+                    152.1021664760001,
+                    -32.44971799199993
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -68032,6 +68168,30 @@
               ]
             ]
           }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wrights Lane, Dyers Crossing",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/362288",
+        "pub-date": "2019-12-06T02:22:00+11:00",
+        "location": "141 Wrights Lane, Dyers Crossing, NSW 2429",
+        "council-area": "Mid-Coast",
+        "status": "Out of control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-06T13:22:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3163750000001,
+          -32.06782499999997
         ]
       }
     },
