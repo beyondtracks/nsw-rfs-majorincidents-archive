@@ -14976,10 +14976,40 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.08000000000004,
-          -34.290100000999985
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.08000000000004,
+              -34.290100000999985
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    146.08105816500006,
+                    -34.28792471299994
+                  ],
+                  [
+                    146.0810833590001,
+                    -34.28790371799994
+                  ],
+                  [
+                    146.08108195900002,
+                    -34.287889020999955
+                  ],
+                  [
+                    146.08105816500006,
+                    -34.28792471299994
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -16324,7 +16354,7 @@
       "properties": {
         "title": "Middle Flat Rd, Middle Flat",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363095",
-        "pub-date": "2019-12-09T23:51:00+11:00",
+        "pub-date": "2019-12-10T06:11:00+11:00",
         "location": "Middle Flat Rd, Middle Flat, NSW 2630",
         "council-area": "Snowy Monaro",
         "status": "Under control",
@@ -16332,7 +16362,7 @@
         "fire": true,
         "size": "1 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-10T10:51:00+11:00",
+        "updated": "2019-12-10T17:11:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -23412,30 +23442,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Pretty Pine Rd, Pretty Pine",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363211",
-        "pub-date": "2019-12-10T00:20:00+11:00",
-        "location": "Pretty Pine Rd, Pretty Pine, NSW 2710",
-        "council-area": "Edward River",
-        "status": "Under control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "1 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-10T11:20:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.7002410890001,
-          -35.334172889999934
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Rugby Track",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360425",
         "pub-date": "2019-12-08T06:48:00+11:00",
@@ -26776,30 +26782,6 @@
               ]
             ]
           }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Bonang Structure",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363195",
-        "pub-date": "2019-12-10T00:08:00+11:00",
-        "location": "Dellicknora rd & hobbs Rd Bonang VIC",
-        "council-area": "Snowy Monaro",
-        "status": "Being controlled",
-        "type": "Haystack fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-10T11:08:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.70007991800003,
-          -37.09695770099995
         ]
       }
     },
@@ -73260,30 +73242,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Watson Rd, Griffith",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363318",
-        "pub-date": "2019-12-10T05:48:00+11:00",
-        "location": "Watson Rd, Griffith, NSW 2680",
-        "council-area": "Griffith",
-        "status": "Out of control",
-        "type": "Grass Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-10T16:48:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.02839200000005,
-          -34.29395199999993
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Blue Gum Rd",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361999",
@@ -88013,16 +87971,16 @@
         "title": "Green Wattle Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
-        "pub-date": "2019-12-10T03:45:00+11:00",
+        "pub-date": "2019-12-10T06:09:00+11:00",
         "location": "15km South West of Warragamba Dam Wall in the Blue Mountains National Park",
         "council-area": "Wollondilly",
         "status": "Out of control",
         "type": "Bush Fire",
         "fire": true,
-        "size": "109286 ha",
+        "size": "112286 ha",
         "major-fire update as at 10 dec 2019 4": "05PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6267' target='_blank'> More information</a>",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-10T14:45:00+11:00",
+        "updated": "2019-12-10T17:09:00+11:00",
         "alert-level": "Watch and Act"
       },
       "geometry": {
