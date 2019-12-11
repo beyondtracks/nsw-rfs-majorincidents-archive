@@ -14342,6 +14342,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Macquarie River, Cresswell",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363488",
+        "pub-date": "2019-12-11T07:26:00+11:00",
+        "location": "Macquarie Marshes NR , Cresswell",
+        "council-area": "Warren",
+        "status": "Under control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "NSW National Parks and Wildlife Service",
+        "updated": "2019-12-11T18:26:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.53934860300012,
+          -30.645148974999984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Martins Creek Rd, Paterson",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361770",
         "pub-date": "2019-12-11T05:22:00+11:00",
@@ -73808,30 +73832,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Macquarie River, Cresswell",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363488",
-        "pub-date": "2019-12-11T03:13:00+11:00",
-        "location": "Macquarie Marshes NR , Cresswell",
-        "council-area": "Warren",
-        "status": "Being controlled",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "NSW National Parks and Wildlife Service",
-        "updated": "2019-12-11T14:13:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.53934860300012,
-          -30.645148974999984
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Meads Creek West",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360292",
@@ -97074,6 +97074,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Boorolong Rd, Boorolong",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363551",
+        "pub-date": "2019-12-11T07:22:00+11:00",
+        "location": "4075 Boorolong Rd, Boorolong, NSW 2350",
+        "council-area": "Armidale",
+        "status": "Out of control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-11T18:22:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3534410000001,
+          -30.290613999999948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "El Dorado Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359107",
         "pub-date": "2019-12-11T05:15:00+11:00",
@@ -97260,6 +97284,30 @@
         "coordinates": [
           152.1139230000001,
           -31.952903999999933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Baldersleigh Rd, Baldersleigh",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363541",
+        "pub-date": "2019-12-11T06:56:00+11:00",
+        "location": "3458 Baldersleigh Rd, Baldersleigh, NSW 2365",
+        "council-area": "Armidale",
+        "status": "Out of control",
+        "type": "Grass Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-11T17:56:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51453300000003,
+          -30.22152099999994
         ]
       }
     },
@@ -107706,7 +107754,7 @@
       "properties": {
         "title": "Pearson Trail",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363462",
-        "pub-date": "2019-12-11T02:44:00+11:00",
+        "pub-date": "2019-12-11T07:32:00+11:00",
         "location": "Dungowan",
         "council-area": "Tamworth",
         "status": "Out of control",
@@ -107714,14 +107762,44 @@
         "fire": true,
         "size": "3 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-11T13:44:00+11:00",
+        "updated": "2019-12-11T18:32:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3041692700001,
-          -31.38861802499997
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.3041692700001,
+              -31.38861802499997
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    151.3051548950001,
+                    -31.381649291999963
+                  ],
+                  [
+                    151.30849807000004,
+                    -31.380241638999962
+                  ],
+                  [
+                    151.30801025000005,
+                    -31.380300731999967
+                  ],
+                  [
+                    151.3051548950001,
+                    -31.381649291999963
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -107730,7 +107808,7 @@
       "properties": {
         "title": "Reids Creek Rd, Kalang",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363545",
-        "pub-date": "2019-12-11T07:02:00+11:00",
+        "pub-date": "2019-12-11T07:33:00+11:00",
         "location": "Reids Creek Rd, Kalang, NSW 2454",
         "council-area": "Bellingen",
         "status": "Out of control",
@@ -107738,7 +107816,7 @@
         "fire": true,
         "size": "0 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-11T18:02:00+11:00",
+        "updated": "2019-12-11T18:33:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
