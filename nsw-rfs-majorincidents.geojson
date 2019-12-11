@@ -28,30 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Boorowa Rd, Cowra",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363481",
-        "pub-date": "2019-12-11T03:20:00+11:00",
-        "location": "Boorowa Rd, Cowra, NSW 2794",
-        "council-area": "Cowra",
-        "status": "Under control",
-        "type": "Grass Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-11T14:20:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.680696,
-          -33.844420999999954
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Gawnes Rd, Grong Grong",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361069",
         "pub-date": "2019-12-11T00:12:00+11:00",
@@ -13844,6 +13820,30 @@
               ]
             ]
           }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Limbri-Weabonga Rd, Weabonga",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363438",
+        "pub-date": "2019-12-11T03:15:00+11:00",
+        "location": "2452 Limbri-Weabonga Rd, Weabonga, NSW 2340",
+        "council-area": "Tamworth",
+        "status": "Under control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-11T14:15:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.27762300000006,
+          -31.151081999999974
         ]
       }
     },
@@ -86096,30 +86096,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "(Western Mtwy), Jamisontown",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363464",
-        "pub-date": "2019-12-11T01:41:00+11:00",
-        "location": "M4 (Western Mtwy), Jamisontown, NSW 2750",
-        "council-area": "Penrith",
-        "status": "Out of control",
-        "type": "Vehicle/Equipment Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-11T12:41:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.67049700000007,
-          -33.77274399999993
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "(Westlink Mtwy), Horsley Park",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363470",
         "pub-date": "2019-12-11T02:02:00+11:00",
@@ -86466,10 +86442,64 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.91299300000003,
-          -29.486990999999932
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.92413706500008,
+              -29.50941743599998
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    151.92380073700008,
+                    -29.509455181999954
+                  ],
+                  [
+                    151.9239704680001,
+                    -29.509667770999954
+                  ],
+                  [
+                    151.92419963600003,
+                    -29.50976811199996
+                  ],
+                  [
+                    151.92443846300012,
+                    -29.50974393599995
+                  ],
+                  [
+                    151.92470194700002,
+                    -29.509671003999983
+                  ],
+                  [
+                    151.9245688410001,
+                    -29.50932801299996
+                  ],
+                  [
+                    151.92441745000008,
+                    -29.50925310599996
+                  ],
+                  [
+                    151.9241343430001,
+                    -29.509164538999983
+                  ],
+                  [
+                    151.92381404200012,
+                    -29.50929709999997
+                  ],
+                  [
+                    151.92380073700008,
+                    -29.509455181999954
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -93196,30 +93226,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Limbri-Weabonga Rd, Weabonga",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363438",
-        "pub-date": "2019-12-10T22:56:00+11:00",
-        "location": "2452 Limbri-Weabonga Rd, Weabonga, NSW 2340",
-        "council-area": "Tamworth",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-11T09:56:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.27762300000006,
-          -31.151081999999974
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Little L Complex",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359831",
@@ -96350,8 +96356,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16239400000006,
-          -31.232790999999963
+          150.99219168800005,
+          -30.652443501999983
         ]
       }
     },
@@ -97128,6 +97134,30 @@
         "coordinates": [
           152.01129900000012,
           -29.44077599999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Thunderbolts Way, Yarrowyck",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363490",
+        "pub-date": "2019-12-11T03:18:00+11:00",
+        "location": "2987 Thunderbolts Way, Yarrowyck, NSW 2358",
+        "council-area": "Uralla",
+        "status": "Out of control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-11T14:18:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3375010000001,
+          -30.433893999999952
         ]
       }
     },
