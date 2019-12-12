@@ -28,6 +28,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Garema Rd, Orange",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363754",
+        "pub-date": "2019-12-12T09:50:00+11:00",
+        "location": "Garema Rd, Orange, NSW 2800",
+        "council-area": "Orange",
+        "status": "Under control",
+        "type": "Grass Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Fire and Rescue NSW",
+        "updated": "2019-12-12T20:50:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1127610000001,
+          -33.301912999999956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Gawnes Rd, Grong Grong",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361069",
         "pub-date": "2019-12-12T05:53:00+11:00",
@@ -118,30 +142,6 @@
         "coordinates": [
           152.99881700000003,
           -30.748895999999945
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Naughtons Gap Rd, Casino",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363738",
-        "pub-date": "2019-12-12T09:14:00+11:00",
-        "location": "Naughtons Gap Rd, Casino, NSW 2470",
-        "council-area": "Richmond Valley",
-        "status": "Under control",
-        "type": "Grass Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-12T20:14:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.0646200000001,
-          -28.850719999999967
         ]
       }
     },
@@ -246,7 +246,7 @@
       "properties": {
         "title": "Attunga Forest Rd, Attunga",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363534",
-        "pub-date": "2019-12-11T07:42:00+11:00",
+        "pub-date": "2019-12-12T09:48:00+11:00",
         "location": "Attunga Forest Rd, Attunga, NSW 2345",
         "council-area": "Tamworth",
         "status": "Under control",
@@ -254,7 +254,7 @@
         "fire": true,
         "size": "0 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-11T18:42:00+11:00",
+        "updated": "2019-12-12T20:48:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -6929,6 +6929,80 @@
                   [
                     152.86259836600004,
                     -31.51799264899995
+                  ]
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Duncans Creek Rd, Duncans Creek",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363623",
+        "pub-date": "2019-12-12T09:42:00+11:00",
+        "location": "Duncans Creek Rd, Duncans Creek, NSW 2340",
+        "council-area": "Tamworth",
+        "status": "Under control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-12T20:42:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.1863374720001,
+              -31.37732721599997
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    151.3051548940001,
+                    -31.381649291999963
+                  ],
+                  [
+                    151.30849807000004,
+                    -31.380241638999962
+                  ],
+                  [
+                    151.30801025000005,
+                    -31.380300731999967
+                  ],
+                  [
+                    151.3051548940001,
+                    -31.381649291999963
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    151.30849807000004,
+                    -31.380241638999962
+                  ],
+                  [
+                    151.30874349900012,
+                    -31.380211908999968
+                  ],
+                  [
+                    151.30967587100008,
+                    -31.379745722999928
+                  ],
+                  [
+                    151.30849807000004,
+                    -31.380241638999962
                   ]
                 ]
               ]
@@ -30026,15 +30100,15 @@
       "properties": {
         "title": "Weabonga Rd, Weabonga",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363678",
-        "pub-date": "2019-12-12T08:43:00+11:00",
+        "pub-date": "2019-12-12T09:46:00+11:00",
         "location": "381 Weabonga Rd, Weabonga, NSW 2340",
         "council-area": "Tamworth",
         "status": "Under control",
         "type": "Bush Fire",
         "fire": true,
-        "size": "0 ha",
+        "size": "6 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-12T19:43:00+11:00",
+        "updated": "2019-12-12T20:46:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -34182,8 +34256,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.13022147300012,
-          -29.183291631999964
+          152.130509253,
+          -29.18353217699996
         ]
       }
     },
@@ -101404,24 +101478,24 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Garema Rd, Orange",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363754",
-        "pub-date": "2019-12-12T09:40:00+11:00",
-        "location": "Garema Rd, Orange, NSW 2800",
-        "council-area": "Orange",
+        "title": "Cornells Rd, Hernani",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363751",
+        "pub-date": "2019-12-12T09:37:00+11:00",
+        "location": "Cornells Rd, Hernani, NSW 2453",
+        "council-area": "Clarence Valley",
         "status": "Out of control",
-        "type": "Grass Fire",
+        "type": "Bush Fire",
         "fire": true,
         "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-12T20:40:00+11:00",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-12T20:37:00+11:00",
         "alert-level": "Not Applicable"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.1127610000001,
-          -33.301912999999956
+          152.4517340000001,
+          -30.32681699999995
         ]
       }
     },
@@ -106232,80 +106306,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Duncans Creek Rd, Duncans Creek",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363623",
-        "pub-date": "2019-12-12T00:46:00+11:00",
-        "location": "Duncans Creek Rd, Duncans Creek, NSW 2340",
-        "council-area": "Tamworth",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-12T11:46:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.1863374720001,
-              -31.37732721599997
-            ]
-          },
-          {
-            "type": "MultiPolygon",
-            "coordinates": [
-              [
-                [
-                  [
-                    151.3051548940001,
-                    -31.381649291999963
-                  ],
-                  [
-                    151.30849807000004,
-                    -31.380241638999962
-                  ],
-                  [
-                    151.30801025000005,
-                    -31.380300731999967
-                  ],
-                  [
-                    151.3051548940001,
-                    -31.381649291999963
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    151.30849807000004,
-                    -31.380241638999962
-                  ],
-                  [
-                    151.30874349900012,
-                    -31.380211908999968
-                  ],
-                  [
-                    151.30967587100008,
-                    -31.379745722999928
-                  ],
-                  [
-                    151.30849807000004,
-                    -31.380241638999962
-                  ]
-                ]
-              ]
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Dungowan Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363553",
         "pub-date": "2019-12-11T07:25:00+11:00",
@@ -106410,30 +106410,6 @@
         "coordinates": [
           153.03313000000003,
           -29.883847999999944
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Goat Mountain",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363579",
-        "pub-date": "2019-12-12T05:22:00+11:00",
-        "location": "Goat Mountain",
-        "council-area": "Tamworth",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-12T16:22:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.11368179300007,
-          -31.131725896999967
         ]
       }
     },
@@ -116961,30 +116937,6 @@
       "type": "Feature",
       "properties": {
         "title": "Wharf Rd, Johns River",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363688",
-        "pub-date": "2019-12-12T03:10:00+11:00",
-        "location": "120 Wharf Rd, Johns River, NSW 2443",
-        "council-area": "Mid-Coast",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-12T14:10:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.71152000000006,
-          -31.725842000999933
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Wharf Rd, Johns River",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363684",
         "pub-date": "2019-12-12T03:04:00+11:00",
         "location": "Wharf Rd, Johns River, NSW 2443",
@@ -117002,6 +116954,30 @@
         "coordinates": [
           152.6988460010001,
           -31.724738999999943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wharf Rd, Johns River",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363688",
+        "pub-date": "2019-12-12T03:10:00+11:00",
+        "location": "120 Wharf Rd, Johns River, NSW 2443",
+        "council-area": "Mid-Coast",
+        "status": "Out of control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-12T14:10:00+11:00",
+        "alert-level": "Advice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.71152000000006,
+          -31.725842000999933
         ]
       }
     }
