@@ -28,30 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Camden Valley Way, Edmondson Park",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363912",
-        "pub-date": "2019-12-13T12:00:00+11:00",
-        "location": "Camden Valley Way, Edmondson Park, NSW 2174",
-        "council-area": "Liverpool",
-        "status": "Under control",
-        "type": "Grass Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-13T23:00:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8506380010001,
-          -33.95202199999994
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Cornells Rd, Hernani",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363751",
         "pub-date": "2019-12-12T10:29:00+11:00",
@@ -110022,6 +109998,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Limeburners Creek Rd, Clarence Town",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363915",
+        "pub-date": "2019-12-13T12:04:00+11:00",
+        "location": "612 Limeburners Creek Rd, Clarence Town, NSW 2321",
+        "council-area": "Dungog",
+        "status": "Out of control",
+        "type": "Other",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-13T23:04:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.83513400000004,
+          -32.60671999999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Baldersleigh Rd, Bundarra",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363668",
         "pub-date": "2019-12-13T01:54:00+11:00",
@@ -117768,10 +117768,132 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.77413559000001,
-          -31.35510286999994
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.77716970300003,
+              -31.353886384999953
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    150.77306513200006,
+                    -31.355206986999974
+                  ],
+                  [
+                    150.77360051100004,
+                    -31.35561149499995
+                  ],
+                  [
+                    150.77427865700008,
+                    -31.355718570999954
+                  ],
+                  [
+                    150.77517095500002,
+                    -31.355754262999938
+                  ],
+                  [
+                    150.77608704800002,
+                    -31.35574236499997
+                  ],
+                  [
+                    150.77674139900012,
+                    -31.355528214999936
+                  ],
+                  [
+                    150.7781452810001,
+                    -31.354980937999983
+                  ],
+                  [
+                    150.7785259960001,
+                    -31.355111808999936
+                  ],
+                  [
+                    150.77902568100012,
+                    -31.355266472999972
+                  ],
+                  [
+                    150.77968003400008,
+                    -31.355349753999974
+                  ],
+                  [
+                    150.78098873700003,
+                    -31.355444931999955
+                  ],
+                  [
+                    150.78129806700008,
+                    -31.35542113899993
+                  ],
+                  [
+                    150.78154791000009,
+                    -31.355016629999966
+                  ],
+                  [
+                    150.78157170500003,
+                    -31.35462401899997
+                  ],
+                  [
+                    150.78115530000002,
+                    -31.353541363999966
+                  ],
+                  [
+                    150.78070320200004,
+                    -31.353101163999952
+                  ],
+                  [
+                    150.77988228800007,
+                    -31.35288701299993
+                  ],
+                  [
+                    150.7788948120001,
+                    -31.352839422999978
+                  ],
+                  [
+                    150.77832374100012,
+                    -31.35287511499996
+                  ],
+                  [
+                    150.77703883200002,
+                    -31.352613374999976
+                  ],
+                  [
+                    150.7753256190001,
+                    -31.35247060699993
+                  ],
+                  [
+                    150.77461178200008,
+                    -31.352839422999978
+                  ],
+                  [
+                    150.7743262470001,
+                    -31.352910805999954
+                  ],
+                  [
+                    150.77346964100002,
+                    -31.353541363999966
+                  ],
+                  [
+                    150.7732078990001,
+                    -31.35408863999993
+                  ],
+                  [
+                    150.773088926,
+                    -31.354564531999984
+                  ],
+                  [
+                    150.77306513200006,
+                    -31.355206986999974
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
