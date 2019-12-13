@@ -100,54 +100,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "George Bass Dr, Lilli Pilli",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363774",
-        "pub-date": "2019-12-12T16:22:00+11:00",
-        "location": "George Bass Dr, Lilli Pilli, NSW 2536",
-        "council-area": "Eurobodalla",
-        "status": "Under control",
-        "type": "Other",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-13T03:22:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.22076100100003,
-          -35.770392999999956
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "George Bass Dr, Lilli Pilli",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363785",
-        "pub-date": "2019-12-12T17:51:00+11:00",
-        "location": "206 George Bass Dr, Lilli Pilli, NSW 2536",
-        "council-area": "Eurobodalla",
-        "status": "Under control",
-        "type": "Burn off",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-13T04:51:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.2243850000001,
-          -35.771856999999954
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Glenmore Lane, Woodstock",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363833",
         "pub-date": "2019-12-13T01:46:00+11:00",
@@ -106664,30 +106616,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "South St, Tuncurry",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363836",
-        "pub-date": "2019-12-13T01:50:00+11:00",
-        "location": "Unit 109/133 South St, Tuncurry, NSW 2428",
-        "council-area": "Mid-Coast",
-        "status": "Out of control",
-        "type": "Assist Other Agency",
-        "fire": false,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-13T12:50:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.484055,
-          -32.171749999999975
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Tennyson Rd, Tennyson",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363814",
         "pub-date": "2019-12-12T23:00:00+11:00",
@@ -116754,10 +116682,104 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.60625076300005,
-          -31.10747788699996
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.6067444460001,
+              -31.107212665999953
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    150.60553276400003,
+                    -31.10642650699998
+                  ],
+                  [
+                    150.60571990300002,
+                    -31.10692635299995
+                  ],
+                  [
+                    150.60590848100003,
+                    -31.107368951999945
+                  ],
+                  [
+                    150.60597580400008,
+                    -31.107780660999936
+                  ],
+                  [
+                    150.60605876400007,
+                    -31.108011294999983
+                  ],
+                  [
+                    150.60642835900012,
+                    -31.108314074999953
+                  ],
+                  [
+                    150.60707996700012,
+                    -31.108431180999958
+                  ],
+                  [
+                    150.60803528400004,
+                    -31.108382106999954
+                  ],
+                  [
+                    150.60877289100006,
+                    -31.10816670899993
+                  ],
+                  [
+                    150.60953195500008,
+                    -31.107980340999973
+                  ],
+                  [
+                    150.60987251000006,
+                    -31.107671658999948
+                  ],
+                  [
+                    150.61024432700003,
+                    -31.107000822999964
+                  ],
+                  [
+                    150.6101203490001,
+                    -31.106635792999953
+                  ],
+                  [
+                    150.60970782700008,
+                    -31.106274953999957
+                  ],
+                  [
+                    150.60925797700008,
+                    -31.10607569499996
+                  ],
+                  [
+                    150.60809200100005,
+                    -31.106120868999938
+                  ],
+                  [
+                    150.60678306900002,
+                    -31.106115648999946
+                  ],
+                  [
+                    150.60587165000004,
+                    -31.106184621999944
+                  ],
+                  [
+                    150.60564676400008,
+                    -31.106304533999946
+                  ],
+                  [
+                    150.60553276400003,
+                    -31.10642650699998
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
