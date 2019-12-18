@@ -138,10 +138,76 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8506040000001,
-          -33.81023899999997
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.8506040000001,
+              -33.81023899999997
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    150.85211912900002,
+                    -33.81241439699994
+                  ],
+                  [
+                    150.85214292400008,
+                    -33.81241439699994
+                  ],
+                  [
+                    150.8521905130001,
+                    -33.81249767799994
+                  ],
+                  [
+                    150.85239276700008,
+                    -33.81231921899996
+                  ],
+                  [
+                    150.852571226,
+                    -33.812438191999945
+                  ],
+                  [
+                    150.85295194000003,
+                    -33.812200245999975
+                  ],
+                  [
+                    150.8528567610001,
+                    -33.81210506699995
+                  ],
+                  [
+                    150.85274968600004,
+                    -33.81217645199996
+                  ],
+                  [
+                    150.85251174000007,
+                    -33.812152656999956
+                  ],
+                  [
+                    150.8523570740001,
+                    -33.81210506699995
+                  ],
+                  [
+                    150.85226189600007,
+                    -33.812069375999954
+                  ],
+                  [
+                    150.85217861500007,
+                    -33.81218834799995
+                  ],
+                  [
+                    150.85211912900002,
+                    -33.81241439699994
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
@@ -39858,6 +39924,30 @@
         "coordinates": [
           150.7507630010001,
           -34.58053100099994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ravensdale Rd, Cedar Brush Creek",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364686",
+        "pub-date": "2019-12-18T02:33:00+11:00",
+        "location": "Ravensdale Rd, Cedar Brush Creek, NSW 2259",
+        "council-area": "Central Coast",
+        "status": "Being controlled",
+        "type": "MVA/Transport",
+        "fire": false,
+        "size": "0 ha",
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-18T13:33:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.280029,
+          -33.197370999999976
         ]
       }
     },
@@ -98449,7 +98539,7 @@
         "title": "Three Mile",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359888",
-        "pub-date": "2019-12-17T22:12:00+11:00",
+        "pub-date": "2019-12-18T02:37:00+11:00",
         "location": "151.006, -33.346",
         "council-area": "Central Coast",
         "status": "Being controlled",
@@ -98458,7 +98548,7 @@
         "size": "45778 ha",
         "major-fire update as at 18 dec 2019 6": "17AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6457' target='_blank'> More information</a>",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-18T09:12:00+11:00",
+        "updated": "2019-12-18T13:37:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -110618,30 +110708,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Ravensdale Rd, Cedar Brush Creek",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364686",
-        "pub-date": "2019-12-18T01:57:00+11:00",
-        "location": "Ravensdale Rd, Cedar Brush Creek, NSW 2259",
-        "council-area": "Central Coast",
-        "status": "Out of control",
-        "type": "MVA/Transport",
-        "fire": false,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-18T12:57:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.280029,
-          -33.197370999999976
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Bangala Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361656",
@@ -122780,30 +122846,6 @@
         "coordinates": [
           150.35453900000005,
           -34.462609999999984
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Ingoola Rd, Spencer",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364668",
-        "pub-date": "2019-12-18T00:34:00+11:00",
-        "location": "60 Ingoola Rd, Spencer, NSW 2775",
-        "council-area": "Central Coast",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-18T11:34:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.13777000000005,
-          -33.45381499999996
         ]
       }
     },
