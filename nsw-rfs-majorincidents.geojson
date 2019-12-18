@@ -220,6 +220,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Tarcoon St, Bourke",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364826",
+        "pub-date": "2019-12-18T20:01:00+11:00",
+        "location": "Tarcoon St, Bourke,  2840",
+        "council-area": "Bourke",
+        "status": "Under control",
+        "type": "Fire Alarm",
+        "fire": false,
+        "size": "0 ha",
+        "responsible-agency": "Fire and Rescue NSW",
+        "updated": "2019-12-19T07:01:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94802400000003,
+          -30.09263599999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Wilshire Rd, Londonderry",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364720",
         "pub-date": "2019-12-18T10:09:00+11:00",
@@ -109836,30 +109860,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Armour St, Bellambi",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364824",
-        "pub-date": "2019-12-18T19:46:00+11:00",
-        "location": "Armour St, Bellambi, NSW 2518",
-        "council-area": "Wollongong",
-        "status": "Out of control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": "0 ha",
-        "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-19T06:46:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.92325800000003,
-          -34.36911999999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Bangala Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361656",
@@ -111162,10 +111162,88 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.33131200000003,
-          -35.11083199999996
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.33352375100003,
+              -35.11043909399996
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    150.3413063600001,
+                    -35.109968178999964
+                  ],
+                  [
+                    150.34154628500005,
+                    -35.11050197299994
+                  ],
+                  [
+                    150.34275202700007,
+                    -35.11100410199998
+                  ],
+                  [
+                    150.34365997800012,
+                    -35.11176395399997
+                  ],
+                  [
+                    150.3446892180001,
+                    -35.11176009299993
+                  ],
+                  [
+                    150.34528481900009,
+                    -35.11322659899997
+                  ],
+                  [
+                    150.34630979400004,
+                    -35.11335476299996
+                  ],
+                  [
+                    150.35078206800006,
+                    -35.11329409299998
+                  ],
+                  [
+                    150.3516933940001,
+                    -35.11196627099997
+                  ],
+                  [
+                    150.35218263700006,
+                    -35.11076134799998
+                  ],
+                  [
+                    150.35123563700006,
+                    -35.110212116999946
+                  ],
+                  [
+                    150.34981772700007,
+                    -35.10930903299993
+                  ],
+                  [
+                    150.34940547000008,
+                    -35.10813724899998
+                  ],
+                  [
+                    150.34609251200004,
+                    -35.10914820099998
+                  ],
+                  [
+                    150.3436745990001,
+                    -35.10933304599996
+                  ],
+                  [
+                    150.3413063600001,
+                    -35.109968178999964
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       }
     },
