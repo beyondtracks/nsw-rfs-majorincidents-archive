@@ -114380,16 +114380,16 @@
         "title": "Forest Rd, Comberton",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364556",
-        "pub-date": "2019-12-22T00:30:00+11:00",
+        "pub-date": "2019-12-22T02:15:00+11:00",
         "location": "Forest Rd, Comberton, NSW 2540",
         "council-area": "Shoalhaven",
         "status": "Out of control",
         "type": "Bush Fire",
         "fire": true,
-        "size": "665 ha",
+        "size": "949 ha",
         "major-fire-update-as-at-22-dec-2019-11:34am": "<a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8087' target='_blank'> More information</a>",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-22T11:30:00+11:00",
+        "updated": "2019-12-22T13:15:00+11:00",
         "alert-level": "Watch and Act"
       },
       "geometry": {
@@ -120675,15 +120675,15 @@
       "properties": {
         "title": "Euston",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365958",
-        "pub-date": "2019-12-22T01:52:00+11:00",
+        "pub-date": "2019-12-22T02:24:00+11:00",
         "location": "Sturt Hwy (A20), Euston, NSW 2737",
         "council-area": "Balranald",
-        "status": "Out of control",
+        "status": "Under control",
         "type": "Vehicle/Equipment Fire",
         "fire": true,
         "size": "0 ha",
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-22T12:52:00+11:00",
+        "updated": "2019-12-22T13:24:00+11:00",
         "alert-level": "Not Applicable"
       },
       "geometry": {
@@ -120737,10 +120737,56 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.79227400000002,
-          -31.117310999999972
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.79227400000002,
+              -31.117310999999972
+            ]
+          },
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    152.79662769700008,
+                    -31.110757974999956
+                  ],
+                  [
+                    152.79686564400004,
+                    -31.111079201999928
+                  ],
+                  [
+                    152.7973891250001,
+                    -31.11129335299995
+                  ],
+                  [
+                    152.7975913790001,
+                    -31.110888844999977
+                  ],
+                  [
+                    152.797436714,
+                    -31.110662796999975
+                  ],
+                  [
+                    152.79728204900005,
+                    -31.11055572099997
+                  ],
+                  [
+                    152.79687754100007,
+                    -31.11055572099997
+                  ],
+                  [
+                    152.79662769700008,
+                    -31.110757974999956
+                  ]
+                ]
+              ]
+            ]
+          }
         ]
       },
       "id": 365963
@@ -120800,15 +120846,15 @@
       "properties": {
         "title": "Northcott St, Armidale",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365974",
-        "pub-date": "2019-12-22T02:10:00+11:00",
+        "pub-date": "2019-12-22T02:26:00+11:00",
         "location": "40 Northcott St, Armidale, NSW 2350",
         "council-area": "Armidale",
-        "status": "Out of control",
+        "status": "Under control",
         "type": "Grass Fire",
         "fire": true,
         "size": "0 ha",
         "responsible-agency": "Fire and Rescue NSW",
-        "updated": "2019-12-22T13:10:00+11:00",
+        "updated": "2019-12-22T13:26:00+11:00",
         "alert-level": "Not Applicable"
       },
       "geometry": {
@@ -120819,6 +120865,31 @@
         ]
       },
       "id": 365974
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Great Western Hwy, Mount Victoria",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365976",
+        "pub-date": "2019-12-22T02:26:00+11:00",
+        "location": "Great Western Hwy, Mount Victoria, NSW 2786",
+        "council-area": "Blue Mountains",
+        "status": "Out of control",
+        "type": "Bush Fire",
+        "fire": true,
+        "size": "0 ha",
+        "responsible-agency": "Fire and Rescue NSW",
+        "updated": "2019-12-22T13:26:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.26364200000012,
+          -33.59570199999996
+        ]
+      },
+      "id": 365976
     }
   ]
 }
