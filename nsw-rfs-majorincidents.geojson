@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Lindfield Park Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/341086",
+        "title": "Lindfield Park Road",
         "pub-date": "2019-12-29T04:58:00+11:00",
         "location": "Lindfield Park Rd, Port Macquarie, NSW 2444",
         "council-area": "Port Macquarie-Hastings",
@@ -1048,11 +1048,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.6387,
               -29.7695
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -6763,11 +6763,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.0361,
               -31.1731
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -11668,11 +11668,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               152.5226,
               -30.7907
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -23630,8 +23630,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Rumba Complex",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/351973",
+        "title": "Rumba Complex",
         "pub-date": "2019-12-29T13:57:00+11:00",
         "location": "Dingo Tops Rd, Tapin Tops NP",
         "council-area": "Mid-Coast",
@@ -23647,11 +23647,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.7908,
               -31.5811
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -27384,11 +27384,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               152.2557,
               -31.4329
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -30618,9 +30618,9 @@
     {
       "type": "Feature",
       "properties": {
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=4895",
         "title": "Gospers Mountain",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
         "pub-date": "2019-12-29T13:39:00+11:00",
         "location": "Wollemi National Park",
         "council-area": "Hawkesbury",
@@ -30637,11 +30637,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.4573,
               -33.0806
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -39701,8 +39701,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Crestwood Dr, Port Macquarie",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/353087",
+        "title": "Crestwood Dr, Port Macquarie",
         "pub-date": "2019-12-29T05:04:00+11:00",
         "location": "86 Crestwood Dr, Port Macquarie, NSW 2444",
         "council-area": "Port Macquarie-Hastings",
@@ -40188,8 +40188,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/353685",
         "title": "Washpool State Forest, Coombadjha",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/353685",
         "pub-date": "2019-12-29T03:54:00+11:00",
         "location": "Red Bank Rd, Coombadjha, NSW 2460",
         "council-area": "Clarence Valley",
@@ -45675,8 +45675,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Border Trail, Woodenbong",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/355014",
+        "title": "Border Trail, Woodenbong",
         "pub-date": "2019-12-29T09:37:00+11:00",
         "location": "Border Trail, Woodenbong, NSW 2476",
         "council-area": "Kyogle",
@@ -45692,11 +45692,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.5848,
               -28.3129
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -49048,6 +49048,7 @@
             "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -51547,8 +51548,7 @@
                   -28.5929738900001
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -51574,13 +51574,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.3639,
               -32.0479
-            ],
-            "type": "Point"
+            ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -52232,8 +52233,7 @@
                   -32.033284991
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -52242,28 +52242,28 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359439",
         "title": "Towarra Glenelg",
-        "pub-date": "2019-12-29T05:34:00+11:00",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359439",
+        "pub-date": "2019-12-29T22:54:00+11:00",
         "location": "Towarra Rd, Keera, NSW 2404",
         "council-area": "Gwydir",
         "status": "Under control",
         "type": "Bush Fire",
         "fire": true,
-        "size": 6289,
+        "size": 6394,
         "responsible-agency": "Rural Fire Service",
-        "updated": "2019-12-29T16:34:00+11:00",
+        "updated": "2019-12-30T09:54:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.8617,
               -30.1578
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -54798,9 +54798,9 @@
     {
       "type": "Feature",
       "properties": {
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6847",
         "title": "Kerry Ridge",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
         "pub-date": "2019-12-29T21:41:00+11:00",
         "location": "Wollemi National Park, Putty State Forest and Coricudgy State Forest",
         "council-area": "Muswellbrook",
@@ -56568,8 +56568,8 @@
       "type": "Feature",
       "properties": {
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359831",
-        "title": "Little L Complex",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6194",
+        "title": "Little L Complex",
         "pub-date": "2019-12-29T05:41:00+11:00",
         "location": "-32 56.675, 150 58.372",
         "council-area": "Singleton",
@@ -56586,11 +56586,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.0136,
               -32.9374
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -59376,8 +59376,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359888",
         "title": "Three Mile",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359888",
         "pub-date": "2019-12-29T13:05:00+11:00",
         "location": "151.006, -33.346",
         "council-area": "Central Coast",
@@ -59393,11 +59393,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.1126,
               -33.3051
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -66309,8 +66309,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359901",
         "title": "Owendale",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359901",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8134",
         "pub-date": "2019-12-29T05:05:00+11:00",
         "location": "Pokolbin State Forest",
@@ -66328,13 +66328,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.1071,
               -32.8076
-            ],
-            "type": "Point"
+            ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -66626,8 +66627,7 @@
                   -32.757262075
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -66653,11 +66653,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.5607,
               -30.5134
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -67651,8 +67651,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6025",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360058",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6025",
         "title": "Currowan Fire",
         "pub-date": "2019-12-29T15:43:00+11:00",
         "location": "Clyde Ridge Rd, Currowan, NSW 2536",
@@ -67670,11 +67670,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.2884,
               -34.9907
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -79780,9 +79780,9 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
         "title": "Green Wattle Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6267",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
         "pub-date": "2019-12-29T19:45:00+11:00",
         "location": "15km South West of Warragamba Dam Wall in the Blue Mountains National Park",
         "council-area": "Wollondilly",
@@ -94613,8 +94613,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Meads Creek West",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360292",
+        "title": "Meads Creek West",
         "pub-date": "2019-12-29T05:48:00+11:00",
         "location": "Goulburn River NP 8 km NE of Meads Crossing 150.14 -32.33",
         "council-area": "Upper Hunter",
@@ -94630,11 +94630,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.1706,
               -32.3358
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -95144,8 +95144,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Crumps Complex",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360324",
+        "title": "Crumps Complex",
         "pub-date": "2019-12-29T05:20:00+11:00",
         "location": "Narone Creek Rd, Wollombi, NSW 2325",
         "council-area": "Cessnock",
@@ -96502,19 +96502,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           146.7666,
           -34.6183
-        ],
-        "type": "Point"
+        ]
       },
       "id": 361069
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361168",
         "title": "Mummel fire",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361168",
         "pub-date": "2019-12-29T04:57:00+11:00",
         "location": "Nowendoc",
         "council-area": "Walcha",
@@ -100353,11 +100353,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.9864,
               -30.646
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -101112,11 +101112,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.347,
               -28.6894
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -105306,8 +105306,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=7637",
         "title": "Upper Turon Rd, Palmers Oaky",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=7637",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361695",
         "pub-date": "2019-12-29T05:46:00+11:00",
         "location": "1620 Upper Turon Rd, Palmers Oaky, NSW 2795",
@@ -105325,11 +105325,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.9397,
               -33.0225
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -106232,14 +106232,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.0653,
               -30.1889
-            ],
-            "type": "Point"
+            ]
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -106839,7 +106838,8 @@
                   -30.1651400809999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -106848,8 +106848,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Shark Creek 3",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361953",
+        "title": "Shark Creek 3",
         "pub-date": "2019-12-29T06:02:00+11:00",
         "location": "Shark Creek Rd, Shark Creek, NSW 2463",
         "council-area": "Clarence Valley",
@@ -106865,11 +106865,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               153.1927,
               -29.5588
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -107091,8 +107091,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Blue Gum Rd",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361999",
+        "title": "Blue Gum Rd",
         "pub-date": "2019-12-29T05:07:00+11:00",
         "location": "Tooloom",
         "council-area": "Tenterfield",
@@ -107108,11 +107108,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               152.4882,
               -28.4688
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -109801,8 +109801,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363462",
         "title": "Pearson Trail Complex, Dungowan",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363462",
         "pub-date": "2019-12-29T05:39:00+11:00",
         "location": "Dungowan",
         "council-area": "Tamworth",
@@ -109818,11 +109818,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.2352,
               -31.4922
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -111202,8 +111202,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mt Spirabo",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363478",
+        "title": "Mt Spirabo",
         "pub-date": "2019-12-29T04:14:00+11:00",
         "location": "Mt Spirabo",
         "council-area": "Tenterfield",
@@ -111219,13 +111219,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               152.1071,
               -29.3267
-            ],
-            "type": "Point"
+            ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -111737,8 +111738,7 @@
                   -29.2460706689999
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -111771,6 +111771,7 @@
             ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -112298,8 +112299,7 @@
                   -30.636804142
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -112308,8 +112308,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Melville range",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363513",
+        "title": "Melville range",
         "pub-date": "2019-12-29T05:22:00+11:00",
         "location": "Piallaway Rd,",
         "council-area": "Liverpool Plains",
@@ -113045,8 +113045,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Staggs Lane, Inverell",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363526",
+        "title": "Staggs Lane, Inverell",
         "pub-date": "2019-12-29T03:57:00+11:00",
         "location": "143 Staggs Lane, Inverell, NSW 2360",
         "council-area": "Inverell",
@@ -113062,13 +113062,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.1496,
               -29.8252
-            ],
-            "type": "Point"
+            ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -113612,8 +113613,7 @@
                   -29.79632937
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -113622,8 +113622,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363583",
         "title": "Tom & Jerry Knob Dunbeacon",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363583",
         "pub-date": "2019-12-29T22:41:00+11:00",
         "location": "4929 Currangandi Road Upper Horton",
         "council-area": "Gwydir",
@@ -114136,11 +114136,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.0562,
               -30.6034
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -116501,8 +116501,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363647",
         "title": "Jersey Bull Rd, Upper Orara",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363647",
         "pub-date": "2019-12-29T05:56:00+11:00",
         "location": "Jersey Bull Rd, Upper Orara, NSW 2450",
         "council-area": "Coffs Harbour",
@@ -116518,11 +116518,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.9257,
               -30.2891
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -116869,11 +116869,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.1665,
               -31.6453
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -117699,8 +117699,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363728",
         "title": "Mundawah, Bundarra",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363728",
         "pub-date": "2019-12-29T22:39:00+11:00",
         "location": "2018 Bingara Rd, Bundarra, NSW 2359",
         "council-area": "Gwydir",
@@ -118721,8 +118721,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363841",
         "title": "Top Gowrie",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363841",
         "pub-date": "2019-12-29T05:10:00+11:00",
         "location": "150.837 -31.402",
         "council-area": "Tamworth",
@@ -118738,11 +118738,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.8292,
               -31.3976
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -121894,8 +121894,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364041",
         "title": "Ridge 400",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364041",
         "pub-date": "2019-12-29T05:01:00+11:00",
         "location": "Kauthi Creek, Woko National Park",
         "council-area": "Mid-Coast",
@@ -122610,13 +122610,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.8309,
               -29.1122
-            ],
-            "type": "Point"
+            ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -123264,8 +123265,7 @@
                   -29.097732841
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -123274,8 +123274,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8087",
         "title": "Forest Rd, Comberton",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8087",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364556",
         "pub-date": "2019-12-29T05:13:00+11:00",
         "location": "Forest Rd, Comberton, NSW 2540",
@@ -124131,8 +124131,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mccormack Rd, Leeton",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364615",
+        "title": "Mccormack Rd, Leeton",
         "pub-date": "2019-12-29T20:53:00+11:00",
         "location": "Mccormack Rd, Leeton, NSW 2705",
         "council-area": "Leeton",
@@ -124145,19 +124145,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           146.3937,
           -34.4634
-        ]
+        ],
+        "type": "Point"
       },
       "id": 364615
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364638",
         "title": "Fairford Rd, Warialda",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364638",
         "pub-date": "2019-12-29T22:36:00+11:00",
         "location": "Fairford Rd, Warialda, NSW 2402",
         "council-area": "Gwydir",
@@ -124499,9 +124499,9 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204",
         "title": "Grose Valley",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=7947",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204",
         "pub-date": "2019-12-29T21:37:00+11:00",
         "location": "Blue Mountains National Park",
         "council-area": "Blue Mountains",
@@ -127177,14 +127177,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               148.2153,
               -35.3266
-            ]
+            ],
+            "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -127772,7 +127771,8 @@
                   -35.3257139569999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -127781,8 +127781,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993",
         "title": "Myall Creek Road",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993",
         "pub-date": "2019-12-29T22:34:00+11:00",
         "location": "Myall Creek Road Bora Ridge",
         "council-area": "Richmond Valley",
@@ -135434,11 +135434,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           150.9058,
           -31.3096
-        ],
-        "type": "Point"
+        ]
       },
       "id": 366088
     },
@@ -135469,7 +135469,6 @@
             "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -135629,7 +135628,8 @@
                   -35.7194868989999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -135638,9 +135638,9 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Charleys Forest",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8300",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366212",
-        "title": "Charleys Forest",
         "pub-date": "2019-12-29T19:54:00+11:00",
         "location": "Charleys Forest Road, Nerriga",
         "council-area": "Queanbeyan-Palerang",
@@ -137051,8 +137051,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366227",
         "title": "North Black Range, Palerang",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366227",
         "pub-date": "2019-12-29T06:08:00+11:00",
         "location": "West of Braidwood",
         "council-area": "Queanbeyan-Palerang",
@@ -137068,11 +137068,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.6383,
               -35.4251
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -139088,19 +139088,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           146.9092,
           -29.9549
-        ]
+        ],
+        "type": "Point"
       },
       "id": 366497
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366628",
         "title": "Delegate Rd, Bombala",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366628",
         "pub-date": "2019-12-28T22:59:00+11:00",
         "location": "Delegate Rd, Bombala, NSW 2632",
         "council-area": "Snowy Monaro",
@@ -139125,8 +139125,8 @@
       "type": "Feature",
       "properties": {
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366634",
-        "title": "Araluen Rd, Deua River Valley",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8377",
+        "title": "Araluen Rd, Deua River Valley",
         "pub-date": "2019-12-29T01:49:00+11:00",
         "location": "2720 Araluen Rd, Deua River Valley, NSW 2537",
         "council-area": "Eurobodalla",
@@ -139627,8 +139627,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Kwiambal National Park",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366640",
+        "title": "Kwiambal National Park",
         "pub-date": "2019-12-29T03:30:00+11:00",
         "location": "Kwiambal National Park",
         "council-area": "Inverell",
@@ -139652,8 +139652,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Newell Hwy, Brocklehurst",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366681",
+        "title": "Newell Hwy, Brocklehurst",
         "pub-date": "2019-12-29T03:27:00+11:00",
         "location": "Newell Hwy 5 km north of dubbo, Brocklehurst, NSW 2830",
         "council-area": "Dubbo Regional",
@@ -139677,8 +139677,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Riverina Hwy, Berrigan",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366773",
+        "title": "Riverina Hwy, Berrigan",
         "pub-date": "2019-12-27T07:16:00+11:00",
         "location": "14488 Riverina Hwy, Berrigan, NSW 2712",
         "council-area": "Berrigan",
@@ -139691,11 +139691,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           145.763,
           -35.6525
-        ],
-        "type": "Point"
+        ]
       },
       "id": 366773
     },
@@ -139719,11 +139719,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               152.3676,
               -32.3658
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -140353,8 +140353,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366851",
         "title": "Grahams Road, Yabbra",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366851",
         "pub-date": "2019-12-29T04:52:00+11:00",
         "location": "grahams road, yabbra",
         "council-area": "Kyogle",
@@ -140370,13 +140370,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.6219,
               -28.479
-            ]
+            ],
+            "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -140420,8 +140421,7 @@
                   -28.478571282
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -140430,8 +140430,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366853",
         "title": "Cunjevoi Ridge, Peacock Creek",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366853",
         "pub-date": "2019-12-29T09:46:00+11:00",
         "location": "Cunjevoi Rd, Peacock Creek, NSW",
         "council-area": "Kyogle",
@@ -140447,13 +140447,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.6807,
               -28.6754
-            ]
+            ],
+            "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -140505,8 +140506,7 @@
                   -28.6754674219999
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -140529,11 +140529,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           150.1127,
           -35.7806
-        ],
-        "type": "Point"
+        ]
       },
       "id": 366875
     },
@@ -140565,8 +140565,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Kosciuszko Rd, Charlotte Pass",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366915",
+        "title": "Kosciuszko Rd, Charlotte Pass",
         "pub-date": "2019-12-28T23:00:00+11:00",
         "location": "Kosciuszko Rd, Charlotte Pass, NSW 2624",
         "council-area": "Snowy Monaro",
@@ -140614,7 +140614,6 @@
             ]
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -140874,7 +140873,8 @@
                   -35.889885082
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -140883,8 +140883,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366937",
         "title": "Badja Forest Rd, Countegany",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366937",
         "pub-date": "2019-12-29T14:12:00+11:00",
         "location": "Badja Forest Rd, Countegany, NSW 2630",
         "council-area": "Snowy Monaro",
@@ -140900,11 +140900,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.528,
               -36.158
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -141898,19 +141898,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           149.5508,
           -35.9091
-        ],
-        "type": "Point"
+        ]
       },
       "id": 366972
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366999",
         "title": "Half Penny Hill, Ingebyra",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366999",
         "pub-date": "2019-12-29T05:38:00+11:00",
         "location": "Barry Way, Ingebirah, NSW 2627",
         "council-area": "Snowy Monaro",
@@ -141926,11 +141926,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               148.4237,
               -36.6836
-            ]
+            ],
+            "type": "Point"
           },
           {
             "coordinates": [
@@ -142050,6 +142050,7 @@
             "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -142085,8 +142086,7 @@
                   -34.660983679
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -142095,9 +142095,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Dunns Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8443",
+        "title": "Dunns Road",
         "pub-date": "2019-12-29T18:31:00+11:00",
         "location": "Westbrook Rd, Ellerslie, NSW 2652",
         "council-area": "Snowy Valleys",
@@ -143964,8 +143964,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Tuross Falls Rd, Countegany",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367034",
+        "title": "Tuross Falls Rd, Countegany",
         "pub-date": "2019-12-29T07:26:00+11:00",
         "location": "Tuross Falls Rd, Countegany, NSW 2630",
         "council-area": "Eurobodalla",
@@ -143978,19 +143978,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           149.6037,
           -36.1162
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367034
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Weir rd",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367076",
+        "title": "Weir rd",
         "pub-date": "2019-12-29T00:53:00+11:00",
         "location": "allan brook rd",
         "council-area": "Bega Valley",
@@ -144013,7 +144013,6 @@
             ]
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -144073,7 +144072,8 @@
                   -37.321111973
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -144082,8 +144082,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367079",
         "title": "Oallen Ford Rd, Bungonia",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367079",
         "pub-date": "2019-12-29T02:47:00+11:00",
         "location": "Oallen Ford Rd, Bungonia,  2580",
         "council-area": "Goulburn Mulwaree",
@@ -144288,14 +144288,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.7196,
               -31.6417
-            ]
+            ],
+            "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -144339,7 +144338,8 @@
                   -31.641591846
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -144365,11 +144365,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.5685,
               -29.4684
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -144843,8 +144843,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367238",
         "title": "Wiangaree Back Rd, Kilgra",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367238",
         "pub-date": "2019-12-29T08:51:00+11:00",
         "location": "Wiangaree Back Rd, Kilgra, NSW 2474",
         "council-area": "Kyogle",
@@ -144868,8 +144868,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Congarinni Rd S, Congarinni",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367249",
+        "title": "Congarinni Rd S, Congarinni",
         "pub-date": "2019-12-29T03:43:00+11:00",
         "location": "668 Congarinni Rd S, Congarinni, NSW 2447",
         "council-area": "Nambucca",
@@ -144910,11 +144910,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.3673,
               -36.055
-            ],
-            "type": "Point"
+            ]
           },
           {
             "coordinates": [
@@ -147102,8 +147102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Dennis Rd, Mungay Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367271",
+        "title": "Dennis Rd, Mungay Creek",
         "pub-date": "2019-12-29T04:20:00+11:00",
         "location": "Dennis Rd, Mungay Creek, NSW 2440",
         "council-area": "Kempsey",
@@ -147127,8 +147127,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Lower Buckra Bendinni Rd, Argents Hill",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367282",
+        "title": "Lower Buckra Bendinni Rd, Argents Hill",
         "pub-date": "2019-12-29T05:30:00+11:00",
         "location": "983 Lower Buckra Bendinni Rd, Argents Hill, NSW 2449",
         "council-area": "Nambucca",
@@ -147141,11 +147141,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           152.7393,
           -30.648
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367282
     },
@@ -147202,8 +147202,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Berrigan Rd, Lalalty",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367309",
+        "title": "Berrigan Rd, Lalalty",
         "pub-date": "2019-12-29T07:24:00+11:00",
         "location": "1583 Berrigan Rd, Lalalty, NSW 3644",
         "council-area": "Berrigan",
@@ -147227,8 +147227,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Greenhills Rd, Bakers Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367315",
+        "title": "Greenhills Rd, Bakers Creek",
         "pub-date": "2019-12-29T06:14:00+11:00",
         "location": "488 Greenhills Rd, Bakers Creek, NSW 2447",
         "council-area": "Nambucca",
@@ -147291,19 +147291,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           142.0972,
           -33.9787
-        ],
-        "type": "Point"
+        ]
       },
       "id": 367333
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367335",
         "title": "Green Valley, Talmalmo",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367335",
         "pub-date": "2019-12-29T20:35:00+11:00",
         "location": "\"Green Valley/Avoca\" Yenches/River Rd, Talmalmo, NSW 2640",
         "council-area": "Greater Hume",
@@ -147437,11 +147437,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           150.4294,
           -33.5458
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367338
     },
@@ -147462,11 +147462,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           152.6195,
           -31.1144
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367339
     },
@@ -147498,8 +147498,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367342",
         "title": "Banksia St, Boomerang Beach",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367342",
         "pub-date": "2019-12-29T08:34:00+11:00",
         "location": "13 Banksia St, Boomerang Beach, NSW 2428",
         "council-area": "Mid-Coast",
@@ -147523,8 +147523,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Werri Berri",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367348",
+        "title": "Werri Berri",
         "pub-date": "2019-12-29T08:14:00+11:00",
         "location": "Werri Berri",
         "council-area": "Bega Valley",
@@ -147562,19 +147562,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           144.4953,
           -35.2294
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367350
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Keppies Rd, Paterson",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367366",
+        "title": "Keppies Rd, Paterson",
         "pub-date": "2019-12-29T10:29:00+11:00",
         "location": "Keppies Rd, Paterson, NSW 2421",
         "council-area": "Dungog",
@@ -147587,19 +147587,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           151.6238,
           -32.5873
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367366
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367374",
         "title": "Carrai Road, Willi Willi",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367374",
         "pub-date": "2019-12-29T10:20:00+11:00",
         "location": "Carrai Road, Willi Willi, NSW 2440",
         "council-area": "Kempsey",
@@ -147623,8 +147623,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367378",
         "title": "Stannix Park Rd, Ebenezer",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367378",
         "pub-date": "2019-12-29T14:25:00+11:00",
         "location": "Stannix Park Rd, Ebenezer, NSW 2756",
         "council-area": "Hawkesbury",
@@ -147662,11 +147662,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           152.9871,
           -30.4689
-        ],
-        "type": "Point"
+        ]
       },
       "id": 367399
     },
@@ -147687,19 +147687,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           151.2147,
           -32.8833
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367411
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Comboyne Peak",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367416",
+        "title": "Comboyne Peak",
         "pub-date": "2019-12-29T22:19:00+11:00",
         "location": "152 33.10 31 34.70",
         "council-area": "Port Macquarie-Hastings",
@@ -147712,11 +147712,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           152.5445,
           -31.6264
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367416
     },
@@ -147762,19 +147762,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           143.5771,
           -35.0776
-        ],
-        "type": "Point"
+        ]
       },
       "id": 367420
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367424",
         "title": "Bangalow Rd, Byron Bay",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367424",
         "pub-date": "2019-12-29T22:30:00+11:00",
         "location": "119 Bangalow Rd, Byron Bay, NSW 2481",
         "council-area": "Byron",
@@ -147787,13 +147787,38 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           153.6027,
           -28.674
-        ]
+        ],
+        "type": "Point"
       },
       "id": 367424
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Grey St, Clarence Town",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367427",
+        "pub-date": "2019-12-29T22:56:00+11:00",
+        "location": "78 Grey St, Clarence Town, NSW 2321",
+        "council-area": "Dungog",
+        "status": "Out of control",
+        "type": "Medical",
+        "fire": false,
+        "size": 0,
+        "responsible-agency": "Rural Fire Service",
+        "updated": "2019-12-30T09:56:00+11:00",
+        "alert-level": "Not Applicable"
+      },
+      "geometry": {
+        "coordinates": [
+          151.78,
+          -32.5823
+        ],
+        "type": "Point"
+      },
+      "id": 367427
     }
   ]
 }
