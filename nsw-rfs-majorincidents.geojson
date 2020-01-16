@@ -1015,8 +1015,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Carrai East",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/351836",
+        "title": "Carrai East",
         "pub-date": "2020-01-16T05:34:00+11:00",
         "location": "Nulla Nulla,Willawarrin, Bellbrook, Temagog, Hickeys Creek, Taylors Arm, Burrapine, Thumb Creek",
         "council-area": "Kempsey",
@@ -1057,11 +1057,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.8213,
               -31.6598
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -8256,8 +8256,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
         "title": "Gospers Mountain",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
         "pub-date": "2020-01-16T00:20:00+11:00",
         "location": "Wollemi National Park",
         "council-area": "Hawkesbury",
@@ -8273,11 +8273,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.4573,
               -33.0806
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -18895,8 +18895,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Crestwood Dr, Port Macquarie",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/353087",
+        "title": "Crestwood Dr, Port Macquarie",
         "pub-date": "2020-01-16T21:59:00+11:00",
         "location": "86 Crestwood Dr, Port Macquarie, NSW 2444",
         "council-area": "Port Macquarie-Hastings",
@@ -25871,6 +25871,7 @@
             "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -28370,8 +28371,7 @@
                   -28.5929738899998
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -28380,8 +28380,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Carters Rd, Stewarts Brook",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359432",
+        "title": "Carters Rd, Stewarts Brook",
         "pub-date": "2020-01-16T23:17:00+11:00",
         "location": "Carters Rd, Stewarts Brook, NSW 2337",
         "council-area": "Upper Hunter",
@@ -28397,11 +28397,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.3639,
               -32.0479
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -29975,8 +29975,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359448",
         "title": "Mt Royal 1",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359448",
         "pub-date": "2020-01-16T23:32:00+11:00",
         "location": "Dungog",
         "council-area": "Dungog",
@@ -29992,11 +29992,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.3869,
               -32.1405
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -30486,8 +30486,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9360",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9360",
         "title": "Kerry Ridge",
         "pub-date": "2020-01-16T23:16:00+11:00",
         "location": "Wollemi National Park, Putty State Forest and Coricudgy State Forest",
@@ -30505,11 +30505,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.2159,
               -32.8131
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -32279,8 +32279,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359831",
         "title": "Little L Complex",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359831",
         "pub-date": "2020-01-16T23:27:00+11:00",
         "location": "-32 56.675, 150 58.372",
         "council-area": "Singleton",
@@ -42318,7 +42318,6 @@
             "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -42614,7 +42613,8 @@
                   -32.75726395
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -42623,8 +42623,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Andersons Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359905",
+        "title": "Andersons Creek",
         "pub-date": "2020-01-16T05:29:00+11:00",
         "location": "13km ESE of Ebor",
         "council-area": "Bellingen",
@@ -42640,11 +42640,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.6072,
               -30.4687
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -43950,9 +43950,9 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Green Wattle Creek",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6267",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
-        "title": "Green Wattle Creek",
         "pub-date": "2020-01-16T22:01:00+11:00",
         "location": "15km South West of Warragamba Dam Wall in the Blue Mountains National Park",
         "council-area": "Wollondilly",
@@ -43969,11 +43969,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.2755,
               -34.0582
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -51735,8 +51735,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360292",
         "title": "Meads Creek West",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360292",
         "pub-date": "2020-01-16T22:22:00+11:00",
         "location": "Goulburn River NP 8 km NE of Meads Crossing 150.14 -32.33",
         "council-area": "Upper Hunter",
@@ -51752,11 +51752,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.1706,
               -32.3358
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -52266,8 +52266,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Crumps Complex",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360324",
+        "title": "Crumps Complex",
         "pub-date": "2020-01-16T23:29:00+11:00",
         "location": "Narone Creek Rd, Wollombi, NSW 2325",
         "council-area": "Cessnock",
@@ -52283,11 +52283,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.2058,
               -32.9324
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -52837,8 +52837,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Ruined Castle",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360437",
+        "title": "Ruined Castle",
         "pub-date": "2020-01-16T23:00:00+11:00",
         "location": "Ruined Castle",
         "council-area": "Blue Mountains",
@@ -54324,11 +54324,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.0653,
               -30.1889
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "Polygon",
@@ -54940,251 +54940,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Shark Creek 3",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361953",
-        "pub-date": "2020-01-16T21:43:00+11:00",
-        "location": "Shark Creek Rd, Shark Creek, NSW 2463",
-        "council-area": "Clarence Valley",
-        "status": "Under control",
-        "type": "Bush Fire",
-        "fire": true,
-        "size": 4,
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2020-01-17T08:43:00+11:00",
-        "alert-level": "Advice"
-      },
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "coordinates": [
-              153.1927,
-              -29.5588
-            ],
-            "type": "Point"
-          },
-          {
-            "type": "MultiPolygon",
-            "coordinates": [
-              [
-                [
-                  [
-                    153.18214262,
-                    -29.5574693039999
-                  ],
-                  [
-                    153.182147945,
-                    -29.557473945
-                  ],
-                  [
-                    153.182541995,
-                    -29.558958552
-                  ],
-                  [
-                    153.182740437,
-                    -29.559187945
-                  ],
-                  [
-                    153.1834998,
-                    -29.558953699
-                  ],
-                  [
-                    153.183850507,
-                    -29.5584585459999
-                  ],
-                  [
-                    153.183546159,
-                    -29.5577699639999
-                  ],
-                  [
-                    153.183275004,
-                    -29.557558339
-                  ],
-                  [
-                    153.183264658,
-                    -29.557552791
-                  ],
-                  [
-                    153.182763031,
-                    -29.5570531559999
-                  ],
-                  [
-                    153.18214262,
-                    -29.5574693039999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    153.189927099,
-                    -29.558384831
-                  ],
-                  [
-                    153.190110692,
-                    -29.558863754
-                  ],
-                  [
-                    153.190512563,
-                    -29.558831234
-                  ],
-                  [
-                    153.190584682,
-                    -29.5583199979999
-                  ],
-                  [
-                    153.189927099,
-                    -29.558384831
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    153.19820013,
-                    -29.5518521339999
-                  ],
-                  [
-                    153.198380606,
-                    -29.5519664839999
-                  ],
-                  [
-                    153.198970043,
-                    -29.5517220359999
-                  ],
-                  [
-                    153.199395473,
-                    -29.5514061919999
-                  ],
-                  [
-                    153.199624292,
-                    -29.55110497
-                  ],
-                  [
-                    153.199967813,
-                    -29.550803575
-                  ],
-                  [
-                    153.20031173,
-                    -29.550702765
-                  ],
-                  [
-                    153.200753792,
-                    -29.5505158399999
-                  ],
-                  [
-                    153.201294539,
-                    -29.550515022
-                  ],
-                  [
-                    153.202031439,
-                    -29.550270336
-                  ],
-                  [
-                    153.202440666,
-                    -29.5500547999999
-                  ],
-                  [
-                    153.202358136,
-                    -29.549754047
-                  ],
-                  [
-                    153.20193275,
-                    -29.5500842279999
-                  ],
-                  [
-                    153.201572652,
-                    -29.55028536
-                  ],
-                  [
-                    153.200966389,
-                    -29.550300605
-                  ],
-                  [
-                    153.20050763,
-                    -29.550329953
-                  ],
-                  [
-                    153.200049124,
-                    -29.550488248
-                  ],
-                  [
-                    153.199656417,
-                    -29.550775388
-                  ],
-                  [
-                    153.199312866,
-                    -29.551062455
-                  ],
-                  [
-                    153.199182337,
-                    -29.5513492009999
-                  ],
-                  [
-                    153.198675003,
-                    -29.551679494
-                  ],
-                  [
-                    153.19820013,
-                    -29.5518521339999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    153.200346766,
-                    -29.55965097
-                  ],
-                  [
-                    153.200400929,
-                    -29.559981599
-                  ],
-                  [
-                    153.200486431,
-                    -29.560516014
-                  ],
-                  [
-                    153.20038146,
-                    -29.5606437609999
-                  ],
-                  [
-                    153.200498713,
-                    -29.560584164
-                  ],
-                  [
-                    153.200759359,
-                    -29.5602868629999
-                  ],
-                  [
-                    153.200735825,
-                    -29.5599727979999
-                  ],
-                  [
-                    153.200727358,
-                    -29.55986432
-                  ],
-                  [
-                    153.200626244,
-                    -29.5597272169999
-                  ],
-                  [
-                    153.200346766,
-                    -29.55965097
-                  ]
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "id": 361953
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363462",
         "title": "Pearson Trail Complex, Dungowan",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363462",
         "pub-date": "2020-01-16T23:12:00+11:00",
         "location": "Dungowan",
         "council-area": "Tamworth",
@@ -61151,8 +60908,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Warrabah Complex Fire",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/363867",
+        "title": "Warrabah Complex Fire",
         "pub-date": "2020-01-16T23:29:00+11:00",
         "location": "Warrabah National Park",
         "council-area": "Tamworth",
@@ -62850,8 +62607,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364041",
         "title": "Ridge 400",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364041",
         "pub-date": "2020-01-16T23:30:00+11:00",
         "location": "Kauthi Creek, Woko National Park",
         "council-area": "Mid-Coast",
@@ -62867,11 +62624,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.8373,
               -31.7827
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -64293,8 +64050,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Forest Rd, Comberton",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364556",
+        "title": "Forest Rd, Comberton",
         "pub-date": "2020-01-16T23:09:00+11:00",
         "location": "Forest Rd, Comberton, NSW 2540",
         "council-area": "Shoalhaven",
@@ -64310,11 +64067,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.6276,
               -34.9628
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -65220,8 +64977,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204",
         "title": "Grose Valley",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204",
         "pub-date": "2020-01-16T23:00:00+11:00",
         "location": "Blue Mountains National Park",
         "council-area": "Blue Mountains",
@@ -65237,11 +64994,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.3044,
               -33.566
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -69699,8 +69456,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993",
         "title": "Myall Creek Road",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993",
         "pub-date": "2020-01-14T22:58:00+11:00",
         "location": "Myall Creek Road Bora Ridge",
         "council-area": "Richmond Valley",
@@ -69716,11 +69473,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               153.159,
               -29.1632
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -77330,9 +77087,9 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8300",
-        "title": "Charleys Forest",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366212",
+        "title": "Charleys Forest",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8300",
         "pub-date": "2020-01-15T23:28:00+11:00",
         "location": "Charleys Forest Road, Nerriga",
         "council-area": "Queanbeyan-Palerang",
@@ -77349,11 +77106,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.9178,
               -35.4449
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -82684,9 +82441,9 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8443",
-        "title": "Dunns Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024",
+        "title": "Dunns Road",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8443",
         "pub-date": "2020-01-16T22:36:00+11:00",
         "location": "Westbrook Rd, Ellerslie, NSW 2652",
         "council-area": "Snowy Valleys",
@@ -82700,2964 +82457,10 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              147.856,
-              -35.3202
-            ]
-          },
-          {
-            "type": "MultiPolygon",
-            "coordinates": [
-              [
-                [
-                  [
-                    147.77392831,
-                    -35.8387820459999
-                  ],
-                  [
-                    147.774156739,
-                    -35.839067582
-                  ],
-                  [
-                    147.774499381,
-                    -35.8388962619999
-                  ],
-                  [
-                    147.774525322,
-                    -35.8391816119999
-                  ],
-                  [
-                    147.774451792,
-                    -35.8393102859999
-                  ],
-                  [
-                    147.774548167,
-                    -35.839432911
-                  ],
-                  [
-                    147.774556488,
-                    -35.839524437
-                  ],
-                  [
-                    147.774671959,
-                    -35.839590422
-                  ],
-                  [
-                    147.775439688,
-                    -35.840567241
-                  ],
-                  [
-                    147.776339595,
-                    -35.840236811
-                  ],
-                  [
-                    147.776727049,
-                    -35.840174853
-                  ],
-                  [
-                    147.777670579,
-                    -35.840358002
-                  ],
-                  [
-                    147.778598679,
-                    -35.840356518
-                  ],
-                  [
-                    147.780045895,
-                    -35.840213508
-                  ],
-                  [
-                    147.78142243,
-                    -35.8400732019999
-                  ],
-                  [
-                    147.782716735,
-                    -35.839952083
-                  ],
-                  [
-                    147.78306544,
-                    -35.8391817959999
-                  ],
-                  [
-                    147.783864939,
-                    -35.8387820459999
-                  ],
-                  [
-                    147.784264689,
-                    -35.838382297
-                  ],
-                  [
-                    147.784664438,
-                    -35.8378112259999
-                  ],
-                  [
-                    147.784607331,
-                    -35.8371830479999
-                  ],
-                  [
-                    147.784892867,
-                    -35.836840406
-                  ],
-                  [
-                    147.785292615,
-                    -35.8364977639999
-                  ],
-                  [
-                    147.784892867,
-                    -35.8358695859999
-                  ],
-                  [
-                    147.784378902,
-                    -35.8352985139999
-                  ],
-                  [
-                    147.783293869,
-                    -35.834784551
-                  ],
-                  [
-                    147.782323048,
-                    -35.834670337
-                  ],
-                  [
-                    147.781694871,
-                    -35.834784551
-                  ],
-                  [
-                    147.781466443,
-                    -35.8353556229999
-                  ],
-                  [
-                    147.780781157,
-                    -35.835698264
-                  ],
-                  [
-                    147.780552729,
-                    -35.8362693349999
-                  ],
-                  [
-                    147.780609837,
-                    -35.8368975129999
-                  ],
-                  [
-                    147.780152981,
-                    -35.837354368
-                  ],
-                  [
-                    147.779867445,
-                    -35.8382680829999
-                  ],
-                  [
-                    147.779867444,
-                    -35.839010474
-                  ],
-                  [
-                    147.779639017,
-                    -35.839353116
-                  ],
-                  [
-                    147.779239267,
-                    -35.8390675809999
-                  ],
-                  [
-                    147.778439769,
-                    -35.8390675809999
-                  ],
-                  [
-                    147.778268447,
-                    -35.83832519
-                  ],
-                  [
-                    147.778040019,
-                    -35.8375256909999
-                  ],
-                  [
-                    147.777583162,
-                    -35.837354368
-                  ],
-                  [
-                    147.777468949,
-                    -35.8379254399999
-                  ],
-                  [
-                    147.77712377,
-                    -35.8380174879999
-                  ],
-                  [
-                    147.777307145,
-                    -35.837739842
-                  ],
-                  [
-                    147.776165003,
-                    -35.8383109129999
-                  ],
-                  [
-                    147.775430226,
-                    -35.838310914
-                  ],
-                  [
-                    147.775413094,
-                    -35.8382680829999
-                  ],
-                  [
-                    147.775470201,
-                    -35.837868333
-                  ],
-                  [
-                    147.775127558,
-                    -35.837754118
-                  ],
-                  [
-                    147.774556488,
-                    -35.8379254399999
-                  ],
-                  [
-                    147.774213845,
-                    -35.838210975
-                  ],
-                  [
-                    147.774213845,
-                    -35.838439404
-                  ],
-                  [
-                    147.77392831,
-                    -35.8387820459999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    147.783493961,
-                    -35.8398884169999
-                  ],
-                  [
-                    147.784665717,
-                    -35.840182813
-                  ],
-                  [
-                    147.7852923,
-                    -35.840561898
-                  ],
-                  [
-                    147.785626942,
-                    -35.840951897
-                  ],
-                  [
-                    147.786283093,
-                    -35.8414525069999
-                  ],
-                  [
-                    147.786726137,
-                    -35.8416750059999
-                  ],
-                  [
-                    147.786834506,
-                    -35.840895007
-                  ],
-                  [
-                    147.786834507,
-                    -35.840152615
-                  ],
-                  [
-                    147.786263437,
-                    -35.8395815449999
-                  ],
-                  [
-                    147.786035007,
-                    -35.838839153
-                  ],
-                  [
-                    147.785235509,
-                    -35.838839153
-                  ],
-                  [
-                    147.784892866,
-                    -35.8391817949999
-                  ],
-                  [
-                    147.784207582,
-                    -35.839010474
-                  ],
-                  [
-                    147.783493961,
-                    -35.8398884169999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    147.794087103,
-                    -35.840666579
-                  ],
-                  [
-                    147.794601068,
-                    -35.842151362
-                  ],
-                  [
-                    147.795800315,
-                    -35.842551113
-                  ],
-                  [
-                    147.796828243,
-                    -35.8430079679999
-                  ],
-                  [
-                    147.797170885,
-                    -35.844150111
-                  ],
-                  [
-                    147.797570635,
-                    -35.844835395
-                  ],
-                  [
-                    147.798352289,
-                    -35.845849372
-                  ],
-                  [
-                    147.799339192,
-                    -35.8455723399999
-                  ],
-                  [
-                    147.800109084,
-                    -35.8454635319999
-                  ],
-                  [
-                    147.801469939,
-                    -35.8453462799999
-                  ],
-                  [
-                    147.799340954,
-                    -35.843065076
-                  ],
-                  [
-                    147.799226739,
-                    -35.8423226849999
-                  ],
-                  [
-                    147.798941204,
-                    -35.841751614
-                  ],
-                  [
-                    147.798370132,
-                    -35.841123436
-                  ],
-                  [
-                    147.794601067,
-                    -35.83986708
-                  ],
-                  [
-                    147.794087103,
-                    -35.840666579
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    147.812985183,
-                    -35.9171642699997
-                  ],
-                  [
-                    147.845503698,
-                    -35.9352733969998
-                  ],
-                  [
-                    147.850462402,
-                    -35.945184529
-                  ],
-                  [
-                    147.858467893,
-                    -35.951157485
-                  ],
-                  [
-                    147.856326508,
-                    -35.9559455350001
-                  ],
-                  [
-                    147.866149734,
-                    -35.9517384440001
-                  ],
-                  [
-                    147.885498316,
-                    -35.9542948829999
-                  ],
-                  [
-                    147.883898618,
-                    -35.9595084090001
-                  ],
-                  [
-                    147.902588908,
-                    -35.9775936820001
-                  ],
-                  [
-                    147.913975299,
-                    -35.9826599230001
-                  ],
-                  [
-                    147.925267073,
-                    -35.9805028690001
-                  ],
-                  [
-                    147.932500674,
-                    -35.9846833029999
-                  ],
-                  [
-                    147.938888922,
-                    -36.0012507680001
-                  ],
-                  [
-                    147.95358418,
-                    -36.0060442069998
-                  ],
-                  [
-                    147.96762751,
-                    -36.0050968719999
-                  ],
-                  [
-                    147.981916676,
-                    -36.0121666439998
-                  ],
-                  [
-                    148.006093488,
-                    -36.0115190339998
-                  ],
-                  [
-                    148.012547381,
-                    -36.0082445089999
-                  ],
-                  [
-                    148.018205091,
-                    -36.01741126
-                  ],
-                  [
-                    148.024493977,
-                    -36.0155686969998
-                  ],
-                  [
-                    148.03295192,
-                    -36.0224732770001
-                  ],
-                  [
-                    148.039791449,
-                    -36.023427942
-                  ],
-                  [
-                    148.04201899,
-                    -36.0197709669998
-                  ],
-                  [
-                    148.051755536,
-                    -36.0259522059999
-                  ],
-                  [
-                    148.06260181,
-                    -36.0267510929999
-                  ],
-                  [
-                    148.070939262,
-                    -36.0146548559999
-                  ],
-                  [
-                    148.073029347,
-                    -35.9998947979999
-                  ],
-                  [
-                    148.069063424,
-                    -35.9866199969999
-                  ],
-                  [
-                    148.065023764,
-                    -35.98085953
-                  ],
-                  [
-                    148.058094528,
-                    -35.9795254049997
-                  ],
-                  [
-                    148.055162963,
-                    -35.9676363810002
-                  ],
-                  [
-                    148.041366851,
-                    -35.9661467760001
-                  ],
-                  [
-                    148.03010042,
-                    -35.949284064
-                  ],
-                  [
-                    148.035344547,
-                    -35.943120472
-                  ],
-                  [
-                    148.049830084,
-                    -35.9438176109999
-                  ],
-                  [
-                    148.060024903,
-                    -35.9329223100002
-                  ],
-                  [
-                    148.066795979,
-                    -35.9391596949998
-                  ],
-                  [
-                    148.07526195,
-                    -35.941371719
-                  ],
-                  [
-                    148.081743386,
-                    -35.934825309
-                  ],
-                  [
-                    148.087812219,
-                    -35.918676639
-                  ],
-                  [
-                    148.086271632,
-                    -35.913327227
-                  ],
-                  [
-                    148.090759365,
-                    -35.914719814
-                  ],
-                  [
-                    148.095907853,
-                    -35.9104604729998
-                  ],
-                  [
-                    148.133141153,
-                    -35.9247162359999
-                  ],
-                  [
-                    148.14658553,
-                    -35.91811081
-                  ],
-                  [
-                    148.152834109,
-                    -35.9186185739998
-                  ],
-                  [
-                    148.155591175,
-                    -35.9427025130001
-                  ],
-                  [
-                    148.177334507,
-                    -35.9379335629998
-                  ],
-                  [
-                    148.191442235,
-                    -35.9500430040001
-                  ],
-                  [
-                    148.199771175,
-                    -35.950040197
-                  ],
-                  [
-                    148.201467606,
-                    -35.962771244
-                  ],
-                  [
-                    148.207103681,
-                    -35.954871798
-                  ],
-                  [
-                    148.217135559,
-                    -35.9576328609999
-                  ],
-                  [
-                    148.218268476,
-                    -35.9508180740001
-                  ],
-                  [
-                    148.249501241,
-                    -35.956639418
-                  ],
-                  [
-                    148.253781698,
-                    -35.9660662599999
-                  ],
-                  [
-                    148.264034448,
-                    -35.9619016050001
-                  ],
-                  [
-                    148.269013628,
-                    -35.964086267
-                  ],
-                  [
-                    148.2684414,
-                    -35.9741702050001
-                  ],
-                  [
-                    148.257412848,
-                    -35.9770511649999
-                  ],
-                  [
-                    148.259040346,
-                    -35.9815248929999
-                  ],
-                  [
-                    148.250749755,
-                    -35.9770088999998
-                  ],
-                  [
-                    148.246388212,
-                    -35.9822611600001
-                  ],
-                  [
-                    148.255694933,
-                    -35.989074557
-                  ],
-                  [
-                    148.263797299,
-                    -35.9891802999998
-                  ],
-                  [
-                    148.264489331,
-                    -35.9920830629999
-                  ],
-                  [
-                    148.260270011,
-                    -35.993512119
-                  ],
-                  [
-                    148.262118237,
-                    -36.0074789799999
-                  ],
-                  [
-                    148.270959469,
-                    -36.0242685499999
-                  ],
-                  [
-                    148.282274902,
-                    -36.025187896
-                  ],
-                  [
-                    148.299297121,
-                    -36.0356190450001
-                  ],
-                  [
-                    148.292909407,
-                    -36.0403100810001
-                  ],
-                  [
-                    148.295284221,
-                    -36.0488015920001
-                  ],
-                  [
-                    148.30372691,
-                    -36.0506107550001
-                  ],
-                  [
-                    148.302819246,
-                    -36.0408762620001
-                  ],
-                  [
-                    148.314460429,
-                    -36.0368022599999
-                  ],
-                  [
-                    148.323527167,
-                    -36.037714031
-                  ],
-                  [
-                    148.331167644,
-                    -36.0306957150001
-                  ],
-                  [
-                    148.350015778,
-                    -36.037672614
-                  ],
-                  [
-                    148.359839041,
-                    -36.0377977890001
-                  ],
-                  [
-                    148.373872321,
-                    -36.0317084810001
-                  ],
-                  [
-                    148.371113924,
-                    -36.018610269
-                  ],
-                  [
-                    148.376741059,
-                    -36.0167672359999
-                  ],
-                  [
-                    148.383877561,
-                    -36.0075115150001
-                  ],
-                  [
-                    148.386450071,
-                    -36.0095726399998
-                  ],
-                  [
-                    148.388103534,
-                    -36.0063014500001
-                  ],
-                  [
-                    148.394784855,
-                    -36.005301141
-                  ],
-                  [
-                    148.39427341,
-                    -35.998516815
-                  ],
-                  [
-                    148.399289283,
-                    -35.991196901
-                  ],
-                  [
-                    148.396389321,
-                    -35.983087524
-                  ],
-                  [
-                    148.398848925,
-                    -35.971981447
-                  ],
-                  [
-                    148.388532546,
-                    -35.9687001099998
-                  ],
-                  [
-                    148.393623607,
-                    -35.956025858
-                  ],
-                  [
-                    148.399933725,
-                    -35.9669063830001
-                  ],
-                  [
-                    148.402296664,
-                    -35.9576477379998
-                  ],
-                  [
-                    148.3990154,
-                    -35.9518154309998
-                  ],
-                  [
-                    148.390868638,
-                    -35.9504620749999
-                  ],
-                  [
-                    148.386916085,
-                    -35.9463268389999
-                  ],
-                  [
-                    148.385932047,
-                    -35.9214973690001
-                  ],
-                  [
-                    148.390802931,
-                    -35.9120937149999
-                  ],
-                  [
-                    148.383735092,
-                    -35.903629382
-                  ],
-                  [
-                    148.396663579,
-                    -35.90079902
-                  ],
-                  [
-                    148.397111776,
-                    -35.888495413
-                  ],
-                  [
-                    148.413782311,
-                    -35.8960831359999
-                  ],
-                  [
-                    148.414729764,
-                    -35.891735003
-                  ],
-                  [
-                    148.432122254,
-                    -35.884147211
-                  ],
-                  [
-                    148.440935351,
-                    -35.8917815599999
-                  ],
-                  [
-                    148.446093414,
-                    -35.873695849
-                  ],
-                  [
-                    148.451310345,
-                    -35.871260251
-                  ],
-                  [
-                    148.447241324,
-                    -35.8591353859999
-                  ],
-                  [
-                    148.452172068,
-                    -35.8535517679999
-                  ],
-                  [
-                    148.4533868,
-                    -35.8403348999999
-                  ],
-                  [
-                    148.460390006,
-                    -35.8285583059999
-                  ],
-                  [
-                    148.471342067,
-                    -35.823549976
-                  ],
-                  [
-                    148.4692535,
-                    -35.815567471
-                  ],
-                  [
-                    148.479205383,
-                    -35.793605727
-                  ],
-                  [
-                    148.494648588,
-                    -35.779570733
-                  ],
-                  [
-                    148.503815477,
-                    -35.778011948
-                  ],
-                  [
-                    148.507810072,
-                    -35.7625618169998
-                  ],
-                  [
-                    148.516636743,
-                    -35.7551666689999
-                  ],
-                  [
-                    148.523756299,
-                    -35.742334533
-                  ],
-                  [
-                    148.52855679,
-                    -35.7236954269999
-                  ],
-                  [
-                    148.535945133,
-                    -35.7131180780001
-                  ],
-                  [
-                    148.542059425,
-                    -35.711680251
-                  ],
-                  [
-                    148.543212273,
-                    -35.6921207859998
-                  ],
-                  [
-                    148.537057073,
-                    -35.6800919369998
-                  ],
-                  [
-                    148.552946368,
-                    -35.65668958
-                  ],
-                  [
-                    148.546192186,
-                    -35.6401297829999
-                  ],
-                  [
-                    148.552409649,
-                    -35.6267969450001
-                  ],
-                  [
-                    148.525298937,
-                    -35.6187711960001
-                  ],
-                  [
-                    148.522762219,
-                    -35.6092130399998
-                  ],
-                  [
-                    148.51753829,
-                    -35.611390005
-                  ],
-                  [
-                    148.511699698,
-                    -35.6088101770002
-                  ],
-                  [
-                    148.505425492,
-                    -35.6144873339998
-                  ],
-                  [
-                    148.495870346,
-                    -35.6146822900001
-                  ],
-                  [
-                    148.49932658,
-                    -35.5919587449998
-                  ],
-                  [
-                    148.494527974,
-                    -35.5880793179999
-                  ],
-                  [
-                    148.499102848,
-                    -35.579224295
-                  ],
-                  [
-                    148.506707856,
-                    -35.5780542990001
-                  ],
-                  [
-                    148.50676048,
-                    -35.571406104
-                  ],
-                  [
-                    148.515215349,
-                    -35.5809750589999
-                  ],
-                  [
-                    148.522817837,
-                    -35.57785182
-                  ],
-                  [
-                    148.519111911,
-                    -35.5677623690001
-                  ],
-                  [
-                    148.52239925,
-                    -35.5594137660001
-                  ],
-                  [
-                    148.52438231,
-                    -35.5576727310001
-                  ],
-                  [
-                    148.526900289,
-                    -35.561363721
-                  ],
-                  [
-                    148.534283225,
-                    -35.5611746810001
-                  ],
-                  [
-                    148.538438187,
-                    -35.5537499549999
-                  ],
-                  [
-                    148.544160663,
-                    -35.5530888339999
-                  ],
-                  [
-                    148.54917311,
-                    -35.546732447
-                  ],
-                  [
-                    148.547371446,
-                    -35.5399581529997
-                  ],
-                  [
-                    148.532958079,
-                    -35.53621066
-                  ],
-                  [
-                    148.533606685,
-                    -35.5335441860001
-                  ],
-                  [
-                    148.524302976,
-                    -35.5293239529999
-                  ],
-                  [
-                    148.524968666,
-                    -35.5243514099999
-                  ],
-                  [
-                    148.516834268,
-                    -35.5144192040001
-                  ],
-                  [
-                    148.512300538,
-                    -35.5122650759999
-                  ],
-                  [
-                    148.501242556,
-                    -35.5147837879999
-                  ],
-                  [
-                    148.500383906,
-                    -35.4999609609999
-                  ],
-                  [
-                    148.493831804,
-                    -35.4882619679999
-                  ],
-                  [
-                    148.487489561,
-                    -35.4843739249998
-                  ],
-                  [
-                    148.471107108,
-                    -35.4829446089999
-                  ],
-                  [
-                    148.460680527,
-                    -35.5066932290001
-                  ],
-                  [
-                    148.448835304,
-                    -35.5051832550001
-                  ],
-                  [
-                    148.439410455,
-                    -35.492903974
-                  ],
-                  [
-                    148.447257934,
-                    -35.486794446
-                  ],
-                  [
-                    148.449559874,
-                    -35.476131936
-                  ],
-                  [
-                    148.454553414,
-                    -35.472613718
-                  ],
-                  [
-                    148.460714676,
-                    -35.4779657280001
-                  ],
-                  [
-                    148.470649827,
-                    -35.4754638819998
-                  ],
-                  [
-                    148.467261084,
-                    -35.468967299
-                  ],
-                  [
-                    148.470695133,
-                    -35.458952167
-                  ],
-                  [
-                    148.451810903,
-                    -35.4549911490001
-                  ],
-                  [
-                    148.445592002,
-                    -35.4503875969999
-                  ],
-                  [
-                    148.429144436,
-                    -35.450071828
-                  ],
-                  [
-                    148.425080924,
-                    -35.452813118
-                  ],
-                  [
-                    148.419925044,
-                    -35.468481137
-                  ],
-                  [
-                    148.414203243,
-                    -35.4635491869999
-                  ],
-                  [
-                    148.416514874,
-                    -35.451242666
-                  ],
-                  [
-                    148.428349715,
-                    -35.4444382340001
-                  ],
-                  [
-                    148.421257154,
-                    -35.4412135119998
-                  ],
-                  [
-                    148.416023227,
-                    -35.431316753
-                  ],
-                  [
-                    148.404817366,
-                    -35.4331492210001
-                  ],
-                  [
-                    148.401343401,
-                    -35.4260452599999
-                  ],
-                  [
-                    148.395386256,
-                    -35.4252298019999
-                  ],
-                  [
-                    148.377304264,
-                    -35.4298464789999
-                  ],
-                  [
-                    148.365916151,
-                    -35.427437734
-                  ],
-                  [
-                    148.366072862,
-                    -35.4334858569998
-                  ],
-                  [
-                    148.358881056,
-                    -35.428805423
-                  ],
-                  [
-                    148.328796184,
-                    -35.4468887199998
-                  ],
-                  [
-                    148.319587355,
-                    -35.4496312619999
-                  ],
-                  [
-                    148.307913096,
-                    -35.4465677279998
-                  ],
-                  [
-                    148.301671447,
-                    -35.449789435
-                  ],
-                  [
-                    148.293858608,
-                    -35.458800503
-                  ],
-                  [
-                    148.300859361,
-                    -35.4665930579998
-                  ],
-                  [
-                    148.298220823,
-                    -35.474140128
-                  ],
-                  [
-                    148.283436849,
-                    -35.477019422
-                  ],
-                  [
-                    148.284414189,
-                    -35.488041875
-                  ],
-                  [
-                    148.280124247,
-                    -35.4842110569999
-                  ],
-                  [
-                    148.270369003,
-                    -35.4830283779998
-                  ],
-                  [
-                    148.272404788,
-                    -35.4742730689999
-                  ],
-                  [
-                    148.268040106,
-                    -35.471170167
-                  ],
-                  [
-                    148.265734542,
-                    -35.472911922
-                  ],
-                  [
-                    148.265849753,
-                    -35.4877007379998
-                  ],
-                  [
-                    148.260580809,
-                    -35.4939581609999
-                  ],
-                  [
-                    148.267699433,
-                    -35.501714745
-                  ],
-                  [
-                    148.270137565,
-                    -35.521723537
-                  ],
-                  [
-                    148.274073274,
-                    -35.527011484
-                  ],
-                  [
-                    148.278880759,
-                    -35.5252311229999
-                  ],
-                  [
-                    148.293260283,
-                    -35.5340199290001
-                  ],
-                  [
-                    148.301148222,
-                    -35.5461046569999
-                  ],
-                  [
-                    148.302574655,
-                    -35.559256588
-                  ],
-                  [
-                    148.313880846,
-                    -35.565580959
-                  ],
-                  [
-                    148.325783284,
-                    -35.5661121419999
-                  ],
-                  [
-                    148.307465651,
-                    -35.5859735059999
-                  ],
-                  [
-                    148.302558922,
-                    -35.589379531
-                  ],
-                  [
-                    148.298005665,
-                    -35.58821076
-                  ],
-                  [
-                    148.29545483,
-                    -35.595392102
-                  ],
-                  [
-                    148.282193907,
-                    -35.5860092489999
-                  ],
-                  [
-                    148.289932501,
-                    -35.576187133
-                  ],
-                  [
-                    148.30567611,
-                    -35.565393594
-                  ],
-                  [
-                    148.29627723,
-                    -35.5577611670001
-                  ],
-                  [
-                    148.294592765,
-                    -35.550622578
-                  ],
-                  [
-                    148.291802098,
-                    -35.551366376
-                  ],
-                  [
-                    148.286482852,
-                    -35.5353912109999
-                  ],
-                  [
-                    148.273575889,
-                    -35.5369909669999
-                  ],
-                  [
-                    148.273618304,
-                    -35.5396741609999
-                  ],
-                  [
-                    148.26805777,
-                    -35.5340672869999
-                  ],
-                  [
-                    148.261581251,
-                    -35.5398006909999
-                  ],
-                  [
-                    148.248893206,
-                    -35.525067308
-                  ],
-                  [
-                    148.245318767,
-                    -35.5253370579999
-                  ],
-                  [
-                    148.238830332,
-                    -35.559960384
-                  ],
-                  [
-                    148.234395663,
-                    -35.543455897
-                  ],
-                  [
-                    148.227334467,
-                    -35.547101721
-                  ],
-                  [
-                    148.236187683,
-                    -35.532085007
-                  ],
-                  [
-                    148.24026511,
-                    -35.5073629469999
-                  ],
-                  [
-                    148.242420158,
-                    -35.5051057819999
-                  ],
-                  [
-                    148.245558259,
-                    -35.507758694
-                  ],
-                  [
-                    148.247801837,
-                    -35.499090036
-                  ],
-                  [
-                    148.243362092,
-                    -35.495310031
-                  ],
-                  [
-                    148.238061998,
-                    -35.496870424
-                  ],
-                  [
-                    148.232753716,
-                    -35.491098969
-                  ],
-                  [
-                    148.239419471,
-                    -35.4860236019999
-                  ],
-                  [
-                    148.242263377,
-                    -35.475806356
-                  ],
-                  [
-                    148.247683696,
-                    -35.4736917179999
-                  ],
-                  [
-                    148.261608377,
-                    -35.452141577
-                  ],
-                  [
-                    148.258111614,
-                    -35.4449257379999
-                  ],
-                  [
-                    148.254428224,
-                    -35.448017517
-                  ],
-                  [
-                    148.244602232,
-                    -35.4460199829999
-                  ],
-                  [
-                    148.251710225,
-                    -35.439643853
-                  ],
-                  [
-                    148.245933463,
-                    -35.433708786
-                  ],
-                  [
-                    148.24265499,
-                    -35.4358834669999
-                  ],
-                  [
-                    148.243381729,
-                    -35.421427352
-                  ],
-                  [
-                    148.22818086,
-                    -35.4388439379999
-                  ],
-                  [
-                    148.229095198,
-                    -35.445668853
-                  ],
-                  [
-                    148.219470738,
-                    -35.444874397
-                  ],
-                  [
-                    148.215100639,
-                    -35.447619694
-                  ],
-                  [
-                    148.20526366,
-                    -35.4400049729999
-                  ],
-                  [
-                    148.205542671,
-                    -35.442267079
-                  ],
-                  [
-                    148.191057993,
-                    -35.444338607
-                  ],
-                  [
-                    148.167776679,
-                    -35.42967677
-                  ],
-                  [
-                    148.172072645,
-                    -35.424572117
-                  ],
-                  [
-                    148.176666936,
-                    -35.424549332
-                  ],
-                  [
-                    148.167622953,
-                    -35.423503932
-                  ],
-                  [
-                    148.16266601,
-                    -35.409460724
-                  ],
-                  [
-                    148.147846763,
-                    -35.4070324109999
-                  ],
-                  [
-                    148.146146928,
-                    -35.4113411659999
-                  ],
-                  [
-                    148.142309748,
-                    -35.411057312
-                  ],
-                  [
-                    148.132746949,
-                    -35.4023685449999
-                  ],
-                  [
-                    148.120643924,
-                    -35.400402673
-                  ],
-                  [
-                    148.079854161,
-                    -35.381861312
-                  ],
-                  [
-                    148.046021418,
-                    -35.381799799
-                  ],
-                  [
-                    148.028707581,
-                    -35.3715299909999
-                  ],
-                  [
-                    148.015528791,
-                    -35.3710113339999
-                  ],
-                  [
-                    148.005607621,
-                    -35.372963064
-                  ],
-                  [
-                    147.994361521,
-                    -35.3841513749999
-                  ],
-                  [
-                    147.984140926,
-                    -35.377005927
-                  ],
-                  [
-                    147.976114686,
-                    -35.378117225
-                  ],
-                  [
-                    147.966243769,
-                    -35.3706541939999
-                  ],
-                  [
-                    147.958485074,
-                    -35.374815809
-                  ],
-                  [
-                    147.95899283,
-                    -35.3889340759999
-                  ],
-                  [
-                    147.952883173,
-                    -35.3843997459999
-                  ],
-                  [
-                    147.9514087,
-                    -35.377540548
-                  ],
-                  [
-                    147.948099018,
-                    -35.383767459
-                  ],
-                  [
-                    147.947452031,
-                    -35.377951681
-                  ],
-                  [
-                    147.952735472,
-                    -35.3711375029999
-                  ],
-                  [
-                    147.938261634,
-                    -35.368573038
-                  ],
-                  [
-                    147.934108803,
-                    -35.37232491
-                  ],
-                  [
-                    147.940083333,
-                    -35.375334451
-                  ],
-                  [
-                    147.938399759,
-                    -35.381167444
-                  ],
-                  [
-                    147.929028828,
-                    -35.3765604869999
-                  ],
-                  [
-                    147.921344604,
-                    -35.3662154469999
-                  ],
-                  [
-                    147.922822852,
-                    -35.36286504
-                  ],
-                  [
-                    147.911363884,
-                    -35.3507684159999
-                  ],
-                  [
-                    147.923891002,
-                    -35.325426815
-                  ],
-                  [
-                    147.919584178,
-                    -35.3211199899999
-                  ],
-                  [
-                    147.914231109,
-                    -35.3218953909999
-                  ],
-                  [
-                    147.92122604,
-                    -35.3119209119999
-                  ],
-                  [
-                    147.90005895,
-                    -35.2917466069999
-                  ],
-                  [
-                    147.905951969,
-                    -35.2876969439999
-                  ],
-                  [
-                    147.90173735,
-                    -35.2853411849999
-                  ],
-                  [
-                    147.902514979,
-                    -35.279112816
-                  ],
-                  [
-                    147.911852088,
-                    -35.2755249649999
-                  ],
-                  [
-                    147.917332975,
-                    -35.284301023
-                  ],
-                  [
-                    147.917469783,
-                    -35.292179884
-                  ],
-                  [
-                    147.922598725,
-                    -35.288054615
-                  ],
-                  [
-                    147.935694287,
-                    -35.2881361079999
-                  ],
-                  [
-                    147.937835801,
-                    -35.294988955
-                  ],
-                  [
-                    147.950945843,
-                    -35.3044503089999
-                  ],
-                  [
-                    147.95289102,
-                    -35.311878935
-                  ],
-                  [
-                    147.962461094,
-                    -35.3140017919999
-                  ],
-                  [
-                    147.973329971,
-                    -35.324161929
-                  ],
-                  [
-                    147.986662342,
-                    -35.330081247
-                  ],
-                  [
-                    147.99836929,
-                    -35.3291104269999
-                  ],
-                  [
-                    147.994029154,
-                    -35.3183171909999
-                  ],
-                  [
-                    147.996770292,
-                    -35.3135202
-                  ],
-                  [
-                    148.01041888,
-                    -35.3116927729999
-                  ],
-                  [
-                    148.004972459,
-                    -35.3118686679999
-                  ],
-                  [
-                    148.012314374,
-                    -35.296329644
-                  ],
-                  [
-                    148.019270475,
-                    -35.297073363
-                  ],
-                  [
-                    148.020926581,
-                    -35.2925619059999
-                  ],
-                  [
-                    148.042674061,
-                    -35.312730728
-                  ],
-                  [
-                    148.048788062,
-                    -35.314566713
-                  ],
-                  [
-                    148.052053038,
-                    -35.3099897019999
-                  ],
-                  [
-                    148.047453027,
-                    -35.305665716
-                  ],
-                  [
-                    148.04679608,
-                    -35.297758648
-                  ],
-                  [
-                    148.039553455,
-                    -35.29571822
-                  ],
-                  [
-                    148.03845845,
-                    -35.283995846
-                  ],
-                  [
-                    148.032029042,
-                    -35.2855345319999
-                  ],
-                  [
-                    148.025723574,
-                    -35.277942497
-                  ],
-                  [
-                    148.017214621,
-                    -35.2801696719999
-                  ],
-                  [
-                    147.998318962,
-                    -35.275638847
-                  ],
-                  [
-                    147.982550633,
-                    -35.277714069
-                  ],
-                  [
-                    147.982207992,
-                    -35.2702901499999
-                  ],
-                  [
-                    147.970786577,
-                    -35.2684627249999
-                  ],
-                  [
-                    147.968482934,
-                    -35.2604819269999
-                  ],
-                  [
-                    147.949542751,
-                    -35.243564044
-                  ],
-                  [
-                    147.950799105,
-                    -35.237624909
-                  ],
-                  [
-                    147.932567773,
-                    -35.237559411
-                  ],
-                  [
-                    147.922017145,
-                    -35.2468191469999
-                  ],
-                  [
-                    147.917803973,
-                    -35.2457189799999
-                  ],
-                  [
-                    147.91558269,
-                    -35.234380006
-                  ],
-                  [
-                    147.931377302,
-                    -35.2323509569999
-                  ],
-                  [
-                    147.933370051,
-                    -35.22355633
-                  ],
-                  [
-                    147.928888283,
-                    -35.218056034
-                  ],
-                  [
-                    147.923846187,
-                    -35.216925636
-                  ],
-                  [
-                    147.915428337,
-                    -35.220639674
-                  ],
-                  [
-                    147.916896659,
-                    -35.227117606
-                  ],
-                  [
-                    147.909197211,
-                    -35.224980859
-                  ],
-                  [
-                    147.909819299,
-                    -35.2182008519999
-                  ],
-                  [
-                    147.893774392,
-                    -35.226788369
-                  ],
-                  [
-                    147.887976196,
-                    -35.2198898839999
-                  ],
-                  [
-                    147.883158687,
-                    -35.226032483
-                  ],
-                  [
-                    147.888323142,
-                    -35.230384349
-                  ],
-                  [
-                    147.881744731,
-                    -35.2338405099999
-                  ],
-                  [
-                    147.871016376,
-                    -35.225182366
-                  ],
-                  [
-                    147.864322962,
-                    -35.233973143
-                  ],
-                  [
-                    147.855057801,
-                    -35.232373406
-                  ],
-                  [
-                    147.8548061,
-                    -35.238048578
-                  ],
-                  [
-                    147.826003269,
-                    -35.248836116
-                  ],
-                  [
-                    147.822861089,
-                    -35.254463889
-                  ],
-                  [
-                    147.829776549,
-                    -35.261743781
-                  ],
-                  [
-                    147.831135288,
-                    -35.280433783
-                  ],
-                  [
-                    147.825984578,
-                    -35.28891435
-                  ],
-                  [
-                    147.82746779,
-                    -35.297421055
-                  ],
-                  [
-                    147.819042905,
-                    -35.3276809179999
-                  ],
-                  [
-                    147.820552228,
-                    -35.338763985
-                  ],
-                  [
-                    147.817260871,
-                    -35.3423814619999
-                  ],
-                  [
-                    147.82018122,
-                    -35.347858226
-                  ],
-                  [
-                    147.816332006,
-                    -35.3542396559999
-                  ],
-                  [
-                    147.819122342,
-                    -35.362228289
-                  ],
-                  [
-                    147.83157856,
-                    -35.374902725
-                  ],
-                  [
-                    147.830950721,
-                    -35.381849248
-                  ],
-                  [
-                    147.836203359,
-                    -35.383269372
-                  ],
-                  [
-                    147.834654353,
-                    -35.393561029
-                  ],
-                  [
-                    147.848563389,
-                    -35.403054342
-                  ],
-                  [
-                    147.850590082,
-                    -35.4129165579999
-                  ],
-                  [
-                    147.861338679,
-                    -35.420712911
-                  ],
-                  [
-                    147.860456155,
-                    -35.428162315
-                  ],
-                  [
-                    147.865055757,
-                    -35.4350063869999
-                  ],
-                  [
-                    147.861960324,
-                    -35.4380280089999
-                  ],
-                  [
-                    147.87457139,
-                    -35.4483016529999
-                  ],
-                  [
-                    147.873043706,
-                    -35.4573784909999
-                  ],
-                  [
-                    147.880789673,
-                    -35.47190626
-                  ],
-                  [
-                    147.87729839,
-                    -35.473415221
-                  ],
-                  [
-                    147.883581579,
-                    -35.473856667
-                  ],
-                  [
-                    147.889371569,
-                    -35.4912141629999
-                  ],
-                  [
-                    147.887658342,
-                    -35.502350023
-                  ],
-                  [
-                    147.892583822,
-                    -35.501850342
-                  ],
-                  [
-                    147.893083492,
-                    -35.507917961
-                  ],
-                  [
-                    147.899062566,
-                    -35.513097553
-                  ],
-                  [
-                    147.902754645,
-                    -35.5202376659999
-                  ],
-                  [
-                    147.899415157,
-                    -35.5268588449998
-                  ],
-                  [
-                    147.902170283,
-                    -35.538360521
-                  ],
-                  [
-                    147.923951083,
-                    -35.567036885
-                  ],
-                  [
-                    147.918503648,
-                    -35.5732332029999
-                  ],
-                  [
-                    147.906235793,
-                    -35.5714773109999
-                  ],
-                  [
-                    147.89862203,
-                    -35.5747747600001
-                  ],
-                  [
-                    147.896191733,
-                    -35.5967128189998
-                  ],
-                  [
-                    147.888618825,
-                    -35.6006358949999
-                  ],
-                  [
-                    147.893781454,
-                    -35.607292044
-                  ],
-                  [
-                    147.90503736,
-                    -35.6064701459999
-                  ],
-                  [
-                    147.908069179,
-                    -35.6110991179998
-                  ],
-                  [
-                    147.904970062,
-                    -35.6117935739999
-                  ],
-                  [
-                    147.904702317,
-                    -35.625103715
-                  ],
-                  [
-                    147.911431555,
-                    -35.6261053509999
-                  ],
-                  [
-                    147.910095669,
-                    -35.6323157780001
-                  ],
-                  [
-                    147.918759378,
-                    -35.6230001709999
-                  ],
-                  [
-                    147.929998669,
-                    -35.625065464
-                  ],
-                  [
-                    147.92924433,
-                    -35.628702998
-                  ],
-                  [
-                    147.933760936,
-                    -35.6293721979999
-                  ],
-                  [
-                    147.932737787,
-                    -35.643490359
-                  ],
-                  [
-                    147.940178836,
-                    -35.6444561889999
-                  ],
-                  [
-                    147.952715529,
-                    -35.6237034649999
-                  ],
-                  [
-                    147.957850164,
-                    -35.6252106039999
-                  ],
-                  [
-                    147.953364497,
-                    -35.644133032
-                  ],
-                  [
-                    147.959976504,
-                    -35.6528155920001
-                  ],
-                  [
-                    147.95949074,
-                    -35.668028632
-                  ],
-                  [
-                    147.962387309,
-                    -35.6695704730001
-                  ],
-                  [
-                    147.958599177,
-                    -35.683950313
-                  ],
-                  [
-                    147.968521491,
-                    -35.6988695229999
-                  ],
-                  [
-                    147.970520213,
-                    -35.710861992
-                  ],
-                  [
-                    147.975945374,
-                    -35.7115044499999
-                  ],
-                  [
-                    147.985727763,
-                    -35.7223736820001
-                  ],
-                  [
-                    147.982176506,
-                    -35.7298419539999
-                  ],
-                  [
-                    147.987607717,
-                    -35.7442231759999
-                  ],
-                  [
-                    148.007325916,
-                    -35.7485904369999
-                  ],
-                  [
-                    148.014875144,
-                    -35.7598311629998
-                  ],
-                  [
-                    148.029959262,
-                    -35.766899329
-                  ],
-                  [
-                    148.026875827,
-                    -35.7772703639999
-                  ],
-                  [
-                    148.032266977,
-                    -35.7949520920001
-                  ],
-                  [
-                    148.031338969,
-                    -35.8066590209999
-                  ],
-                  [
-                    148.055612744,
-                    -35.8095632640001
-                  ],
-                  [
-                    148.077167275,
-                    -35.8262182120001
-                  ],
-                  [
-                    148.074399899,
-                    -35.828768399
-                  ],
-                  [
-                    148.076810327,
-                    -35.8416370939999
-                  ],
-                  [
-                    148.088377416,
-                    -35.849584555
-                  ],
-                  [
-                    148.089975274,
-                    -35.855441456
-                  ],
-                  [
-                    148.072528595,
-                    -35.854696245
-                  ],
-                  [
-                    148.069325295,
-                    -35.8592031670001
-                  ],
-                  [
-                    148.064048525,
-                    -35.8590353269999
-                  ],
-                  [
-                    148.064825126,
-                    -35.8513713239999
-                  ],
-                  [
-                    148.05152918,
-                    -35.849627798
-                  ],
-                  [
-                    148.047051178,
-                    -35.8566799809999
-                  ],
-                  [
-                    148.035120508,
-                    -35.8560651489999
-                  ],
-                  [
-                    148.024207456,
-                    -35.826723181
-                  ],
-                  [
-                    148.014423172,
-                    -35.8274379709999
-                  ],
-                  [
-                    148.006254256,
-                    -35.8330705879999
-                  ],
-                  [
-                    148.006405562,
-                    -35.8399351699998
-                  ],
-                  [
-                    148.019173345,
-                    -35.8655128579999
-                  ],
-                  [
-                    148.029793775,
-                    -35.8671284250001
-                  ],
-                  [
-                    148.025930194,
-                    -35.8857918190001
-                  ],
-                  [
-                    148.016185118,
-                    -35.8857295629999
-                  ],
-                  [
-                    148.004506334,
-                    -35.8794122869999
-                  ],
-                  [
-                    147.996061658,
-                    -35.8728872449999
-                  ],
-                  [
-                    147.996564138,
-                    -35.8662039379999
-                  ],
-                  [
-                    147.975176007,
-                    -35.866617984
-                  ],
-                  [
-                    147.968241921,
-                    -35.8627381290001
-                  ],
-                  [
-                    147.962025797,
-                    -35.8641975760001
-                  ],
-                  [
-                    147.96537601,
-                    -35.8694722679998
-                  ],
-                  [
-                    147.960568613,
-                    -35.8795801770001
-                  ],
-                  [
-                    147.963004899,
-                    -35.8853844690001
-                  ],
-                  [
-                    147.950782253,
-                    -35.883231615
-                  ],
-                  [
-                    147.951185281,
-                    -35.8805344719999
-                  ],
-                  [
-                    147.941481762,
-                    -35.8818055289999
-                  ],
-                  [
-                    147.929025152,
-                    -35.8748933789999
-                  ],
-                  [
-                    147.924099668,
-                    -35.8786053269999
-                  ],
-                  [
-                    147.929453441,
-                    -35.8818889839999
-                  ],
-                  [
-                    147.928121682,
-                    -35.8889656609999
-                  ],
-                  [
-                    147.916737246,
-                    -35.884925116
-                  ],
-                  [
-                    147.919569644,
-                    -35.8800911749998
-                  ],
-                  [
-                    147.915405603,
-                    -35.8749158499999
-                  ],
-                  [
-                    147.898781568,
-                    -35.871762409
-                  ],
-                  [
-                    147.897309106,
-                    -35.8784144459999
-                  ],
-                  [
-                    147.889558189,
-                    -35.8520796660001
-                  ],
-                  [
-                    147.877655452,
-                    -35.8462588130001
-                  ],
-                  [
-                    147.869074177,
-                    -35.8519269700001
-                  ],
-                  [
-                    147.871699799,
-                    -35.8669379489999
-                  ],
-                  [
-                    147.859721561,
-                    -35.8712918639999
-                  ],
-                  [
-                    147.858296482,
-                    -35.881104027
-                  ],
-                  [
-                    147.849145164,
-                    -35.8871231029999
-                  ],
-                  [
-                    147.848687207,
-                    -35.8788178739998
-                  ],
-                  [
-                    147.831851213,
-                    -35.8991748299999
-                  ],
-                  [
-                    147.813815319,
-                    -35.9081382990001
-                  ],
-                  [
-                    147.812985183,
-                    -35.9171642699997
-                  ]
-                ],
-                [
-                  [
-                    148.236187683,
-                    -35.532085007
-                  ],
-                  [
-                    148.169463378,
-                    -35.5257613940001
-                  ],
-                  [
-                    148.17925582,
-                    -35.531063615
-                  ],
-                  [
-                    148.176879022,
-                    -35.5368032560001
-                  ],
-                  [
-                    148.170806661,
-                    -35.5366715179998
-                  ],
-                  [
-                    148.163933374,
-                    -35.5295815670001
-                  ],
-                  [
-                    148.149049865,
-                    -35.533636497
-                  ],
-                  [
-                    148.150478388,
-                    -35.537890019
-                  ],
-                  [
-                    148.143847472,
-                    -35.5372377049999
-                  ],
-                  [
-                    148.144561683,
-                    -35.529957795
-                  ],
-                  [
-                    148.139199465,
-                    -35.5222374069999
-                  ],
-                  [
-                    148.13919946499993,
-                    -35.5222374069999
-                  ],
-                  [
-                    148.136170016,
-                    -35.516412413
-                  ],
-                  [
-                    148.141726871,
-                    -35.512156951
-                  ],
-                  [
-                    148.152133411,
-                    -35.513137501
-                  ],
-                  [
-                    148.150982963,
-                    -35.517842386
-                  ],
-                  [
-                    148.159966838,
-                    -35.511805669
-                  ],
-                  [
-                    148.162426045,
-                    -35.5211719759999
-                  ],
-                  [
-                    148.169463378,
-                    -35.525761394
-                  ],
-                  [
-                    148.236187683,
-                    -35.532085007
-                  ]
-                ],
-                [
-                  [
-                    148.066994911,
-                    -35.5139830109998
-                  ],
-                  [
-                    148.06742453,
-                    -35.511062231
-                  ],
-                  [
-                    148.071902473,
-                    -35.5073156079999
-                  ],
-                  [
-                    148.06938252,
-                    -35.500978087
-                  ],
-                  [
-                    148.085506193,
-                    -35.50309584
-                  ],
-                  [
-                    148.089101375,
-                    -35.510596714
-                  ],
-                  [
-                    148.099803306,
-                    -35.508785669
-                  ],
-                  [
-                    148.096692571,
-                    -35.5165903029999
-                  ],
-                  [
-                    148.099016122,
-                    -35.5302334469998
-                  ],
-                  [
-                    148.082515465,
-                    -35.5236440920001
-                  ],
-                  [
-                    148.077502427,
-                    -35.5159145789999
-                  ],
-                  [
-                    148.066994911,
-                    -35.5139830109998
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    147.994167783,
-                    -35.171741536
-                  ],
-                  [
-                    147.997736976,
-                    -35.177690189
-                  ],
-                  [
-                    148.00279333,
-                    -35.176797891
-                  ],
-                  [
-                    148.006065089,
-                    -35.172336402
-                  ],
-                  [
-                    148.004280493,
-                    -35.167280047
-                  ],
-                  [
-                    147.997142108,
-                    -35.1666851809999
-                  ],
-                  [
-                    147.994167783,
-                    -35.171741536
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    148.150101838,
-                    -35.522228244
-                  ],
-                  [
-                    148.150201108,
-                    -35.523050296
-                  ],
-                  [
-                    148.150686596,
-                    -35.523331926
-                  ],
-                  [
-                    148.150855524,
-                    -35.522900923
-                  ],
-                  [
-                    148.150584258,
-                    -35.522295207
-                  ],
-                  [
-                    148.150494688,
-                    -35.522152932
-                  ],
-                  [
-                    148.150101838,
-                    -35.522228244
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    148.47710401,
-                    -35.459447879
-                  ],
-                  [
-                    148.477481227,
-                    -35.4607948629999
-                  ],
-                  [
-                    148.478145836,
-                    -35.461704155
-                  ],
-                  [
-                    148.480042725,
-                    -35.4620798779999
-                  ],
-                  [
-                    148.480724458,
-                    -35.4627460899999
-                  ],
-                  [
-                    148.48346347,
-                    -35.4651593799999
-                  ],
-                  [
-                    148.485269239,
-                    -35.4673522539999
-                  ],
-                  [
-                    148.485091423,
-                    -35.467778605
-                  ],
-                  [
-                    148.484511422,
-                    -35.468417164
-                  ],
-                  [
-                    148.48437169,
-                    -35.4687468779999
-                  ],
-                  [
-                    148.484244554,
-                    -35.4697622469999
-                  ],
-                  [
-                    148.484736657,
-                    -35.4727379669999
-                  ],
-                  [
-                    148.485359766,
-                    -35.474906994
-                  ],
-                  [
-                    148.48784102,
-                    -35.4770233
-                  ],
-                  [
-                    148.488257293,
-                    -35.47785306
-                  ],
-                  [
-                    148.488857449,
-                    -35.478770004
-                  ],
-                  [
-                    148.489560354,
-                    -35.4793278659999
-                  ],
-                  [
-                    148.490133996,
-                    -35.480006503
-                  ],
-                  [
-                    148.490744039,
-                    -35.480752712
-                  ],
-                  [
-                    148.491971958,
-                    -35.4816035919999
-                  ],
-                  [
-                    148.492902708,
-                    -35.481077673
-                  ],
-                  [
-                    148.493603189,
-                    -35.48078192
-                  ],
-                  [
-                    148.494673819,
-                    -35.4803838679999
-                  ],
-                  [
-                    148.495415459,
-                    -35.4802297689999
-                  ],
-                  [
-                    148.496135805,
-                    -35.480239288
-                  ],
-                  [
-                    148.496874004,
-                    -35.4802419289999
-                  ],
-                  [
-                    148.497992326,
-                    -35.4800714469999
-                  ],
-                  [
-                    148.498712508,
-                    -35.479796732
-                  ],
-                  [
-                    148.499276616,
-                    -35.479295916
-                  ],
-                  [
-                    148.499752967,
-                    -35.478730476
-                  ],
-                  [
-                    148.499933773,
-                    -35.477589908
-                  ],
-                  [
-                    148.500169899,
-                    -35.476862152
-                  ],
-                  [
-                    148.500488668,
-                    -35.476156228
-                  ],
-                  [
-                    148.50135956,
-                    -35.4753091969999
-                  ],
-                  [
-                    148.502011714,
-                    -35.47453868
-                  ],
-                  [
-                    148.502477147,
-                    -35.473335763
-                  ],
-                  [
-                    148.503654438,
-                    -35.4725230139999
-                  ],
-                  [
-                    148.50457398,
-                    -35.4724228759999
-                  ],
-                  [
-                    148.504521681,
-                    -35.471444612
-                  ],
-                  [
-                    148.504466281,
-                    -35.4706372649999
-                  ],
-                  [
-                    148.504441139,
-                    -35.4698211589999
-                  ],
-                  [
-                    148.504414661,
-                    -35.468592835
-                  ],
-                  [
-                    148.504290616,
-                    -35.467335884
-                  ],
-                  [
-                    148.504245446,
-                    -35.466084591
-                  ],
-                  [
-                    148.50423883,
-                    -35.464812261
-                  ],
-                  [
-                    148.504218971,
-                    -35.463967446
-                  ],
-                  [
-                    148.504246972,
-                    -35.4631416199999
-                  ],
-                  [
-                    148.504326019,
-                    -35.462336287
-                  ],
-                  [
-                    148.504607493,
-                    -35.4611800879999
-                  ],
-                  [
-                    148.50522324,
-                    -35.460217682
-                  ],
-                  [
-                    148.50572222,
-                    -35.459640211
-                  ],
-                  [
-                    148.506459669,
-                    -35.458777843
-                  ],
-                  [
-                    148.506791266,
-                    -35.4581490749999
-                  ],
-                  [
-                    148.506801999,
-                    -35.4574513659999
-                  ],
-                  [
-                    148.50646924,
-                    -35.456789236
-                  ],
-                  [
-                    148.505809832,
-                    -35.4562837199999
-                  ],
-                  [
-                    148.504597385,
-                    -35.455643505
-                  ],
-                  [
-                    148.503907135,
-                    -35.45503351
-                  ],
-                  [
-                    148.503228789,
-                    -35.453974076
-                  ],
-                  [
-                    148.503038023,
-                    -35.4527805769999
-                  ],
-                  [
-                    148.502861591,
-                    -35.451593865
-                  ],
-                  [
-                    148.502507373,
-                    -35.450846785
-                  ],
-                  [
-                    148.501888454,
-                    -35.450252254
-                  ],
-                  [
-                    148.500611546,
-                    -35.449915924
-                  ],
-                  [
-                    148.499709982,
-                    -35.4499147889999
-                  ],
-                  [
-                    148.49830835,
-                    -35.449872538
-                  ],
-                  [
-                    148.497343501,
-                    -35.449712566
-                  ],
-                  [
-                    148.496120158,
-                    -35.4491223489999
-                  ],
-                  [
-                    148.4952432,
-                    -35.448551976
-                  ],
-                  [
-                    148.494426548,
-                    -35.4479926019999
-                  ],
-                  [
-                    148.493602471,
-                    -35.447729866
-                  ],
-                  [
-                    148.492734906,
-                    -35.4476962589999
-                  ],
-                  [
-                    148.491441332,
-                    -35.4480669559999
-                  ],
-                  [
-                    148.48960929,
-                    -35.448621637
-                  ],
-                  [
-                    148.488598968,
-                    -35.448925615
-                  ],
-                  [
-                    148.488475655,
-                    -35.44912856
-                  ],
-                  [
-                    148.487423867,
-                    -35.4497139069999
-                  ],
-                  [
-                    148.486655154,
-                    -35.4501305269999
-                  ],
-                  [
-                    148.485505731,
-                    -35.450749146
-                  ],
-                  [
-                    148.484309287,
-                    -35.4513586319999
-                  ],
-                  [
-                    148.483505451,
-                    -35.4517909269999
-                  ],
-                  [
-                    148.482730035,
-                    -35.452232732
-                  ],
-                  [
-                    148.481673149,
-                    -35.453001684
-                  ],
-                  [
-                    148.48110369,
-                    -35.453572282
-                  ],
-                  [
-                    148.481150538,
-                    -35.4536931499999
-                  ],
-                  [
-                    148.480521298,
-                    -35.4535572789999
-                  ],
-                  [
-                    148.479719754,
-                    -35.453567108
-                  ],
-                  [
-                    148.479184707,
-                    -35.454199842
-                  ],
-                  [
-                    148.479195621,
-                    -35.4547960639999
-                  ],
-                  [
-                    148.479348455,
-                    -35.455181823
-                  ],
-                  [
-                    148.479603089,
-                    -35.4555571139999
-                  ],
-                  [
-                    148.479402934,
-                    -35.4559463589999
-                  ],
-                  [
-                    148.477902981,
-                    -35.4578942329999
-                  ],
-                  [
-                    148.47710401,
-                    -35.459447879
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    148.547313924,
-                    -35.6837835539999
-                  ],
-                  [
-                    148.547712385,
-                    -35.6839933909999
-                  ],
-                  [
-                    148.548150138,
-                    -35.683952323
-                  ],
-                  [
-                    148.54840863,
-                    -35.6836987689999
-                  ],
-                  [
-                    148.548579442,
-                    -35.6834462749999
-                  ],
-                  [
-                    148.548576843,
-                    -35.683303205
-                  ],
-                  [
-                    148.548440124,
-                    -35.6830186559999
-                  ],
-                  [
-                    148.547693547,
-                    -35.682956132
-                  ],
-                  [
-                    148.547394462,
-                    -35.6833890519999
-                  ],
-                  [
-                    148.547313924,
-                    -35.6837835539999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    148.580433969,
-                    -35.811198835
-                  ],
-                  [
-                    148.580719504,
-                    -35.8113891909999
-                  ],
-                  [
-                    148.581016937,
-                    -35.811329706
-                  ],
-                  [
-                    148.581100218,
-                    -35.811151246
-                  ],
-                  [
-                    148.580981244,
-                    -35.81086571
-                  ],
-                  [
-                    148.580671915,
-                    -35.810818121
-                  ],
-                  [
-                    148.580469661,
-                    -35.8109608889999
-                  ],
-                  [
-                    148.580433969,
-                    -35.811198835
-                  ]
-                ]
-              ]
-            ]
-          }
+        "type": "Point",
+        "coordinates": [
+          147.856,
+          -35.3202
         ]
       },
       "id": 367024
@@ -85665,8 +82468,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Jacqua Creek, Bungonia",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367079",
+        "title": "Jacqua Creek, Bungonia",
         "pub-date": "2020-01-16T04:50:00+11:00",
         "location": "Oallen Ford Rd, Bungonia,  2580",
         "council-area": "Goulburn Mulwaree",
@@ -86380,8 +83183,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8685",
         "title": "Good Good Fire ",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8685",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367252",
         "pub-date": "2020-01-16T21:37:00+11:00",
         "location": "Jerangle Road",
@@ -86399,11 +83202,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.5287,
               -36.1663
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -93444,11 +90247,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.0353,
               -35.7027
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -98318,9 +95121,9 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Green Valley, Talmalmo",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8536",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367335",
-        "title": "Green Valley, Talmalmo",
         "pub-date": "2020-01-16T21:27:00+11:00",
         "location": "\"Green Valley/Avoca\" Yenches/River Rd, Talmalmo, NSW 2640",
         "council-area": "Greater Hume",
@@ -100203,8 +97006,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367341",
         "title": "Nine Mile Complex",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367341",
         "pub-date": "2020-01-16T22:25:00+11:00",
         "location": "50km SSW of Jindabyne",
         "council-area": "Snowy Monaro",
@@ -100227,6 +97030,7 @@
             ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -100866,8 +97670,7 @@
                   -36.813794532
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -101491,8 +98294,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Tarbuck Park",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367553",
+        "title": "Tarbuck Park",
         "pub-date": "2020-01-16T04:06:00+11:00",
         "location": "Tarbuck Park Rd, Tarbuck Bay, NSW 2428",
         "council-area": "Mid-Coast",
@@ -101958,19 +98761,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           148.9228,
           -37.07
-        ],
-        "type": "Point"
+        ]
       },
       "id": 367769
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367969",
         "title": "Springhill Rd, Coopernook",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367969",
         "pub-date": "2020-01-16T23:33:00+11:00",
         "location": "128 Springhill Rd, Coopernook, NSW 2426",
         "council-area": "Mid-Coast",
@@ -102789,9 +99592,9 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8891",
-        "title": "Adaminaby Complex ",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368430",
+        "title": "Adaminaby Complex ",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8891",
         "pub-date": "2020-01-16T22:02:00+11:00",
         "location": "bugtown road",
         "council-area": "Snowy Monaro",
@@ -102808,11 +99611,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               148.7876,
               -35.8829
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -109220,8 +106023,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Summerhill Dr, Wangi Wangi",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368768",
+        "title": "Summerhill Dr, Wangi Wangi",
         "pub-date": "2020-01-16T03:54:00+11:00",
         "location": "Summerhill Dr, Wangi Wangi, NSW 2267",
         "council-area": "Lake Macquarie",
@@ -109237,11 +106040,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               151.5525,
               -33.0365
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "Polygon",
@@ -109925,9 +106728,9 @@
     {
       "type": "Feature",
       "properties": {
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368771",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9206",
         "title": "Border Fire",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368771",
         "pub-date": "2020-01-16T21:50:00+11:00",
         "location": "4km SW of Timbillica",
         "council-area": "Bega Valley",
@@ -109944,11 +106747,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.5222,
               -37.1108
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -111036,9 +107839,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "North Black Range, Palerang",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368782",
-        "pub-date": "2020-01-15T20:28:00+11:00",
+        "title": "North Black Range, Palerang",
+        "pub-date": "2020-01-16T23:32:00+11:00",
         "location": "West of Braidwood",
         "council-area": "Queanbeyan-Palerang",
         "status": "Under control",
@@ -111046,7 +107849,7 @@
         "fire": true,
         "size": 37487,
         "responsible-agency": "Rural Fire Service",
-        "updated": "2020-01-16T07:28:00+11:00",
+        "updated": "2020-01-17T10:32:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -113351,9 +110154,9 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369061",
         "title": "Pilot Lookout",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9105",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369061",
         "pub-date": "2020-01-16T22:30:00+11:00",
         "location": "Dead Horse Gap",
         "council-area": "Snowy Monaro",
@@ -113370,11 +110173,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               148.1948,
               -36.5514
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -116864,8 +113667,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369276",
         "title": "Jinden",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369276",
         "pub-date": "2020-01-16T07:13:00+11:00",
         "location": "Jinden",
         "council-area": "Queanbeyan-Palerang",
@@ -117587,19 +114390,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           152.8005,
           -31.6819
-        ],
-        "type": "Point"
+        ]
       },
       "id": 369575
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Geehi",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369633",
+        "title": "Geehi",
         "pub-date": "2020-01-16T22:29:00+11:00",
         "location": "geehi",
         "council-area": "Snowy Monaro",
@@ -117615,11 +114418,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               148.2829,
               -36.356
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -118921,8 +115724,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369656",
         "title": "Port Stevens Cutting",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369656",
         "pub-date": "2020-01-16T23:07:00+11:00",
         "location": "-31.332  151.292",
         "council-area": "Tamworth",
@@ -119720,8 +116523,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369694",
         "title": "Cowsby Rd, Niangala",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369694",
         "pub-date": "2020-01-16T23:13:00+11:00",
         "location": "Cowsby Rd, Niangala, NSW 2354",
         "council-area": "Tamworth",
@@ -119737,11 +116540,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.4429,
               -31.5603
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -120459,8 +117262,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "The Lakes Way, Darawank",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369989",
+        "title": "The Lakes Way, Darawank",
         "pub-date": "2020-01-16T04:05:00+11:00",
         "location": "The Lakes Way, Darawank, NSW 2428",
         "council-area": "Mid-Coast",
@@ -120473,19 +117276,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           152.4783,
           -32.1
-        ]
+        ],
+        "type": "Point"
       },
       "id": 369989
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370089",
         "title": "Mt Waa Wilderness",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370089",
         "pub-date": "2020-01-16T04:23:00+11:00",
         "location": "Amberley North Killarney Gap Rd",
         "council-area": "Gwydir",
@@ -120501,11 +117304,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.0987,
               -30.0836
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -121519,9 +118322,9 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370338",
         "title": "Morton Fire",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9328",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370338",
         "pub-date": "2020-01-16T21:59:00+11:00",
         "location": "5km SE Bundanoon",
         "council-area": "Wingecarribee",
@@ -121538,11 +118341,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.2475,
               -34.7543
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -128051,8 +124854,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370663",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483",
         "title": "Rockton",
         "pub-date": "2020-01-16T05:10:00+11:00",
         "location": "Rockton",
@@ -128070,11 +124873,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.3461,
               -37.1021
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -128872,8 +125675,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371139",
         "title": "Oaky Creek",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371139",
         "pub-date": "2020-01-16T04:25:00+11:00",
         "location": "Oaky Creek, Terreel",
         "council-area": "Mid-Coast",
@@ -128889,11 +125692,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.0242,
               -32.2599
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -129587,8 +126390,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371176",
         "title": "Baerami Creek Rd, Baerami",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371176",
         "pub-date": "2020-01-16T05:30:00+11:00",
         "location": "300 Baerami Creek Rd, Baerami, NSW 2333",
         "council-area": "Muswellbrook",
@@ -129629,14 +126432,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.9733,
               -31.6763
-            ],
-            "type": "Point"
+            ]
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -130288,7 +127090,8 @@
                   -31.652822065
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -130297,8 +127100,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371346",
         "title": "Yearinan Station Rd, Bugaldie",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371346",
         "pub-date": "2020-01-16T21:46:00+11:00",
         "location": "177 Yearinan Station Rd, Bugaldie, NSW 2357",
         "council-area": "Warrumbungle",
@@ -130314,13 +127117,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.2809,
               -31.1835
-            ]
+            ],
+            "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -130972,8 +127776,7 @@
                   -31.1498992479999
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -130982,8 +127785,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Yellow Bog Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371442",
+        "title": "Yellow Bog Road",
         "pub-date": "2020-01-16T22:52:00+11:00",
         "location": "Wellumba Creek",
         "council-area": "Snowy Valleys",
@@ -131006,7 +127809,6 @@
             ]
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -131562,7 +128364,8 @@
                   -36.075724454
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -131595,7 +128398,6 @@
             "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -131955,7 +128757,8 @@
                   -31.1095648579999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -133675,9 +130478,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "The Dewitts",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371543",
-        "pub-date": "2020-01-16T04:37:00+11:00",
+        "title": "The Dewitts",
+        "pub-date": "2020-01-16T23:37:00+11:00",
         "location": "Curricabark Rd, Rookhurst, NSW 2422",
         "council-area": "Mid-Coast",
         "status": "Under control",
@@ -133685,7 +130488,7 @@
         "fire": true,
         "size": 2,
         "responsible-agency": "Rural Fire Service",
-        "updated": "2020-01-16T15:37:00+11:00",
+        "updated": "2020-01-17T10:37:00+11:00",
         "alert-level": "Advice"
       },
       "geometry": {
@@ -133788,8 +130591,8 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6025",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371572",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=6025",
         "title": "Currowan 2",
         "pub-date": "2020-01-16T22:31:00+11:00",
         "location": "Clyde Ridge Rd, Currowan, NSW 2536",
@@ -143800,14 +140603,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               151.5721,
               -31.6757
-            ]
+            ],
+            "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -144171,7 +140973,8 @@
                   -31.6720186479999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -144550,11 +141353,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.7531,
               -32.511
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -146066,8 +142869,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mary's Hill",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371896",
+        "title": "Mary's Hill",
         "pub-date": "2020-01-16T23:10:00+11:00",
         "location": "mount jackson",
         "council-area": "Snowy Valleys",
@@ -146711,8 +143514,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372029",
         "title": "North Berthong Rd, Berthong",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372029",
         "pub-date": "2020-01-16T02:49:00+11:00",
         "location": "1246 North Berthong Rd, Berthong, NSW 2594",
         "council-area": "Hilltops",
@@ -146760,6 +143563,7 @@
             ]
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -146907,8 +143711,7 @@
                   -32.7688469569999
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -146917,8 +143720,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Gundare Rd, Coolah",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372170",
+        "title": "Gundare Rd, Coolah",
         "pub-date": "2020-01-16T21:48:00+11:00",
         "location": "1100 Gundare Rd, Coolah, NSW 2843",
         "council-area": "Warrumbungle",
@@ -146931,11 +143734,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           149.8117,
           -31.7262
-        ]
+        ],
+        "type": "Point"
       },
       "id": 372170
     },
@@ -146981,19 +143784,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           150.195,
           -33.5023
-        ],
-        "type": "Point"
+        ]
       },
       "id": 372371
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Cabbage Tree Rd, Terreel",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372375",
+        "title": "Cabbage Tree Rd, Terreel",
         "pub-date": "2020-01-16T04:07:00+11:00",
         "location": "Cabbage Tree Rd, Terreel, NSW 2422",
         "council-area": "Mid-Coast",
@@ -147016,6 +143819,7 @@
             "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -147199,8 +144003,7 @@
                   -32.242977251
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -147248,19 +144051,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           148.7354,
           -33.8331
-        ]
+        ],
+        "type": "Point"
       },
       "id": 372550
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Wondalga Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372553",
+        "title": "Wondalga Creek",
         "pub-date": "2020-01-16T22:46:00+11:00",
         "location": "Windowie",
         "council-area": "Snowy Valleys",
@@ -147273,11 +144076,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           148.1193,
           -35.3859
-        ],
-        "type": "Point"
+        ]
       },
       "id": 372553
     },
@@ -147309,8 +144112,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372583",
         "title": "Linden Ridge",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372583",
         "pub-date": "2020-01-16T23:00:00+11:00",
         "location": "Linden Ridge",
         "council-area": "Blue Mountains",
@@ -147348,19 +144151,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           148.0852,
           -33.3916
-        ]
+        ],
+        "type": "Point"
       },
       "id": 372584
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372588",
         "title": "Rusty Gate",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372588",
         "pub-date": "2020-01-16T20:38:00+11:00",
         "location": "Cpt 1 Koondrook SF between River Rd and river",
         "council-area": "Murray River",
@@ -147373,19 +144176,19 @@
         "alert-level": "Advice"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           144.3232,
           -35.7474
-        ]
+        ],
+        "type": "Point"
       },
       "id": 372588
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372594",
         "title": "Wandary Lane Forbes",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372594",
         "pub-date": "2020-01-16T05:59:00+11:00",
         "location": "Wandary Lane Forbes 2871",
         "council-area": "Forbes",
@@ -147409,8 +144212,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Bedgerabong Rd",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372596",
+        "title": "Bedgerabong Rd",
         "pub-date": "2020-01-16T22:15:00+11:00",
         "location": "320 Bedgerabong Rd Forbes 2871",
         "council-area": "Forbes",
@@ -147423,19 +144226,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           147.9714,
           -33.3756
-        ],
-        "type": "Point"
+        ]
       },
       "id": 372596
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Kelly St, Austral",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372618",
+        "title": "Kelly St, Austral",
         "pub-date": "2020-01-16T07:47:00+11:00",
         "location": "35A Kelly St, Austral, NSW 2179",
         "council-area": "Liverpool",
@@ -147484,8 +144287,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mount View Tree Alight",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372643",
+        "title": "Mount View Tree Alight",
         "pub-date": "2020-01-16T11:43:00+11:00",
         "location": "monteagle",
         "council-area": "Hilltops",
@@ -147548,19 +144351,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           150.7638,
           -34.9175
-        ],
-        "type": "Point"
+        ]
       },
       "id": 372652
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372654",
         "title": "Sturt Hwy, Sandigo",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372654",
         "pub-date": "2020-01-16T19:48:00+11:00",
         "location": "Sturt Hwy, Sandigo, NSW 2700",
         "council-area": "Narrandera",
@@ -147584,31 +144387,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Austral Park Rd, Broughton",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372671",
-        "pub-date": "2020-01-16T22:50:00+11:00",
-        "location": "Austral Park Rd, Broughton, NSW 2535",
-        "council-area": "Shoalhaven",
-        "status": "Under control",
-        "type": "Burn off",
-        "fire": true,
-        "size": 0,
-        "responsible-agency": "Rural Fire Service",
-        "updated": "2020-01-17T09:50:00+11:00",
-        "alert-level": "Not Applicable"
-      },
-      "geometry": {
-        "coordinates": [
-          150.7418,
-          -34.7594
-        ],
-        "type": "Point"
-      },
-      "id": 372671
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Kyogle Rd, Mount Burrell",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372672",
         "pub-date": "2020-01-16T22:54:00+11:00",
@@ -147623,11 +144401,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           153.1918,
           -28.5015
-        ]
+        ],
+        "type": "Point"
       },
       "id": 372672
     },
@@ -147659,8 +144437,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372676",
         "title": "Tallyan Point Rd, Basin View",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372676",
         "pub-date": "2020-01-16T23:27:00+11:00",
         "location": "81 Tallyan Point Rd, Basin View,  2540",
         "council-area": "Shoalhaven",
@@ -147684,8 +144462,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Nelson Bay Rd, Anna Bay",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/372677",
+        "title": "Nelson Bay Rd, Anna Bay",
         "pub-date": "2020-01-16T23:35:00+11:00",
         "location": "Nelson Bay Rd, Anna Bay, NSW 2316",
         "council-area": "Port Stephens",
