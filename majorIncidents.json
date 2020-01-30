@@ -6,14 +6,13 @@
             "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      149.390430632,
                      -36.7132497549999
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -459,6 +458,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1134,10 +1134,10 @@
                                  -36.7067611749999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1157,54 +1157,56 @@
                                  -36.749756256
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
             ]
          },
          "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Creewah Rd, Glen Allen",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373488",
-            "category" : "Watch and Act",
-            "pubDate" : "30/01/2020 4:11:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
             "description" : "ALERT LEVEL: Watch and Act <br />LOCATION: Creewah Rd, Glen Allen, NSW 2631 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3500 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 1:33PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10149' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:11",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates"
+            "category" : "Watch and Act",
+            "title" : "Creewah Rd, Glen Allen",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:11:00 AM"
          },
          "type" : "Feature"
       },
       {
-         "type" : "Feature",
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: bugtown road <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 97692 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:29AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8891' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:54",
-            "pubDate" : "30/01/2020 4:54:00 AM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368430",
-            "title" : "Adaminaby Complex ",
-            "guid_isPermaLink" : "true"
-         },
          "geometry" : {
             "coordinates" : [
                148.897712159207,
                -36.376492492005
             ],
             "type" : "Point"
-         }
+         },
+         "properties" : {
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:54:00 AM",
+            "title" : "Adaminaby Complex ",
+            "category" : "Advice",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: bugtown road <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 97692 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:29AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8891' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:54",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368430"
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
          "geometry" : {
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      149.924447597,
                      -36.2549259959999
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -1242,7 +1244,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1274,7 +1275,8 @@
                                  -36.1427032719999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -1431,7 +1433,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1471,7 +1472,8 @@
                                  -36.11488379
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -1599,6 +1601,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1638,8 +1641,7 @@
                                  -36.101831815
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -1729,6 +1731,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -1768,8 +1771,7 @@
                                  -36.0965588249999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -1982,6 +1984,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2009,8 +2012,7 @@
                                  -36.085371698
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -2052,7 +2054,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2072,10 +2073,10 @@
                                  -36.0771764249999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2095,7 +2096,8 @@
                                  -36.076171651
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -2188,6 +2190,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2211,10 +2214,10 @@
                                  -36.0643066059999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2238,10 +2241,10 @@
                                  -36.054549564
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2261,8 +2264,7 @@
                                  -36.053523555
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -2292,6 +2294,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2315,10 +2318,10 @@
                                  -36.044309526
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2338,8 +2341,7 @@
                                  -36.040055517
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -2365,7 +2367,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2389,7 +2390,8 @@
                                  -36.0342925109999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -2415,6 +2417,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2642,10 +2645,10 @@
                                  -36.022277462
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2857,11 +2860,9 @@
                                  -36.015552433
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -2977,7 +2978,8 @@
                                  -35.991459439
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -3856,7 +3858,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -3912,7 +3913,8 @@
                                  -35.819413362
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -4006,7 +4008,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4322,10 +4323,10 @@
                                  -35.869113679
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4421,9 +4422,11 @@
                                  -35.8542543999999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4495,11 +4498,9 @@
                                  -35.8639858609999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4571,9 +4572,11 @@
                                  -35.864076816
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4673,8 +4676,7 @@
                                  -35.862085325
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -4764,7 +4766,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4828,9 +4829,11 @@
                                  -35.8835894329999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -4902,10 +4905,10 @@
                                  -35.8949934679999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -5013,11 +5016,9 @@
                                  -35.871046464
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -5681,7 +5682,8 @@
                                  -35.9034071529999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -6365,7 +6367,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6389,9 +6390,11 @@
                                  -36.411562553
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6415,11 +6418,9 @@
                                  -36.4111727719999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6463,7 +6464,8 @@
                                  -36.403509389
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -6604,7 +6606,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6624,10 +6625,10 @@
                                  -36.0693577119999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6647,7 +6648,8 @@
                                  -36.372751013
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -6677,7 +6679,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -6761,7 +6762,8 @@
                                  -36.3485092239999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -7262,7 +7264,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -7738,9 +7739,11 @@
                                  -36.3457794509999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -7804,8 +7807,7 @@
                                  -36.345440297
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -7847,7 +7849,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -8063,9 +8064,11 @@
                                  -36.2366259299999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -8089,10 +8092,10 @@
                                  -36.2348058929999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -8140,8 +8143,7 @@
                                  -36.2341808809999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -14364,6 +14366,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -14415,8 +14418,7 @@
                                  -36.143901883
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -20391,46 +20393,34 @@
                            ]
                         ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ],
             "type" : "GeometryCollection"
          },
-         "type" : "Feature",
          "properties" : {
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366937",
             "category" : "Advice",
-            "title" : "Badja Forest Rd, Countegany",
-            "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Badja Forest Rd, Countegany, NSW 2630 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 299260 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 3:14PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8525' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:37",
-            "pubDate" : "30/01/2020 4:37:00 AM"
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "pubDate" : "30/01/2020 4:37:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Badja Forest Rd, Countegany"
          }
       },
       {
-         "properties" : {
-            "pubDate" : "29/01/2020 10:45:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Nimrod Road & Railway Street Oaks estate <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 418 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 29 Jan 2020 21:45",
-            "title" : "BEARD GRASS AND BUSHFIRE",
-            "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373301",
-            "category" : "Advice"
-         },
          "type" : "Feature",
          "geometry" : {
             "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      149.201009001,
                      -35.320439117
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -20488,7 +20478,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -21144,24 +21133,26 @@
                                  -35.3137580759998
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
             ]
+         },
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373301",
+            "title" : "BEARD GRASS AND BUSHFIRE",
+            "pubDate" : "29/01/2020 10:45:00 AM",
+            "guid_isPermaLink" : "true",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Nimrod Road & Railway Street Oaks estate <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 418 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 29 Jan 2020 21:45",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice"
          }
       },
       {
          "type" : "Feature",
-         "properties" : {
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374181",
-            "guid_isPermaLink" : "true",
-            "title" : "Big Jack Mountain",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Big Jack Mountain Rd Rocky Hall NSW <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1082 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 12:07PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10326' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 11:06",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-            "pubDate" : "30/01/2020 12:06:00 AM"
-         },
          "geometry" : {
             "geometries" : [
                {
@@ -21172,6 +21163,7 @@
                   "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -21844,33 +21836,42 @@
                         ],
                         "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ],
             "type" : "GeometryCollection"
+         },
+         "properties" : {
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Big Jack Mountain Rd Rocky Hall NSW <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1082 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 12:07PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10326' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 11:06",
+            "pubDate" : "30/01/2020 12:06:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Big Jack Mountain",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374181"
          }
       },
       {
+         "type" : "Feature",
          "properties" : {
-            "pubDate" : "30/01/2020 4:46:00 AM",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Myall River <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:46",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "guid_isPermaLink" : "true",
-            "title" : "Black Oaks",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Myall River <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:46",
             "category" : "Advice",
+            "title" : "Black Oaks",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:46:00 AM",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374600"
          },
-         "type" : "Feature",
          "geometry" : {
-            "type" : "Point",
             "coordinates" : [
                152.19154358,
                -32.622026838
-            ]
+            ],
+            "type" : "Point"
          }
       },
       {
+         "type" : "Feature",
          "geometry" : {
             "geometries" : [
                {
@@ -21881,9 +21882,9 @@
                   "type" : "Point"
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -22175,34 +22176,33 @@
                                  -32.810016001
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
             ],
             "type" : "GeometryCollection"
          },
-         "type" : "Feature",
          "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374633",
             "pubDate" : "29/01/2020 9:09:00 PM",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Bocoble Rd, Bocoble, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 08:09",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "guid_isPermaLink" : "true",
             "title" : "Bocoble Rd, Bocoble",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374633",
-            "category" : "Advice"
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Bocoble Rd, Bocoble, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 08:09"
          }
       },
       {
          "type" : "Feature",
          "properties" : {
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368771",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: 4km SW of Timbillica <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 168630 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:19AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9206' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 11:14",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "category" : "Advice",
             "title" : "Border Fire",
             "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: 4km SW of Timbillica <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 168630 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:19AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9206' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 11:14",
             "pubDate" : "30/01/2020 12:14:00 AM"
          },
          "geometry" : {
@@ -22325,6 +22325,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -22408,11 +22409,9 @@
                                  -37.0579592970001
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -22448,7 +22447,8 @@
                                  -37.103261205
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -23459,33 +23459,44 @@
          }
       },
       {
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374429",
+            "title" : "Brassi Rd, Deniliquin",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "29/01/2020 10:41:00 PM",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Brassi Rd, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:41",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice"
+         },
          "geometry" : {
+            "type" : "Point",
             "coordinates" : [
                144.650759697,
                -35.4878255149999
-            ],
-            "type" : "Point"
+            ]
          },
-         "type" : "Feature",
-         "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374429",
-            "category" : "Advice",
-            "guid_isPermaLink" : "true",
-            "title" : "Brassi Rd, Deniliquin",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Brassi Rd, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:41",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 10:41:00 PM"
-         }
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374522",
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Bulahdelah <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:54",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:54:00 AM",
+            "title" : "CABBAGE TREE MOUNTAIN "
+         },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      152.098339658698,
                      -32.244464209854
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "type" : "GeometryCollection",
@@ -23559,33 +23570,12 @@
                      }
                   ]
                }
-            ],
-            "type" : "GeometryCollection"
-         },
-         "type" : "Feature",
-         "properties" : {
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374522",
-            "title" : "CABBAGE TREE MOUNTAIN ",
-            "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Bulahdelah <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:54",
-            "pubDate" : "30/01/2020 4:54:00 AM"
+            ]
          }
       },
       {
          "type" : "Feature",
-         "properties" : {
-            "pubDate" : "29/01/2020 7:15:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: 909 Campbells River Rd, Black Springs, NSW 2787 <br />COUNCIL AREA: Oberon <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 481 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 29 Jan 2020 18:15",
-            "title" : "Campbells River Rd, Black Springs",
-            "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373483",
-            "category" : "Advice"
-         },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -23597,7 +23587,6 @@
                {
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -24117,15 +24106,35 @@
                                  -33.8855422089999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
                   ],
                   "type" : "GeometryCollection"
                }
-            ]
+            ],
+            "type" : "GeometryCollection"
+         },
+         "properties" : {
+            "title" : "Campbells River Rd, Black Springs",
+            "pubDate" : "29/01/2020 7:15:00 AM",
+            "guid_isPermaLink" : "true",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: 909 Campbells River Rd, Black Springs, NSW 2787 <br />COUNCIL AREA: Oberon <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 481 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 29 Jan 2020 18:15",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373483"
          }
       },
       {
+         "properties" : {
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Charleys Forest Road, Nerriga <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 63497 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:22",
+            "pubDate" : "29/01/2020 11:22:00 PM",
+            "guid_isPermaLink" : "true",
+            "title" : "Charleys Forest",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366212"
+         },
          "geometry" : {
             "type" : "GeometryCollection",
             "geometries" : [
@@ -24137,6 +24146,7 @@
                   "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -24185,7 +24195,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -24289,9 +24298,11 @@
                                  -35.748705351
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -24311,8 +24322,7 @@
                                  -35.5650007959999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -24342,7 +24352,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -24646,9 +24655,11 @@
                                  -35.6945463389999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -24920,11 +24931,9 @@
                                  -35.211489817
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25200,9 +25209,11 @@
                                  -35.271055084
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25254,10 +25265,10 @@
                                  -35.607472082
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25285,8 +25296,7 @@
                                  -35.5085036309999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -25428,6 +25438,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25487,11 +25498,9 @@
                                  -35.0892068599999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25519,10 +25528,10 @@
                                  -35.182200311
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -25582,7 +25591,8 @@
                                  -35.1788251039999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -26776,6 +26786,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -26799,8 +26810,7 @@
                                  -35.719765084
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -26826,7 +26836,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27038,34 +27047,16 @@
                                  -35.2345078979999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ]
-         },
-         "properties" : {
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Charleys Forest Road, Nerriga <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 63497 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:22",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 11:22:00 PM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366212",
-            "guid_isPermaLink" : "true",
-            "title" : "Charleys Forest"
          },
          "type" : "Feature"
       },
       {
-         "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Clyde Mountain Fire",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367266",
-            "category" : "Advice",
-            "pubDate" : "30/01/2020 3:00:00 AM",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Kings Highway Monga <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 97326 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:30AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8490' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:00",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates"
-         },
          "type" : "Feature",
          "geometry" : {
             "geometries" : [
@@ -27077,8 +27068,10 @@
                   ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27106,11 +27099,9 @@
                                  -35.5674844879999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27142,7 +27133,8 @@
                                  -35.520252795
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -27207,6 +27199,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27250,8 +27243,7 @@
                                  -35.52795746
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -27636,7 +27628,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27656,7 +27647,8 @@
                                  -35.5111985569999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -27698,7 +27690,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27846,10 +27837,10 @@
                                  -35.572669978
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27877,10 +27868,10 @@
                                  -35.5716048799999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -27904,7 +27895,8 @@
                                  -35.5540829029999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -28104,7 +28096,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28140,7 +28131,8 @@
                                  -35.6532275079999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -28260,6 +28252,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28279,8 +28272,7 @@
                                  -35.626230692
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -28433,7 +28425,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28461,7 +28452,8 @@
                                  -35.5223755
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -28579,7 +28571,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28635,10 +28626,10 @@
                                  -35.5411775269999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28662,7 +28653,8 @@
                                  -35.5389775149999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -28700,6 +28692,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -28975,10 +28968,10 @@
                                  -35.53541265
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -29002,8 +28995,7 @@
                                  -35.564645883
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -29088,6 +29080,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -29107,8 +29100,7 @@
                                  -35.5582403409999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -29289,7 +29281,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -29721,7 +29712,8 @@
                                  -35.5484375189999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -29910,7 +29902,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -29938,9 +29929,11 @@
                                  -35.576199054
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -29980,10 +29973,10 @@
                                  -35.6113485399999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -30003,8 +29996,7 @@
                                  -35.5704919729999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -30030,6 +30022,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -30057,8 +30050,7 @@
                                  -35.571010783
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -30155,7 +30147,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -30187,10 +30178,10 @@
                                  -35.5433560659999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -30222,7 +30213,8 @@
                                  -35.846748862
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -30283,7 +30275,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -30315,10 +30306,10 @@
                                  -35.6089749779999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -33998,9 +33989,11 @@
                                  -35.667483559
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -34024,11 +34017,9 @@
                                  -35.7843174349999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -34808,47 +34799,55 @@
                                  -35.690537369
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ],
             "type" : "GeometryCollection"
+         },
+         "properties" : {
+            "title" : "Clyde Mountain Fire",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 3:00:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Kings Highway Monga <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 97326 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:30AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8490' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:00",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367266"
          }
       },
       {
+         "type" : "Feature",
          "properties" : {
+            "title" : "Currowan 2",
+            "guid_isPermaLink" : "true",
             "pubDate" : "30/01/2020 4:06:00 AM",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Clyde Ridge Rd, Currowan, NSW 2536 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 314339 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:06",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "guid_isPermaLink" : "true",
-            "title" : "Currowan 2",
             "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371572"
          },
-         "type" : "Feature",
          "geometry" : {
-            "type" : "Point",
             "coordinates" : [
                150.364807148074,
                -34.8824992117085
-            ]
+            ],
+            "type" : "Point"
          }
       },
       {
+         "type" : "Feature",
          "properties" : {
+            "pubDate" : "30/01/2020 4:04:00 AM",
             "guid_isPermaLink" : "true",
             "title" : "Dunns Road",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024",
             "category" : "Advice",
-            "pubDate" : "30/01/2020 4:04:00 AM",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Westbrook Rd, Ellerslie, NSW 2652 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 333941 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 10:48AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8443' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:04",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates"
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024"
          },
-         "type" : "Feature",
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -34861,6 +34860,7 @@
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -34892,8 +34892,7 @@
                                  -35.176797891
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -34959,6 +34958,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -35174,10 +35174,10 @@
                                  -35.8391817959999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -35245,8 +35245,7 @@
                                  -35.8455723399999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -35980,6 +35979,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -37427,11 +37427,9 @@
                                  -35.4206216819999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -37463,63 +37461,65 @@
                                  -35.522900923
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
                   ]
                }
-            ]
-         }
-      },
-      {
-         "geometry" : {
-            "coordinates" : [
-               150.838071806,
-               -34.099089614
             ],
-            "type" : "Point"
-         },
-         "type" : "Feature",
-         "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "East of Georges River, HMA Land, AIRDS",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374492",
-            "category" : "Advice",
-            "pubDate" : "29/01/2020 10:30:00 PM",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Woolwash Rd, Airds, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:30",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
+            "type" : "GeometryCollection"
          }
       },
       {
          "type" : "Feature",
          "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374714",
-            "category" : "Advice",
-            "title" : "Elliott Way, Cabramurra",
+            "title" : "East of Georges River, HMA Land, AIRDS",
+            "pubDate" : "29/01/2020 10:30:00 PM",
             "guid_isPermaLink" : "true",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Elliott Way, Cabramurra, NSW 2629 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 12:58",
-            "pubDate" : "30/01/2020 1:58:00 AM"
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Woolwash Rd, Airds, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:30",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374492"
          },
          "geometry" : {
             "type" : "Point",
             "coordinates" : [
-               148.357336522,
-               -35.826564694
+               150.838071806,
+               -34.099089614
             ]
          }
       },
       {
          "type" : "Feature",
+         "geometry" : {
+            "coordinates" : [
+               148.357336522,
+               -35.826564694
+            ],
+            "type" : "Point"
+         },
          "properties" : {
             "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370508",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Elliott Way, Cabramurra, NSW 2629 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 12:58",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 1:58:00 AM",
+            "title" : "Elliott Way, Cabramurra",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374714"
+         }
+      },
+      {
+         "properties" : {
             "title" : "Erskine Creek Fire",
             "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 1:00:00 AM",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Blue Labyrinth <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 17811 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 12:00",
-            "pubDate" : "30/01/2020 1:00:00 AM"
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370508"
          },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -38335,6 +38335,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -38354,8 +38355,7 @@
                                  -33.7733910659999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -39021,7 +39021,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -39597,7 +39596,8 @@
                                  -33.740280293
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -40624,25 +40624,34 @@
                   ],
                   "type" : "GeometryCollection"
                }
-            ],
-            "type" : "GeometryCollection"
-         }
+            ]
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364556",
+            "title" : "Forest Rd, Comberton",
+            "pubDate" : "30/01/2020 4:43:00 AM",
+            "guid_isPermaLink" : "true",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Forest Rd, Comberton, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2686 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:43",
+            "category" : "Advice"
+         },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      150.627576688,
                      -34.962818829
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -40710,8 +40719,7 @@
                                  -34.9811639489999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -40828,7 +40836,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -40860,9 +40867,11 @@
                                  -35.0967146579999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -41546,38 +41555,30 @@
                                  -34.9044360949999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
-            ]
-         },
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Forest Rd, Comberton, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2686 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:43",
-            "pubDate" : "30/01/2020 4:43:00 AM",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/364556",
-            "category" : "Advice",
-            "title" : "Forest Rd, Comberton",
-            "guid_isPermaLink" : "true"
-         },
-         "type" : "Feature"
+            ],
+            "type" : "GeometryCollection"
+         }
       },
       {
+         "type" : "Feature",
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      149.471752934,
                      -36.055034217
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -41609,7 +41610,8 @@
                                  -36.147299786
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -41651,7 +41653,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -41691,9 +41692,11 @@
                                  -36.1072769039999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -41765,8 +41768,7 @@
                                  -35.936924856
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -42796,34 +42798,33 @@
                   ],
                   "type" : "GeometryCollection"
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
          },
-         "type" : "Feature",
          "properties" : {
-            "title" : "Good Good Fire ",
-            "guid_isPermaLink" : "true",
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367252",
+            "guid_isPermaLink" : "true",
             "pubDate" : "30/01/2020 2:38:00 AM",
+            "title" : "Good Good Fire ",
+            "category" : "Advice",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Jerangle Road  <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 39471 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 10:49AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10243' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 13:38"
          }
       },
       {
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      150.457309996,
                      -33.080553681
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -43491,11 +43492,9 @@
                                  -32.844476925
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -43903,10 +43902,10 @@
                                  -32.6705372009999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -44290,9 +44289,11 @@
                                  -32.918724657
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -44548,8 +44549,7 @@
                                  -32.9984625239999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -45239,6 +45239,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -45930,11 +45931,9 @@
                                  -32.8226991409999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -46618,9 +46617,11 @@
                                  -33.1110658339999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -46668,8 +46669,7 @@
                                  -33.496761121
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -46707,7 +46707,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -46795,9 +46794,11 @@
                                  -32.9068597209999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -47465,8 +47466,7 @@
                                  -33.5586246509999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -48164,6 +48164,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -48799,8 +48800,7 @@
                                  -33.471395109
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -48826,6 +48826,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -49501,8 +49502,7 @@
                                  -33.4058470859999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -49623,6 +49623,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -50326,8 +50327,7 @@
                                  -33.1356921839999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -50973,7 +50973,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -50993,9 +50992,11 @@
                                  -32.9826985669999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -51651,10 +51652,10 @@
                                  -33.319504281
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -52150,10 +52151,10 @@
                                  -33.307683391
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -52173,11 +52174,9 @@
                                  -32.922992409
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -52817,10 +52816,10 @@
                                  -32.98445979
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -53492,10 +53491,10 @@
                                  -33.076429886
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -53515,39 +53514,40 @@
                                  -33.33228072
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
-            ]
+            ],
+            "type" : "GeometryCollection"
          },
          "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
             "title" : "Gospers Mountain",
             "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
-            "category" : "Advice",
             "pubDate" : "30/01/2020 12:55:00 AM",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wollemi National Park <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 512626 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 11:55",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wollemi National Park <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 512626 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 11:55"
+            "category" : "Advice"
          },
          "type" : "Feature"
       },
       {
+         "type" : "Feature",
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      147.609908848,
                      -35.940637152
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -53615,10 +53615,10 @@
                                  -36.613730698
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -54278,10 +54278,10 @@
                                  -36.264253821
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -55265,68 +55265,68 @@
                                  -35.863208084
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
-            ]
+            ],
+            "type" : "GeometryCollection"
          },
          "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Green Valley, Talmalmo",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367335",
-            "pubDate" : "29/01/2020 5:10:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: \"Green Valley/Avoca\" Yenches/River Rd, Talmalmo, NSW 2640 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 208275 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 16:10",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
-         },
-         "type" : "Feature"
+            "category" : "Advice",
+            "title" : "Green Valley, Talmalmo",
+            "pubDate" : "29/01/2020 5:10:00 AM",
+            "guid_isPermaLink" : "true",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367335"
+         }
       },
       {
          "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: 15km South West of Warragamba Dam Wall in the Blue Mountains National Park <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 278722 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:42",
-            "pubDate" : "29/01/2020 10:42:00 PM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
             "title" : "Green Wattle Creek",
-            "guid_isPermaLink" : "true"
+            "pubDate" : "29/01/2020 10:42:00 PM",
+            "guid_isPermaLink" : "true",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: 15km South West of Warragamba Dam Wall in the Blue Mountains National Park <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 278722 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:42",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264"
          },
-         "type" : "Feature",
          "geometry" : {
             "type" : "Point",
             "coordinates" : [
                150.4862743302,
                -34.07534733515
             ]
-         }
+         },
+         "type" : "Feature"
       },
       {
          "type" : "Feature",
          "properties" : {
             "pubDate" : "30/01/2020 1:00:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Grose Valley",
+            "category" : "Advice",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Grose Valley <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 19921 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 12:00",
-            "title" : "Grose Valley",
-            "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204",
-            "category" : "Advice"
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365204"
          },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      150.366268158,
                      -33.6089008559999
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -55358,11 +55358,9 @@
                                  -33.535158227
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -55570,7 +55568,8 @@
                                  -33.610315858
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -59781,21 +59780,22 @@
                      }
                   ]
                }
-            ]
+            ],
+            "type" : "GeometryCollection"
          }
       },
       {
          "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374629",
             "pubDate" : "29/01/2020 11:22:00 PM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Harolds Cross Rd, Harolds Cross,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:22",
-            "title" : "Harolds Cross Rd, Harolds Cross",
             "guid_isPermaLink" : "true",
+            "title" : "Harolds Cross Rd, Harolds Cross",
             "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374629"
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Harolds Cross Rd, Harolds Cross,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:22",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
          },
-         "type" : "Feature",
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "type" : "Point",
@@ -59805,6 +59805,7 @@
                   ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "type" : "Polygon",
@@ -59861,15 +59862,25 @@
                            ]
                         ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
-            ],
-            "type" : "GeometryCollection"
-         }
+            ]
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374231",
+            "title" : "Hendersons Rd, Wantagong",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "29/01/2020 5:34:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Hendersons Rd, Wantagong, NSW 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 16:34",
+            "category" : "Advice"
+         },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "type" : "Point",
@@ -59879,7 +59890,6 @@
                   ]
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "type" : "Polygon",
@@ -59928,39 +59938,29 @@
                            ]
                         ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
-            ],
-            "type" : "GeometryCollection"
-         },
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Hendersons Rd, Wantagong, NSW 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 16:34",
-            "pubDate" : "29/01/2020 5:34:00 AM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374231",
-            "title" : "Hendersons Rd, Wantagong",
-            "guid_isPermaLink" : "true"
-         },
-         "type" : "Feature"
+            ]
+         }
       },
       {
          "type" : "Feature",
-         "properties" : {
-            "pubDate" : "30/01/2020 5:03:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Humbug Trail, Crowdy Bay National Park <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 16:03",
-            "title" : "Humbug",
-            "guid_isPermaLink" : "true",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374388"
-         },
          "geometry" : {
             "type" : "Point",
             "coordinates" : [
                152.779054642,
                -31.703963319
             ]
+         },
+         "properties" : {
+            "title" : "Humbug",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 5:03:00 AM",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Humbug Trail, Crowdy Bay National Park <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 16:03",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374388"
          }
       },
       {
@@ -60738,16 +60738,18 @@
          "properties" : {
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369276",
             "category" : "Advice",
-            "guid_isPermaLink" : "true",
-            "title" : "Jinden",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Jinden <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 14460 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:56",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 10:56:00 PM"
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Jinden <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 14460 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 09:56",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "29/01/2020 10:56:00 PM",
+            "title" : "Jinden"
          },
          "type" : "Feature"
       },
       {
+         "type" : "Feature",
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -60760,7 +60762,6 @@
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -60868,9 +60869,11 @@
                                  -32.674370827
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -60890,10 +60893,10 @@
                                  -32.8322661359999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -60941,8 +60944,7 @@
                                  -32.645483021
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -60992,6 +60994,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -61011,8 +61014,7 @@
                                  -32.643203941
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -66195,62 +66197,63 @@
                      }
                   ]
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
          },
          "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wollemi National Park, Putty State Forest and Coricudgy State Forest <br />COUNCIL AREA: Muswellbrook <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 191562 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 10:16",
-            "pubDate" : "29/01/2020 11:16:00 PM",
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
-            "title" : "Kerry Ridge",
-            "guid_isPermaLink" : "true"
+            "category" : "Advice",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wollemi National Park, Putty State Forest and Coricudgy State Forest <br />COUNCIL AREA: Muswellbrook <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 191562 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 10:16",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "pubDate" : "29/01/2020 11:16:00 PM",
+            "guid_isPermaLink" : "true",
+            "title" : "Kerry Ridge"
+         }
+      },
+      {
+         "properties" : {
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Kurts Rd, Bilpin, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:04",
+            "pubDate" : "30/01/2020 4:04:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Kurts Rd, Bilpin",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374731"
+         },
+         "geometry" : {
+            "coordinates" : [
+               150.529716,
+               -33.502665
+            ],
+            "type" : "Point"
          },
          "type" : "Feature"
       },
       {
          "type" : "Feature",
          "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374731",
-            "category" : "Advice",
-            "guid_isPermaLink" : "true",
-            "title" : "Kurts Rd, Bilpin",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Kurts Rd, Bilpin, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:04",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "30/01/2020 4:04:00 AM"
-         },
-         "geometry" : {
-            "type" : "Point",
-            "coordinates" : [
-               150.529716,
-               -33.502665
-            ]
-         }
-      },
-      {
-         "properties" : {
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374616",
             "title" : "Kydra Complex",
+            "pubDate" : "30/01/2020 4:57:00 AM",
             "guid_isPermaLink" : "true",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Kydra Trail  <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5621 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:57",
-            "pubDate" : "30/01/2020 4:57:00 AM"
+            "category" : "Advice"
          },
-         "type" : "Feature",
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      149.530856552,
                      -36.378860854
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -66290,8 +66293,7 @@
                                  -36.1072769039999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -66601,7 +66603,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -66625,7 +66626,8 @@
                                  -35.978270841
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -66826,7 +66828,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -67526,9 +67527,11 @@
                                  -36.2216773289999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -67892,19 +67895,25 @@
                                  -36.3652458949999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
          }
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/341086",
+            "category" : "Advice",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Lindfield Park Rd, Port Macquarie, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 859 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 16:10",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 5:10:00 AM",
+            "title" : "Lindfield Park Road"
+         },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -67917,7 +67926,6 @@
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -67965,10 +67973,10 @@
                                  -31.4387524699999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -68008,10 +68016,10 @@
                                  -31.4341758959999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -68139,7 +68147,8 @@
                                  -31.455899616
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -68181,6 +68190,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -68264,8 +68274,7 @@
                                  -31.4479051709999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -68912,41 +68921,31 @@
                      }
                   ]
                }
-            ]
-         },
-         "type" : "Feature",
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Lindfield Park Rd, Port Macquarie, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 859 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 16:10",
-            "pubDate" : "30/01/2020 5:10:00 AM",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/341086",
-            "category" : "Advice",
-            "title" : "Lindfield Park Road",
-            "guid_isPermaLink" : "true"
+            ],
+            "type" : "GeometryCollection"
          }
       },
       {
-         "type" : "Feature",
          "properties" : {
-            "pubDate" : "30/01/2020 3:55:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371896",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: mount jackson <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2183 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:55",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice",
             "title" : "Mary's Hill",
             "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371896",
-            "category" : "Advice"
+            "pubDate" : "30/01/2020 3:55:00 AM"
          },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      148.684283236,
                      -35.5967498329999
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -69595,28 +69594,35 @@
                         ],
                         "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
-            ]
-         }
+            ],
+            "type" : "GeometryCollection"
+         },
+         "type" : "Feature"
       },
       {
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373259",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Mirrie Rd, Boomley, NSW 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3208 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 10:24",
+            "category" : "Advice",
+            "title" : "Mirrie Rd, Boomley",
+            "pubDate" : "29/01/2020 11:24:00 PM",
+            "guid_isPermaLink" : "true"
+         },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      149.048314166,
                      -31.991050459
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -70276,42 +70282,28 @@
                                  -31.981480172
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
-            ]
-         },
-         "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Mirrie Rd, Boomley",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373259",
-            "category" : "Advice",
-            "pubDate" : "29/01/2020 11:24:00 PM",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Mirrie Rd, Boomley, NSW 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3208 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 10:24",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
+            ],
+            "type" : "GeometryCollection"
          },
          "type" : "Feature"
       },
       {
-         "properties" : {
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370338",
-            "title" : "Morton Fire",
-            "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: 5km SE Bundanoon <br />COUNCIL AREA: Wingecarribee <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22590 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:12AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10276' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:46",
-            "pubDate" : "30/01/2020 4:46:00 AM"
-         },
          "type" : "Feature",
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      150.247529906,
                      -34.754275126
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "type" : "GeometryCollection",
@@ -70379,6 +70371,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -70430,8 +70423,7 @@
                                  -34.6856204499999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -71070,7 +71062,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -71114,7 +71105,8 @@
                                  -34.704625133
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -71176,6 +71168,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -71231,11 +71224,9 @@
                                  -34.7046560439999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -71255,7 +71246,8 @@
                                  -34.8136086009999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -71285,7 +71277,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -71313,9 +71304,11 @@
                                  -34.7218936479999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -71971,10 +71964,10 @@
                                  -34.715794699
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -72026,8 +72019,7 @@
                                  -34.797924974
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -72864,7 +72856,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -72960,7 +72951,8 @@
                                  -34.7952524039999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -73066,7 +73058,6 @@
                         ]
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -76194,10 +76185,10 @@
                                  -34.63336464
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -76249,7 +76240,8 @@
                                  -34.7704791579999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -76299,7 +76291,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -76331,12 +76322,21 @@
                                  -34.722020739
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
                   ]
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
+         },
+         "properties" : {
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: 5km SE Bundanoon <br />COUNCIL AREA: Wingecarribee <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22590 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:12AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10276' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:46",
+            "category" : "Advice",
+            "title" : "Morton Fire",
+            "pubDate" : "30/01/2020 4:46:00 AM",
+            "guid_isPermaLink" : "true",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370338"
          }
       },
       {
@@ -76351,6 +76351,7 @@
                   ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -77235,6 +77236,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -77630,34 +77632,43 @@
                                  -36.2590080109999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ]
          },
-         "type" : "Feature",
          "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Mount Youngal <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 16655 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:52",
-            "pubDate" : "30/01/2020 4:52:00 AM",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371479",
-            "category" : "Advice",
             "title" : "Mount Youngal",
-            "guid_isPermaLink" : "true"
-         }
+            "pubDate" : "30/01/2020 4:52:00 AM",
+            "guid_isPermaLink" : "true",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Mount Youngal <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 16655 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:52",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice"
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "title" : "Mt Waa Wilderness",
+            "pubDate" : "29/01/2020 9:32:00 PM",
+            "guid_isPermaLink" : "true",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Amberley North Killarney Gap Rd <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3174 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 08:32",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370089"
+         },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      150.098668602,
                      -30.0835603949999
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "geometries" : [
@@ -78327,21 +78338,20 @@
                   ],
                   "type" : "GeometryCollection"
                }
-            ],
-            "type" : "GeometryCollection"
-         },
-         "type" : "Feature",
-         "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370089",
-            "category" : "Advice",
-            "guid_isPermaLink" : "true",
-            "title" : "Mt Waa Wilderness",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Amberley North Killarney Gap Rd <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3174 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 08:32",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 9:32:00 PM"
+            ]
          }
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "title" : "Myall Creek Road",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 3:28:00 AM",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Myall Creek Road Bora Ridge <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 121324 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:28",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993"
+         },
          "geometry" : {
             "type" : "GeometryCollection",
             "geometries" : [
@@ -78353,6 +78363,7 @@
                   "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "type" : "Polygon",
@@ -81760,6 +81771,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -82435,8 +82447,7 @@
                                  -29.309071165
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "type" : "Polygon",
@@ -82554,6 +82565,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -83257,8 +83269,7 @@
                                  -29.0294265749999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -83956,7 +83967,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -84608,7 +84618,8 @@
                                  -29.2851139389999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "type" : "Polygon",
@@ -85973,6 +85984,7 @@
                         "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -86320,34 +86332,22 @@
                                  -29.021939803
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ]
-         },
-         "properties" : {
-            "pubDate" : "30/01/2020 3:28:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Myall Creek Road Bora Ridge <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 121324 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:28",
-            "title" : "Myall Creek Road",
-            "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/365993",
-            "category" : "Advice"
-         },
-         "type" : "Feature"
+         }
       },
       {
          "type" : "Feature",
          "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Orroral Valley <br />COUNCIL AREA: ACT <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 15057 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 30 Jan 2020 10:14",
-            "pubDate" : "29/01/2020 11:14:00 PM",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374434",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Orroral Valley <br />COUNCIL AREA: ACT <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 15057 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 30 Jan 2020 10:14",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "category" : "Advice",
             "title" : "Orroral Fire",
+            "pubDate" : "29/01/2020 11:14:00 PM",
             "guid_isPermaLink" : "true"
          },
          "geometry" : {
@@ -86363,6 +86363,7 @@
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -86998,8 +86999,7 @@
                                  -35.529808459
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
                   ]
                }
@@ -87009,19 +87009,18 @@
       },
       {
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      148.194767984,
                      -36.5514498599999
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
-                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -87393,9 +87392,11 @@
                                  -36.40953101
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -87695,10 +87696,10 @@
                                  -36.6558738849999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -87734,10 +87735,10 @@
                                  -36.414360127
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -87825,10 +87826,10 @@
                                  -36.564955256
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -88108,49 +88109,47 @@
                                  -36.737364892
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
-                  ]
+                  ],
+                  "type" : "GeometryCollection"
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
          },
          "properties" : {
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/369061",
-            "category" : "Advice",
-            "title" : "Pilot Lookout",
+            "pubDate" : "30/01/2020 4:44:00 AM",
             "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "title" : "Pilot Lookout",
+            "category" : "Advice",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Dead Horse Gap <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 17923 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:44",
-            "pubDate" : "30/01/2020 4:44:00 AM"
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
          },
          "type" : "Feature"
       },
       {
-         "type" : "Feature",
          "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374210",
-            "category" : "Advice",
+            "pubDate" : "29/01/2020 11:49:00 PM",
             "guid_isPermaLink" : "true",
             "title" : "Postmans Trail",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: postmans Trail <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 337 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:49",
+            "category" : "Advice",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 11:49:00 PM"
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: postmans Trail <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 337 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:49",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374210"
          },
          "geometry" : {
             "geometries" : [
                {
+                  "type" : "Point",
                   "coordinates" : [
                      149.458804842,
                      -36.7381470399999
-                  ],
-                  "type" : "Point"
+                  ]
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -88214,7 +88213,8 @@
                                  -36.7185044729999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -88496,7 +88496,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -88652,10 +88651,10 @@
                                  -36.7213873169999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -89307,17 +89306,29 @@
                                  -36.7561697749999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ],
             "type" : "GeometryCollection"
-         }
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "category" : "Advice",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Rockton  <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22871 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:13AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:43",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+            "pubDate" : "30/01/2020 3:43:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Rockton",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370663"
+         },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -89327,6 +89338,7 @@
                   "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -89379,7 +89391,6 @@
                         "type" : "Polygon"
                      },
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -89531,7 +89542,8 @@
                                  -37.185899978
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
                         "coordinates" : [
@@ -90462,21 +90474,9 @@
                            ]
                         ]
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
-            ],
-            "type" : "GeometryCollection"
-         },
-         "type" : "Feature",
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Rockton  <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22871 ha <br />MAJOR FIRE UPDATE AS AT 30 Jan 2020 11:13AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:43",
-            "pubDate" : "30/01/2020 3:43:00 AM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370663",
-            "title" : "Rockton",
-            "guid_isPermaLink" : "true"
+            ]
          }
       },
       {
@@ -90484,16 +90484,15 @@
             "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      150.289997242,
                      -33.761584559
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "geometries" : [
                      {
-                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -90521,9 +90520,11 @@
                                  -33.8063825839999
                               ]
                            ]
-                        ]
+                        ],
+                        "type" : "Polygon"
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -90543,8 +90544,7 @@
                                  -33.8801233359999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -90624,6 +90624,7 @@
                         ]
                      },
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -91251,35 +91252,33 @@
                                  -33.8916162419998
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
                   ],
                   "type" : "GeometryCollection"
                }
             ]
          },
-         "type" : "Feature",
          "properties" : {
-            "pubDate" : "30/01/2020 1:00:00 AM",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360437",
+            "category" : "Advice",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Ruined Castle <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 17058 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 12:00",
-            "title" : "Ruined Castle",
             "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360437",
-            "category" : "Advice"
-         }
+            "pubDate" : "30/01/2020 1:00:00 AM",
+            "title" : "Ruined Castle"
+         },
+         "type" : "Feature"
       },
       {
-         "type" : "Feature",
          "properties" : {
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: In Victoria, south of Delegate <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:54",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367769",
             "title" : "Snowy Complex ",
             "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: In Victoria, south of Delegate <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:54",
-            "pubDate" : "30/01/2020 3:54:00 AM"
+            "pubDate" : "30/01/2020 3:54:00 AM",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367769"
          },
          "geometry" : {
             "coordinates" : [
@@ -91287,9 +91286,20 @@
                -37.069971159
             ],
             "type" : "Point"
-         }
+         },
+         "type" : "Feature"
       },
       {
+         "type" : "Feature",
+         "properties" : {
+            "title" : "Spring Gully",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:58:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: 1431 Martindale Rd, Martindale, NSW 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 109 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:58",
+            "category" : "Advice",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371682"
+         },
          "geometry" : {
             "geometries" : [
                {
@@ -91300,6 +91310,7 @@
                   "type" : "Point"
                },
                {
+                  "type" : "GeometryCollection",
                   "geometries" : [
                      {
                         "coordinates" : [
@@ -91732,21 +91743,10 @@
                         ],
                         "type" : "Polygon"
                      }
-                  ],
-                  "type" : "GeometryCollection"
+                  ]
                }
             ],
             "type" : "GeometryCollection"
-         },
-         "type" : "Feature",
-         "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: 1431 Martindale Rd, Martindale, NSW 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 109 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:58",
-            "pubDate" : "30/01/2020 4:58:00 AM",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371682",
-            "title" : "Spring Gully",
-            "guid_isPermaLink" : "true"
          }
       },
       {
@@ -91758,78 +91758,79 @@
             "type" : "Point"
          },
          "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Sussex Inlet Rd, Tullarwalla",
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374727",
+            "title" : "Sussex Inlet Rd, Tullarwalla",
+            "guid_isPermaLink" : "true",
             "pubDate" : "30/01/2020 4:09:00 AM",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: Sussex Inlet Rd, Tullarwalla, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:09",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
+            "category" : "Advice"
          },
          "type" : "Feature"
       },
       {
-         "type" : "Feature",
-         "properties" : {
-            "title" : "Triamble Rd Hargraves",
-            "guid_isPermaLink" : "true",
-            "category" : "Advice",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374534",
-            "pubDate" : "29/01/2020 1:57:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Triamble Rd Hargraves  <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 12:57"
-         },
          "geometry" : {
             "type" : "Point",
             "coordinates" : [
                149.371490479,
                -32.84841309
             ]
-         }
+         },
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374534",
+            "pubDate" : "29/01/2020 1:57:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Triamble Rd Hargraves",
+            "category" : "Advice",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Triamble Rd Hargraves  <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 12:57",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
+         },
+         "type" : "Feature"
       },
       {
          "properties" : {
-            "title" : "Tunnel Rd, Herons Creek",
-            "guid_isPermaLink" : "true",
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373988",
-            "pubDate" : "30/01/2020 1:41:00 AM",
+            "category" : "Advice",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Tunnel Rd, Herons Creek, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 30 Jan 2020 12:41"
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Tunnel Rd, Herons Creek, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 30 Jan 2020 12:41",
+            "pubDate" : "30/01/2020 1:41:00 AM",
+            "guid_isPermaLink" : "true",
+            "title" : "Tunnel Rd, Herons Creek"
          },
-         "type" : "Feature",
          "geometry" : {
             "type" : "Point",
             "coordinates" : [
                152.750365734,
                -31.525928205
             ]
-         }
+         },
+         "type" : "Feature"
       },
       {
-         "type" : "Feature",
          "properties" : {
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/361695",
-            "title" : "Upper Turon Rd, Palmers Oaky",
-            "guid_isPermaLink" : "true",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: 1620 Upper Turon Rd, Palmers Oaky, NSW 2795 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 17414 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 13:01",
-            "pubDate" : "29/01/2020 2:01:00 AM"
+            "category" : "Advice",
+            "title" : "Upper Turon Rd, Palmers Oaky",
+            "pubDate" : "29/01/2020 2:01:00 AM",
+            "guid_isPermaLink" : "true"
          },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      149.939731775,
                      -33.022478802
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -91869,8 +91870,7 @@
                                  -32.9968990799999
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      },
                      {
                         "coordinates" : [
@@ -92467,9 +92467,9 @@
                      }
                   ]
                }
-            ],
-            "type" : "GeometryCollection"
-         }
+            ]
+         },
+         "type" : "Feature"
       },
       {
          "geometry" : {
@@ -92479,29 +92479,30 @@
                -31.725535
             ]
          },
-         "type" : "Feature",
          "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Wharf Rd, Johns River",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374605",
-            "category" : "Advice",
-            "pubDate" : "30/01/2020 1:28:00 AM",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: 2 Ks Up  Wharf Rd, Johns River, NSW 2443 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 12:28",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
-         }
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice",
+            "title" : "Wharf Rd, Johns River",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 1:28:00 AM",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374605"
+         },
+         "type" : "Feature"
       },
       {
          "type" : "Feature",
          "properties" : {
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 4:57:00 AM",
+            "title" : "Woodlands",
+            "category" : "Advice",
             "description" : "ALERT LEVEL: Advice <br />LOCATION: -32 29.43 150 44.27 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 203 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Jan 2020 15:57",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "30/01/2020 4:57:00 AM",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373243",
-            "category" : "Advice",
-            "guid_isPermaLink" : "true",
-            "title" : "Woodlands"
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373243"
          },
          "geometry" : {
+            "type" : "GeometryCollection",
             "geometries" : [
                {
                   "coordinates" : [
@@ -92898,35 +92899,33 @@
                      }
                   ]
                }
-            ],
-            "type" : "GeometryCollection"
+            ]
          }
       },
       {
-         "type" : "Feature",
          "properties" : {
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wellumba Creek <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 274 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:49",
-            "pubDate" : "30/01/2020 4:49:00 AM",
-            "category" : "Advice",
             "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371442",
             "title" : "Yellow Bog Road",
-            "guid_isPermaLink" : "true"
+            "pubDate" : "30/01/2020 4:49:00 AM",
+            "guid_isPermaLink" : "true",
+            "description" : "ALERT LEVEL: Advice <br />LOCATION: Wellumba Creek <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 274 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:49",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Advice"
          },
          "geometry" : {
-            "type" : "GeometryCollection",
             "geometries" : [
                {
-                  "type" : "Point",
                   "coordinates" : [
                      148.163606457,
                      -36.086264446
-                  ]
+                  ],
+                  "type" : "Point"
                },
                {
                   "type" : "GeometryCollection",
                   "geometries" : [
                      {
+                        "type" : "Polygon",
                         "coordinates" : [
                            [
                               [
@@ -93482,110 +93481,120 @@
                                  -36.075724454
                               ]
                            ]
-                        ],
-                        "type" : "Polygon"
+                        ]
                      }
                   ]
                }
-            ]
-         }
+            ],
+            "type" : "GeometryCollection"
+         },
+         "type" : "Feature"
       },
       {
-         "type" : "Feature",
-         "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374541",
-            "category" : "Not Applicable",
-            "title" : "Browns Gap Rd, Hartley",
-            "guid_isPermaLink" : "true",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Browns Gap Rd, Hartley, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 15:27",
-            "pubDate" : "29/01/2020 4:27:00 AM"
-         },
          "geometry" : {
             "coordinates" : [
                150.188465972,
                -33.50389676
             ],
             "type" : "Point"
-         }
+         },
+         "properties" : {
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Browns Gap Rd, Hartley, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 15:27",
+            "category" : "Not Applicable",
+            "title" : "Browns Gap Rd, Hartley",
+            "pubDate" : "29/01/2020 4:27:00 AM",
+            "guid_isPermaLink" : "true",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374541"
+         },
+         "type" : "Feature"
       },
       {
          "type" : "Feature",
          "properties" : {
-            "pubDate" : "30/01/2020 1:23:00 AM",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374701",
+            "category" : "Not Applicable",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Eucalypts Cl, Wauchope, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jan 2020 12:23",
-            "title" : "Eucalypts Cl, Wauchope",
             "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374701",
-            "category" : "Not Applicable"
+            "pubDate" : "30/01/2020 1:23:00 AM",
+            "title" : "Eucalypts Cl, Wauchope"
          },
          "geometry" : {
-            "type" : "Point",
             "coordinates" : [
                152.732874,
                -31.4797869999999
-            ]
-         }
-      },
-      {
-         "geometry" : {
-            "type" : "Point",
-            "coordinates" : [
-               151.824661,
-               -30.531374
-            ]
-         },
-         "properties" : {
-            "category" : "Not Applicable",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374734",
-            "guid_isPermaLink" : "true",
-            "title" : "Grafton Rd, Metz",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Grafton Rd, Metz, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:32",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "30/01/2020 4:32:00 AM"
-         },
-         "type" : "Feature"
-      },
-      {
-         "geometry" : {
-            "type" : "Point",
-            "coordinates" : [
-               145.907708,
-               -31.205529
-            ]
-         },
-         "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374711",
-            "category" : "Not Applicable",
-            "guid_isPermaLink" : "true",
-            "title" : "Kidman Way, Tindarey",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Kidman Way, Tindarey, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 13:40",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "30/01/2020 2:40:00 AM"
-         },
-         "type" : "Feature"
-      },
-      {
-         "type" : "Feature",
-         "properties" : {
-            "guid_isPermaLink" : "true",
-            "title" : "Kings Rd, Eureka",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374712",
-            "category" : "Not Applicable",
-            "pubDate" : "30/01/2020 1:57:00 AM",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: 421 Kings Rd, Eureka, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jan 2020 12:57",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me"
-         },
-         "geometry" : {
-            "coordinates" : [
-               153.431294,
-               -28.668381
             ],
             "type" : "Point"
          }
       },
       {
+         "type" : "Feature",
+         "geometry" : {
+            "coordinates" : [
+               151.824661,
+               -30.531374
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "title" : "Grafton Rd, Metz",
+            "pubDate" : "30/01/2020 4:32:00 AM",
+            "guid_isPermaLink" : "true",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Grafton Rd, Metz, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:32",
+            "category" : "Not Applicable",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374734"
+         }
+      },
+      {
+         "type" : "Feature",
+         "geometry" : {
+            "coordinates" : [
+               145.907708,
+               -31.205529
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374711",
+            "category" : "Not Applicable",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Kidman Way, Tindarey, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 13:40",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "30/01/2020 2:40:00 AM",
+            "title" : "Kidman Way, Tindarey"
+         }
+      },
+      {
+         "type" : "Feature",
+         "geometry" : {
+            "type" : "Point",
+            "coordinates" : [
+               153.431294,
+               -28.668381
+            ]
+         },
+         "properties" : {
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: 421 Kings Rd, Eureka, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jan 2020 12:57",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "category" : "Not Applicable",
+            "title" : "Kings Rd, Eureka",
+            "pubDate" : "30/01/2020 1:57:00 AM",
+            "guid_isPermaLink" : "true",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374712"
+         }
+      },
+      {
+         "properties" : {
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Manning Point Rd, Old Bar, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:57",
+            "category" : "Not Applicable",
+            "title" : "Manning Point Rd, Old Bar",
+            "pubDate" : "30/01/2020 4:57:00 AM",
+            "guid_isPermaLink" : "true",
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374730"
+         },
          "geometry" : {
             "coordinates" : [
                152.597863999,
@@ -93593,18 +93602,10 @@
             ],
             "type" : "Point"
          },
-         "properties" : {
-            "title" : "Manning Point Rd, Old Bar",
-            "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374730",
-            "category" : "Not Applicable",
-            "pubDate" : "30/01/2020 4:57:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Manning Point Rd, Old Bar, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 15:57"
-         },
          "type" : "Feature"
       },
       {
+         "type" : "Feature",
          "geometry" : {
             "coordinates" : [
                146.915618,
@@ -93612,46 +93613,36 @@
             ],
             "type" : "Point"
          },
-         "type" : "Feature",
          "properties" : {
+            "pubDate" : "29/01/2020 11:24:00 PM",
+            "guid_isPermaLink" : "true",
+            "title" : "Mittagong Yerong Creek Rd, Wrathall",
+            "category" : "Not Applicable",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
             "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Mittagong Yerong Creek Rd, Wrathall, NSW 2642 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 10:24",
-            "pubDate" : "29/01/2020 11:24:00 PM",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374645",
-            "category" : "Not Applicable",
-            "title" : "Mittagong Yerong Creek Rd, Wrathall",
-            "guid_isPermaLink" : "true"
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374645"
          }
       },
       {
+         "type" : "Feature",
          "geometry" : {
+            "type" : "Point",
             "coordinates" : [
                153.482222999,
                -28.891085
-            ],
-            "type" : "Point"
+            ]
          },
          "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374724",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Pimlico, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:38",
+            "category" : "Not Applicable",
             "title" : "Pacific Hwy, Pimlico",
             "guid_isPermaLink" : "true",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374724",
-            "category" : "Not Applicable",
-            "pubDate" : "30/01/2020 3:38:00 AM",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Pimlico, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jan 2020 14:38"
-         },
-         "type" : "Feature"
+            "pubDate" : "30/01/2020 3:38:00 AM"
+         }
       },
       {
-         "properties" : {
-            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: 2262 Paynes Crossing Rd, Paynes Crossing, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 18:38",
-            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "29/01/2020 7:38:00 AM",
-            "category" : "Not Applicable",
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374658",
-            "guid_isPermaLink" : "true",
-            "title" : "Paynes Crossing Rd, Paynes Crossing"
-         },
          "type" : "Feature",
          "geometry" : {
             "coordinates" : [
@@ -93659,18 +93650,27 @@
                -32.898208
             ],
             "type" : "Point"
+         },
+         "properties" : {
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374658",
+            "category" : "Not Applicable",
+            "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: 2262 Paynes Crossing Rd, Paynes Crossing, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 18:38",
+            "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+            "guid_isPermaLink" : "true",
+            "pubDate" : "29/01/2020 7:38:00 AM",
+            "title" : "Paynes Crossing Rd, Paynes Crossing"
          }
       },
       {
          "type" : "Feature",
          "properties" : {
-            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374623",
-            "category" : "Not Applicable",
             "guid_isPermaLink" : "true",
+            "pubDate" : "28/01/2020 10:40:00 PM",
             "title" : "Summerhill Rd, Turill",
+            "category" : "Not Applicable",
             "description" : "ALERT LEVEL: Not Applicable <br />LOCATION: Summerhill Rd, Turill NSW <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jan 2020 09:40",
             "link" : "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-            "pubDate" : "28/01/2020 10:40:00 PM"
+            "guid" : "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374623"
          },
          "geometry" : {
             "coordinates" : [
