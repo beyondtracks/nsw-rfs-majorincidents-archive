@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Lindfield Park Road",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/341086",
+        "title": "Lindfield Park Road",
         "pub-date": "2020-02-07T01:15:00+11:00",
         "location": "Lindfield Park Rd, Port Macquarie, NSW 2444",
         "council-area": "Port Macquarie-Hastings",
@@ -21,11 +21,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               152.8457,
               -31.4483
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -1015,8 +1015,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Gospers Mountain",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/352934",
+        "title": "Gospers Mountain",
         "pub-date": "2020-02-07T05:14:00+11:00",
         "location": "Wollemi National Park",
         "council-area": "Hawkesbury",
@@ -11654,8 +11654,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
         "title": "Kerry Ridge",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/359453",
         "pub-date": "2020-02-07T04:56:00+11:00",
         "location": "Wollemi National Park, Putty State Forest and Coricudgy State Forest",
         "council-area": "Muswellbrook",
@@ -17101,8 +17101,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Green Wattle Creek",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/360264",
+        "title": "Green Wattle Creek",
         "pub-date": "2020-02-07T09:05:00+11:00",
         "location": "15km South West of Warragamba Dam Wall in the Blue Mountains National Park",
         "council-area": "Wollondilly",
@@ -17118,11 +17118,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               150.5344,
               -34.0528
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -40731,8 +40731,8 @@
       "type": "Feature",
       "properties": {
         "title": "Badja Forest Rd, Countegany",
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8525",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/366937",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=8525",
         "pub-date": "2020-02-07T06:33:00+11:00",
         "location": "Badja Forest Rd, Countegany, NSW 2630",
         "council-area": "Eurobodalla",
@@ -40749,11 +40749,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.9244,
               -36.2549
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -61395,8 +61395,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024",
         "title": "Dunns Road",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367024",
         "pub-date": "2020-02-07T04:49:00+11:00",
         "location": "Westbrook Rd, Ellerslie, NSW 2652",
         "council-area": "Snowy Valleys",
@@ -63754,9 +63754,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Good Good Fire ",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367252",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10243",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367252",
+        "title": "Good Good Fire ",
         "pub-date": "2020-02-07T06:51:00+11:00",
         "location": "Sally Flat Road",
         "council-area": "Snowy Monaro",
@@ -65419,8 +65419,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367266",
         "title": "Clyde Mountain Fire",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/367266",
         "pub-date": "2020-02-07T07:01:00+11:00",
         "location": "Kings Highway Monga",
         "council-area": "Eurobodalla",
@@ -65436,11 +65436,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.0353,
               -35.7027
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -74362,11 +74362,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.0649,
               -37.1062
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -79543,6 +79543,38 @@
               [
                 [
                   [
+                    148.728936579,
+                    -35.9428396389999
+                  ],
+                  [
+                    148.729064515,
+                    -35.943362508
+                  ],
+                  [
+                    148.729768082,
+                    -35.943353036
+                  ],
+                  [
+                    148.730051526,
+                    -35.942872317
+                  ],
+                  [
+                    148.729927469,
+                    -35.9425401579999
+                  ],
+                  [
+                    148.729458427,
+                    -35.942546474
+                  ],
+                  [
+                    148.728936579,
+                    -35.9428396389999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
                     148.750255088,
                     -35.961300282
                   ],
@@ -81325,9 +81357,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Border Fire",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9206",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/368771",
+        "title": "Border Fire",
         "pub-date": "2020-02-06T23:26:00+11:00",
         "location": "4km SW of Timbillica",
         "council-area": "Bega Valley",
@@ -87827,11 +87859,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               148.1948,
               -36.5514
-            ],
-            "type": "Point"
+            ]
           },
           {
             "type": "MultiPolygon",
@@ -88942,11 +88974,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.6655,
               -35.8116
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -90761,11 +90793,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.2475,
               -34.7543
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -94551,8 +94583,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Erskine Creek Fire",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370508",
+        "title": "Erskine Creek Fire",
         "pub-date": "2020-02-07T01:00:00+11:00",
         "location": "Blue Labyrinth",
         "council-area": "Blue Mountains",
@@ -96679,8 +96711,8 @@
       "type": "Feature",
       "properties": {
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/370663",
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483",
         "title": "Rockton",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=9483",
         "pub-date": "2020-02-07T05:00:00+11:00",
         "location": "Rockton",
         "council-area": "Snowy Monaro",
@@ -97711,8 +97743,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371479",
         "title": "Mount Youngal",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/371479",
         "pub-date": "2020-02-07T04:49:00+11:00",
         "location": "Mount Youngal",
         "council-area": "Snowy Valleys",
@@ -97728,11 +97760,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               148.1057,
               -36.37
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -99035,11 +99067,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               150.2884,
               -34.9907
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -99107,6 +99139,26 @@
               [
                 [
                   [
+                    150.572927793,
+                    -35.1394836969999
+                  ],
+                  [
+                    150.572927018,
+                    -35.1394834179999
+                  ],
+                  [
+                    150.572927634,
+                    -35.139483737
+                  ],
+                  [
+                    150.572927793,
+                    -35.1394836969999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
                     150.540227015,
                     -35.136382613
                   ],
@@ -99167,26 +99219,6 @@
               [
                 [
                   [
-                    150.572927793,
-                    -35.1394836969999
-                  ],
-                  [
-                    150.572927018,
-                    -35.1394834179999
-                  ],
-                  [
-                    150.572927634,
-                    -35.139483737
-                  ],
-                  [
-                    150.572927793,
-                    -35.1394836969999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
                     150.531727465,
                     -35.105926988
                   ],
@@ -99201,26 +99233,6 @@
                   [
                     150.531727465,
                     -35.105926988
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    149.971380781,
-                    -35.454434277
-                  ],
-                  [
-                    149.971347937,
-                    -35.454416726
-                  ],
-                  [
-                    149.971382986,
-                    -35.4544524629999
-                  ],
-                  [
-                    149.971380781,
-                    -35.454434277
                   ]
                 ]
               ],
@@ -99251,30 +99263,6 @@
               [
                 [
                   [
-                    150.459904977,
-                    -34.684611489
-                  ],
-                  [
-                    150.459918809,
-                    -34.684586612
-                  ],
-                  [
-                    150.459915595,
-                    -34.6845914589999
-                  ],
-                  [
-                    150.459883581,
-                    -34.684631199
-                  ],
-                  [
-                    150.459904977,
-                    -34.684611489
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
                     150.575186949,
                     -35.128787078
                   ],
@@ -99293,6 +99281,26 @@
                   [
                     150.575186949,
                     -35.128787078
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    149.971380781,
+                    -35.454434277
+                  ],
+                  [
+                    149.971347937,
+                    -35.454416726
+                  ],
+                  [
+                    149.971382986,
+                    -35.4544524629999
+                  ],
+                  [
+                    149.971380781,
+                    -35.454434277
                   ]
                 ]
               ],
@@ -99341,6 +99349,30 @@
                   [
                     150.545991494,
                     -35.133831866
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    150.459904977,
+                    -34.684611489
+                  ],
+                  [
+                    150.459918809,
+                    -34.684586612
+                  ],
+                  [
+                    150.459915595,
+                    -34.6845914589999
+                  ],
+                  [
+                    150.459883581,
+                    -34.684631199
+                  ],
+                  [
+                    150.459904977,
+                    -34.684611489
                   ]
                 ]
               ],
@@ -99595,6 +99627,26 @@
               [
                 [
                   [
+                    150.436006583,
+                    -35.2236849239999
+                  ],
+                  [
+                    150.435945117,
+                    -35.2237850939999
+                  ],
+                  [
+                    150.435982441,
+                    -35.2238338399999
+                  ],
+                  [
+                    150.436006583,
+                    -35.2236849239999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
                     150.527273598,
                     -35.109438692
                   ],
@@ -99619,26 +99671,6 @@
               [
                 [
                   [
-                    150.436006583,
-                    -35.2236849239999
-                  ],
-                  [
-                    150.435945117,
-                    -35.2237850939999
-                  ],
-                  [
-                    150.435982441,
-                    -35.2238338399999
-                  ],
-                  [
-                    150.436006583,
-                    -35.2236849239999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
                     150.540233657,
                     -35.136382618
                   ],
@@ -99657,26 +99689,6 @@
                   [
                     150.540233657,
                     -35.136382618
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    150.389360311,
-                    -35.4858770659999
-                  ],
-                  [
-                    150.389184946,
-                    -35.4858983509999
-                  ],
-                  [
-                    150.389508954,
-                    -35.486924163
-                  ],
-                  [
-                    150.389360311,
-                    -35.4858770659999
                   ]
                 ]
               ],
@@ -99751,6 +99763,26 @@
               [
                 [
                   [
+                    150.389360311,
+                    -35.4858770659999
+                  ],
+                  [
+                    150.389184946,
+                    -35.4858983509999
+                  ],
+                  [
+                    150.389508954,
+                    -35.486924163
+                  ],
+                  [
+                    150.389360311,
+                    -35.4858770659999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
                     150.545990242,
                     -35.1338327249999
                   ],
@@ -99775,26 +99807,6 @@
               [
                 [
                   [
-                    150.545995848,
-                    -35.1338289239999
-                  ],
-                  [
-                    150.545993083,
-                    -35.133830793
-                  ],
-                  [
-                    150.545994809,
-                    -35.133833329
-                  ],
-                  [
-                    150.545995848,
-                    -35.1338289239999
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
                     150.386577623,
                     -35.4848579919999
                   ],
@@ -99813,6 +99825,26 @@
                   [
                     150.386577623,
                     -35.4848579919999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    150.545995848,
+                    -35.1338289239999
+                  ],
+                  [
+                    150.545993083,
+                    -35.133830793
+                  ],
+                  [
+                    150.545994809,
+                    -35.133833329
+                  ],
+                  [
+                    150.545995848,
+                    -35.1338289239999
                   ]
                 ]
               ],
@@ -99863,48 +99895,24 @@
               [
                 [
                   [
-                    150.391507976,
-                    -35.470509324
+                    150.458068295,
+                    -34.687708444
                   ],
                   [
-                    150.390924027,
-                    -35.470445567
+                    150.458068448,
+                    -34.687708126
                   ],
                   [
-                    150.391394632,
-                    -35.470795731
+                    150.458127537,
+                    -34.687543752
                   ],
                   [
-                    150.391507976,
-                    -35.470509324
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    150.445742286,
-                    -35.290353372
+                    150.457962136,
+                    -34.6877495539999
                   ],
                   [
-                    150.444961915,
-                    -35.290193782
-                  ],
-                  [
-                    150.444646572,
-                    -35.2905090849999
-                  ],
-                  [
-                    150.444814242,
-                    -35.290727277
-                  ],
-                  [
-                    150.445729924,
-                    -35.2907466299999
-                  ],
-                  [
-                    150.445742286,
-                    -35.290353372
+                    150.458068295,
+                    -34.687708444
                   ]
                 ]
               ],
@@ -99991,24 +99999,48 @@
               [
                 [
                   [
-                    150.458068295,
-                    -34.687708444
+                    150.391507976,
+                    -35.470509324
                   ],
                   [
-                    150.458068448,
-                    -34.687708126
+                    150.390924027,
+                    -35.470445567
                   ],
                   [
-                    150.458127537,
-                    -34.687543752
+                    150.391394632,
+                    -35.470795731
                   ],
                   [
-                    150.457962136,
-                    -34.6877495539999
+                    150.391507976,
+                    -35.470509324
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    150.445742286,
+                    -35.290353372
                   ],
                   [
-                    150.458068295,
-                    -34.687708444
+                    150.444961915,
+                    -35.290193782
+                  ],
+                  [
+                    150.444646572,
+                    -35.2905090849999
+                  ],
+                  [
+                    150.444814242,
+                    -35.290727277
+                  ],
+                  [
+                    150.445729924,
+                    -35.2907466299999
+                  ],
+                  [
+                    150.445742286,
+                    -35.290353372
                   ]
                 ]
               ],
@@ -100279,42 +100311,6 @@
               [
                 [
                   [
-                    150.425148997,
-                    -35.355483454
-                  ],
-                  [
-                    150.425331396,
-                    -35.354610505
-                  ],
-                  [
-                    150.424494965,
-                    -35.354076538
-                  ],
-                  [
-                    150.422052437,
-                    -35.354142134
-                  ],
-                  [
-                    150.422092458,
-                    -35.355142652
-                  ],
-                  [
-                    150.422867924,
-                    -35.3561901969999
-                  ],
-                  [
-                    150.424262738,
-                    -35.356419826
-                  ],
-                  [
-                    150.425148997,
-                    -35.355483454
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
                     150.431880847,
                     -35.3798211989999
                   ],
@@ -100357,6 +100353,42 @@
                   [
                     150.431880847,
                     -35.3798211989999
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    150.425148997,
+                    -35.355483454
+                  ],
+                  [
+                    150.425331396,
+                    -35.354610505
+                  ],
+                  [
+                    150.424494965,
+                    -35.354076538
+                  ],
+                  [
+                    150.422052437,
+                    -35.354142134
+                  ],
+                  [
+                    150.422092458,
+                    -35.355142652
+                  ],
+                  [
+                    150.422867924,
+                    -35.3561901969999
+                  ],
+                  [
+                    150.424262738,
+                    -35.356419826
+                  ],
+                  [
+                    150.425148997,
+                    -35.355483454
                   ]
                 ]
               ],
@@ -100413,38 +100445,6 @@
                   [
                     150.498280747,
                     -34.860662786
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    150.422068989,
-                    -35.297629167
-                  ],
-                  [
-                    150.42238353,
-                    -35.2963894069999
-                  ],
-                  [
-                    150.42130362,
-                    -35.2955602329999
-                  ],
-                  [
-                    150.419447093,
-                    -35.295796648
-                  ],
-                  [
-                    150.418510232,
-                    -35.2962695429999
-                  ],
-                  [
-                    150.418507114,
-                    -35.298471056
-                  ],
-                  [
-                    150.422068989,
-                    -35.297629167
                   ]
                 ]
               ],
@@ -100513,6 +100513,38 @@
                   [
                     150.358192419,
                     -35.276353355
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    150.422068989,
+                    -35.297629167
+                  ],
+                  [
+                    150.42238353,
+                    -35.2963894069999
+                  ],
+                  [
+                    150.42130362,
+                    -35.2955602329999
+                  ],
+                  [
+                    150.419447093,
+                    -35.295796648
+                  ],
+                  [
+                    150.418510232,
+                    -35.2962695429999
+                  ],
+                  [
+                    150.418507114,
+                    -35.298471056
+                  ],
+                  [
+                    150.422068989,
+                    -35.297629167
                   ]
                 ]
               ],
@@ -100591,6 +100623,34 @@
               [
                 [
                   [
+                    150.364433567,
+                    -35.512235177
+                  ],
+                  [
+                    150.363260589,
+                    -35.512004373
+                  ],
+                  [
+                    150.362201958,
+                    -35.5124604759999
+                  ],
+                  [
+                    150.36164769,
+                    -35.5139025
+                  ],
+                  [
+                    150.36424594,
+                    -35.514119576
+                  ],
+                  [
+                    150.364433567,
+                    -35.512235177
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
                     150.512476312,
                     -34.7960785459999
                   ],
@@ -100619,28 +100679,52 @@
               [
                 [
                   [
-                    150.364433567,
-                    -35.512235177
+                    150.352685921,
+                    -35.277549369
                   ],
                   [
-                    150.363260589,
-                    -35.512004373
+                    150.353305937,
+                    -35.2770859619999
                   ],
                   [
-                    150.362201958,
-                    -35.5124604759999
+                    150.35328151,
+                    -35.276836245
                   ],
                   [
-                    150.36164769,
-                    -35.5139025
+                    150.353287831,
+                    -35.276833026
                   ],
                   [
-                    150.36424594,
-                    -35.514119576
+                    150.353342009,
+                    -35.2759866659999
                   ],
                   [
-                    150.364433567,
-                    -35.512235177
+                    150.352480456,
+                    -35.2758374969999
+                  ],
+                  [
+                    150.351819766,
+                    -35.275912174
+                  ],
+                  [
+                    150.351402102,
+                    -35.2763957559999
+                  ],
+                  [
+                    150.35112727,
+                    -35.2774054509999
+                  ],
+                  [
+                    150.351311235,
+                    -35.277414552
+                  ],
+                  [
+                    150.351702593,
+                    -35.277737703
+                  ],
+                  [
+                    150.352685921,
+                    -35.277549369
                   ]
                 ]
               ],
@@ -100881,58 +100965,6 @@
                   [
                     150.072610464,
                     -34.774565106
-                  ]
-                ]
-              ],
-              [
-                [
-                  [
-                    150.352685921,
-                    -35.277549369
-                  ],
-                  [
-                    150.353305937,
-                    -35.2770859619999
-                  ],
-                  [
-                    150.35328151,
-                    -35.276836245
-                  ],
-                  [
-                    150.353287831,
-                    -35.276833026
-                  ],
-                  [
-                    150.353342009,
-                    -35.2759866659999
-                  ],
-                  [
-                    150.352480456,
-                    -35.2758374969999
-                  ],
-                  [
-                    150.351819766,
-                    -35.275912174
-                  ],
-                  [
-                    150.351402102,
-                    -35.2763957559999
-                  ],
-                  [
-                    150.35112727,
-                    -35.2774054509999
-                  ],
-                  [
-                    150.351311235,
-                    -35.277414552
-                  ],
-                  [
-                    150.351702593,
-                    -35.277737703
-                  ],
-                  [
-                    150.352685921,
-                    -35.277549369
                   ]
                 ]
               ],
@@ -110270,14 +110302,13 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.6884,
               -33.8918
-            ]
+            ],
+            "type": "Point"
           },
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -110797,7 +110828,8 @@
                   -33.8855422089999
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
         ]
       },
@@ -110806,8 +110838,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Creewah Rd, Glen Allen",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/373488",
+        "title": "Creewah Rd, Glen Allen",
         "pub-date": "2020-02-07T05:00:00+11:00",
         "location": "Creewah Rd, Glen Allen, NSW 2631",
         "council-area": "Snowy Monaro",
@@ -111365,9 +111397,9 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374181",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10326",
         "title": "Big Jack Mountain",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374181",
         "pub-date": "2020-02-06T23:21:00+11:00",
         "location": "Big Jack Mountain Rd Rocky Hall NSW",
         "council-area": "Bega Valley",
@@ -113334,8 +113366,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374210",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10351",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374210",
         "title": "Postmans Trail",
         "pub-date": "2020-02-06T23:10:00+11:00",
         "location": "postmans Trail",
@@ -129141,8 +129173,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Clear Range",
         "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10294",
+        "title": "Clear Range",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/374705",
         "pub-date": "2020-02-07T07:01:00+11:00",
         "location": "8km North West of Bredbo, NSW",
@@ -129160,11 +129192,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               149.1378,
               -35.8961
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -137274,8 +137306,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Chalk Hill Rd",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375142",
+        "title": "Chalk Hill Rd",
         "pub-date": "2020-02-06T23:02:00+11:00",
         "location": "Chalk Hill Rd Lochiel",
         "council-area": "Bega Valley",
@@ -137441,8 +137473,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375328",
         "title": "Bilbul Rd, Griffith",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375328",
         "pub-date": "2020-02-06T22:16:00+11:00",
         "location": "Bilbul Rd, Griffith, NSW 2680",
         "council-area": "Griffith",
@@ -137483,11 +137515,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Point",
             "coordinates": [
               149.976,
               -34.3645
-            ],
-            "type": "Point"
+            ]
           },
           {
             "coordinates": [
@@ -137863,9 +137895,9 @@
     {
       "type": "Feature",
       "properties": {
-        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10642",
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375372",
         "title": "Calabash",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375372",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10642",
         "pub-date": "2020-02-07T06:32:00+11:00",
         "location": "calabash fire trail",
         "council-area": "Snowy Monaro",
@@ -140321,13 +140353,14 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               145.2384,
               -35.8247
-            ]
+            ],
+            "type": "Point"
           },
           {
+            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -140659,8 +140692,7 @@
                   -35.82079354
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
         ]
       },
@@ -140669,8 +140701,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Rolling Ground",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375525",
+        "title": "Rolling Ground",
         "pub-date": "2020-02-07T04:49:00+11:00",
         "location": "Rolling Ground",
         "council-area": "Snowy Valleys",
@@ -140686,11 +140718,11 @@
         "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Point",
             "coordinates": [
               148.7763,
               -35.6132
-            ]
+            ],
+            "type": "Point"
           },
           {
             "type": "MultiPolygon",
@@ -141523,11 +141555,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           149.9803,
           -35.5471
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375552
     },
@@ -143052,8 +143084,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375738",
         "title": "\"Glengarry\" Haystack, Balldale",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375738",
         "pub-date": "2020-02-07T02:41:00+11:00",
         "location": "Balldale Rd, Balldale, NSW 2646",
         "council-area": "Federation",
@@ -143102,8 +143134,8 @@
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375762",
         "title": "Red Bank Wier",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375762",
         "pub-date": "2020-02-07T05:45:00+11:00",
         "location": "55 km NE Balranald",
         "council-area": "Balranald",
@@ -143116,11 +143148,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           143.7321,
           -34.3633
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375762
     },
@@ -143141,19 +143173,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           150.2178,
           -35.7684
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375772
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375777",
         "title": "Storm Damage, Northern Beaches LGA",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375777",
         "pub-date": "2020-02-06T22:31:00+11:00",
         "location": "Kamber road, Terrey Hills",
         "council-area": "Northern Beaches",
@@ -143166,11 +143198,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           151.2219,
           -33.6936
-        ]
+        ],
+        "type": "Point"
       },
       "id": 375777
     },
@@ -143202,8 +143234,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Calton Rd, Batehaven",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375794",
+        "title": "Calton Rd, Batehaven",
         "pub-date": "2020-02-07T02:08:00+11:00",
         "location": "Calton Rd, Batehaven,  2536",
         "council-area": "Eurobodalla",
@@ -143241,11 +143273,11 @@
         "alert-level": "Advice"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           142.1642,
           -34.1639
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375806
     },
@@ -143277,8 +143309,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Boonoonar Rd, Colignan",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375832",
+        "title": "Boonoonar Rd, Colignan",
         "pub-date": "2020-02-07T06:26:00+11:00",
         "location": "Boonoonar Rd, Colignan, NSW 2738",
         "council-area": "Wentworth",
@@ -143316,11 +143348,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           150.6413,
           -33.8578
-        ]
+        ],
+        "type": "Point"
       },
       "id": 375842
     },
@@ -143366,19 +143398,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           152.5927,
           -31.8767
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375855
     },
     {
       "type": "Feature",
       "properties": {
-        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375856",
         "title": "Bartlett St, Batlow",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375856",
         "pub-date": "2020-02-07T09:42:00+11:00",
         "location": "38 Bartlett St, Batlow, NSW 2730",
         "council-area": "Snowy Valleys",
@@ -143391,11 +143423,11 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           148.1399,
           -35.5184
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375856
     },
@@ -143416,19 +143448,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           153.1433,
           -29.4632
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375858
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Roper Rd, Colyton",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375860",
+        "title": "Roper Rd, Colyton",
         "pub-date": "2020-02-07T10:10:00+11:00",
         "location": "Roper Rd, Colyton, NSW 2760",
         "council-area": "Penrith",
@@ -143441,19 +143473,19 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           150.8076,
           -33.791
-        ]
+        ],
+        "type": "Point"
       },
       "id": 375860
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Basford Rd, Doyalson North",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375861",
+        "title": "Basford Rd, Doyalson North",
         "pub-date": "2020-02-07T10:40:00+11:00",
         "location": "Basford Rd, Doyalson North, NSW 2262",
         "council-area": "Central Coast",
@@ -143466,36 +143498,36 @@
         "alert-level": "Not Applicable"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           151.5489,
           -33.1863
-        ],
-        "type": "Point"
+        ]
       },
       "id": 375861
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Ala Moana Way, Fingal Bay",
         "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/375862",
-        "pub-date": "2020-02-07T10:56:00+11:00",
+        "title": "Ala Moana Way, Fingal Bay",
+        "pub-date": "2020-02-07T11:18:00+11:00",
         "location": "14B Ala Moana Way, Fingal Bay, NSW 2315",
         "council-area": "Port Stephens",
-        "status": "Out of control",
+        "status": "Under control",
         "type": "Structure Fire",
         "fire": true,
         "size": 0,
         "responsible-agency": "Rural Fire Service",
-        "updated": "2020-02-07T21:56:00+11:00",
+        "updated": "2020-02-07T22:18:00+11:00",
         "alert-level": "Not Applicable"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           152.166,
           -32.7472
-        ]
+        ],
+        "type": "Point"
       },
       "id": 375862
     }
