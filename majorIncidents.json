@@ -21,11 +21,44 @@
     },
     {
       "geometry": {
-        "coordinates": [
-          143.824095266434,
-          -35.2300939117465
+        "geometries": [
+          {
+            "coordinates": [
+              143.824095266434,
+              -35.230093911746
+            ],
+            "type": "Point"
+          },
+          {
+            "geometries": [
+              {
+                "coordinates": [
+                  [
+                    [
+                      143.824549502,
+                      -35.2293448459999
+                    ],
+                    [
+                      143.824305607,
+                      -35.2287202379999
+                    ],
+                    [
+                      143.824549502,
+                      -35.228944817
+                    ],
+                    [
+                      143.824549502,
+                      -35.2293448459999
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              }
+            ],
+            "type": "GeometryCollection"
+          }
         ],
-        "type": "Point"
+        "type": "GeometryCollection"
       },
       "properties": {
         "category": "Advice",
@@ -73,6 +106,25 @@
         "link": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
         "pubDate": "12/03/2020 4:13:00 AM",
         "title": "Yabbra Stack Burn"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.15438200000006,
+          -33.623486999999955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Not Applicable",
+        "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 (Pacific Mtwy), Berowra, NSW 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Mar 2020 17:54",
+        "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/378553",
+        "guid_isPermaLink": "true",
+        "link": "http://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+        "pubDate": "12/03/2020 6:54:00 AM",
+        "title": "(Pacific Mtwy), Berowra"
       },
       "type": "Feature"
     },
